@@ -1,0 +1,2373 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What are some common methods for collecting data?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "Some common methods for collecting data include experiments, surveys, observation, focus groups, interviews, and document analysis. [pods-ch02:p68:fixed500o50:002]",
+    "citations": [
+      "pods-ch02:p68:fixed500o50:002"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p68:fixed500o50:001",
+      "pods-ch02:p68:fixed500o50:002",
+      "pods-ch02:p68:fixed500o50:003",
+      "pods-ch02:p70:fixed500o50:007"
+    ],
+    "final_context": "[pods-ch02:p68:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 68]\nd process of gathering and accurately conveying\nimportant information and aspects related to a specific phenomenon or event. This involves using statistical\ntools and techniques to collect data, identify its attributes, and capture relevant contextual information. The\ngathered data is crucial for making sound interpretations and gaining meaningful insights. Additionally, it is\nimportant to take note of the environment and geographic location from where the data was obtained, as it\ncan significan\n\n[pods-ch02:p68:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 68]\n where the data was obtained, as it\ncan significantly influence the decision-making process and overall conclusions drawn from the data.\nData collection can be carried out through various methods, depending on the nature of the research or\nproject and the type of data being collected. Some common methods for data collection include experiments,\nsurveys, observation, focus groups, interviews, and document analysis.\nThis chapter will focus on the use of surveys and experiments to collect data. Soc\n\n[pods-ch02:p68:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 68]\nse of surveys and experiments to collect data. Social scientists, marketing\nspecialists, and political analysts regularly use surveys to gather data on topics such as public opinion,\ncustomer satisfaction, and demographic information. Pharmaceutical companies heavily rely on experimental\ndata from clinical trials to test the safety and efficacy of new drugs. This data is then used by their legal teams\nto gain regulatory approval and bring drugs to market.\nBefore collecting data, it is essential \n\n[pods-ch02:p70:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 70]\nease in complaints. This\ndata can also be compared to current data to track progress and improvements in wait times and\nscheduling.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "common methods for collecting data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p68:fixed500o50:002",
+            "page": 68,
+            "score": 0.03227
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p71:fixed500o50:000",
+            "page": 71,
+            "score": 0.03054
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p68:fixed500o50:000",
+            "page": 68,
+            "score": 0.03041
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p68:fixed500o50:001",
+          "pods-ch02:p68:fixed500o50:003",
+          "pods-ch02:p70:fixed500o50:007",
+          "pods-ch02:p71:fixed500o50:001",
+          "pods-ch02:p67:fixed500o50:005"
+        ],
+        "context_ids": [
+          "pods-ch02:p68:fixed500o50:001",
+          "pods-ch02:p68:fixed500o50:002",
+          "pods-ch02:p68:fixed500o50:003",
+          "pods-ch02:p70:fixed500o50:007"
+        ],
+        "context_chars": 1989,
+        "search_ms": 275.6
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 435,
+          "completion_tokens": 21,
+          "total_tokens": 456,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 830,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"common methods for collecting data\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 853,
+          "completion_tokens": 68,
+          "total_tokens": 921,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1052,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Some common methods for collecting data include experiments, surveys, observation, focus groups, interviews, and document analysis. [pods-ch02:p68:fixed500o50:002]\",\"citations\":[\"pods-ch02:p68:fixed500o50:002\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1288,
+    "tokens_out": 89,
+    "cost_usd": 0.0013665,
+    "elapsed_s": 2.16
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What kind of data is gathered by watching and recording behavior without the researcher taking part?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "status": "answered",
+    "answer": "The data is observational data, which is collected by systematically observing and recording behavior without the active participation of the researcher. [pods-ch02:p68:fixed500o50:005] [pods-ch02:p68:fixed500o50:006]",
+    "citations": [
+      "pods-ch02:p68:fixed500o50:005",
+      "pods-ch02:p68:fixed500o50:006"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p68:fixed500o50:005",
+      "pods-ch02:p68:fixed500o50:006",
+      "pods-ch02:p68:fixed500o50:007"
+    ],
+    "final_context": "[pods-ch02:p68:fixed500o50:005 | data/raw/Principles-of-Data-Science-WEB.pdf | page 68]\nducted online, via phone, or in person, while experimental research requires a controlled environment to\nensure data validity and reliability.\nTypes of Data\nObservational and transactional data play important roles in data analysis and related decision-making, each\noffering unique insights into different aspects of real-world phenomena and business operations.\nObservational data, often used in qualitative research, is collected by systematically observing and recording\nbehavior without the activ\n\n[pods-ch02:p68:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 68]\nobserving and recording\nbehavior without the active participation of the researcher. Transactional data refers to any type of\ninformation related to transactions or interactions between individuals, businesses, or systems, and it is more\noften used in quantitative research.\nMany fields of study use observational data for their research. Table 2.1 summarizes some examples of fields\nthat rely on observational data, the type of data they collect, and the purpose of their data collection.\nField Data\n\n[pods-ch02:p68:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 68]\nd the purpose of their data collection.\nField Data Collected By Purpose\nEducation Teachers To monitor and assess student behavior and\nlearning progress in the classroom\nPsychology Therapists and\npsychologists\nTo gather information about their clients' behavior,\nthoughts, and emotions\nTable 2.1 Fields Where Observation Methods Are Used",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "watching and recording behavior without the researcher taking part type of data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p68:fixed500o50:006",
+            "page": 68,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p68:fixed500o50:005",
+            "page": 68,
+            "score": 0.03226
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p69:fixed500o50:001",
+            "page": 69,
+            "score": 0.0315
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p68:fixed500o50:005",
+          "pods-ch02:p68:fixed500o50:007",
+          "pods-ch02:p68:fixed500o50:004",
+          "pods-ch02:p69:fixed500o50:000",
+          "pods-ch02:p69:fixed500o50:002"
+        ],
+        "context_ids": [
+          "pods-ch02:p68:fixed500o50:005",
+          "pods-ch02:p68:fixed500o50:006",
+          "pods-ch02:p68:fixed500o50:007"
+        ],
+        "context_chars": 1604,
+        "search_ms": 147.6
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 29,
+          "total_tokens": 472,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 861,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"watching and recording behavior without the researcher taking part type of data\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 788,
+          "completion_tokens": 96,
+          "total_tokens": 884,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1158,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The data is observational data, which is collected by systematically observing and recording behavior without the active participation of the researcher. [pods-ch02:p68:fixed500o50:005] [pods-ch02:p68:fixed500o50:006]\",\"citations\":[\"pods-ch02:p68:fixed500o50:005\",\"pods-ch02:p68:fixed500o50:006\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1231,
+    "tokens_out": 125,
+    "cost_usd": 0.00148575,
+    "elapsed_s": 2.17
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Why should a survey questionnaire be pilot tested before it is given to the full population?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "A survey questionnaire should be pilot tested with a small group from the target population so the researcher can identify any potential issues or confusion with the questions and make necessary adjustments before giving the survey to the larger population. [pods-ch02:p71:fixed500o50:007]",
+    "citations": [
+      "pods-ch02:p71:fixed500o50:007"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p71:fixed500o50:006",
+      "pods-ch02:p71:fixed500o50:007",
+      "pods-ch02:p71:fixed500o50:008"
+    ],
+    "final_context": "[pods-ch02:p71:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 71]\nrly define\nthe research objectives and determine the appropriate target population. This will help you structure the\nsurvey and identify the specific questions that need to be included.\nConstructing good surveys is hard. A survey should begin with simple and easy-to-answer questions and\nprogress to more complex or sensitive ones. This can help build a rapport with the respondents and increase\ntheir willingness to answer more difficult questions. Additionally, the researcher may consider mixing u\n\n[pods-ch02:p71:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 71]\nAdditionally, the researcher may consider mixing up the\nresponse options for multiple-choice questions to avoid response bias. To ensure the quality of the data\ncollected, the survey questionnaire should undergo a pilot test with a small group of individuals from the\ntarget population. This allows the researcher to identify any potential issues or confusion with the questions\nand make necessary adjustments before administering the survey to the larger population.\nOpen-Ended Versus Closed-Ended Q\n\n[pods-ch02:p71:fixed500o50:008 | data/raw/Principles-of-Data-Science-WEB.pdf | page 71]\narger population.\nOpen-Ended Versus Closed-Ended Questions\nSurveys should generally contain a mix of closed-ended and open-ended questions to gather both quantitative\nand qualitative data.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "pilot test survey questionnaire before giving it to the full population why",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p71:fixed500o50:007",
+            "page": 71,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p68:fixed500o50:004",
+            "page": 68,
+            "score": 0.03083
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p68:fixed500o50:003",
+            "page": 68,
+            "score": 0.03078
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p71:fixed500o50:006",
+          "pods-ch02:p71:fixed500o50:008",
+          "pods-ch02:p68:fixed500o50:003",
+          "pods-ch02:p68:fixed500o50:005",
+          "pods-ch02:p68:fixed500o50:002"
+        ],
+        "context_ids": [
+          "pods-ch02:p71:fixed500o50:006",
+          "pods-ch02:p71:fixed500o50:007",
+          "pods-ch02:p71:fixed500o50:008"
+        ],
+        "context_chars": 1456,
+        "search_ms": 151.7
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 28,
+          "total_tokens": 471,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 997,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"pilot test survey questionnaire before giving it to the full population why\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 756,
+          "completion_tokens": 87,
+          "total_tokens": 843,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1193,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"A survey questionnaire should be pilot tested with a small group from the target population so the researcher can identify any potential issues or confusion with the questions and make necessary adjustments before giving the survey to the larger population. [pods-ch02:p71:fixed500o50:007]\",\"citations\":[\"pods-ch02:p71:fixed500o50:007\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1199,
+    "tokens_out": 115,
+    "cost_usd": 0.00141675,
+    "elapsed_s": 2.34
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What was wrong with the way the 1936 Literary Digest poll selected the people it surveyed?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "status": "answered",
+    "answer": "The poll used a mailing list of telephone and automobile owners, which biased the sample toward affluent individuals and therefore toward Republican voters. [pods-ch02:p72:fixed500o50:001]",
+    "citations": [
+      "pods-ch02:p72:fixed500o50:001"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p72:fixed500o50:000",
+      "pods-ch02:p72:fixed500o50:001",
+      "pods-ch02:p72:fixed500o50:002"
+    ],
+    "final_context": "[pods-ch02:p72:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 72]\nOpen-ended questions allow for more in-depth responses and provide the opportunity for unexpected\ninsights. They also allow respondents to elaborate on their thoughts and provide detailed and personal\nresponses. Closed-ended questions have predetermined answer choices and are effective in gathering\nquantitative data. They are quick and easy to answer, and their clear and structured format allows for\nquantifiable results.\nAvoiding Bias in Survey Questions\nUnbiased sampling and unbiased survey met\n\n[pods-ch02:p72:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 72]\nuestions\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results.\nOne well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest\npoll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of\ntelephone and automobile owners. This approach was considered biased toward affluent individuals and\ntherefore favored Republican voters. As a consequence, the po\n\n[pods-ch02:p72:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 72]\navored Republican voters. As a consequence, the poll predicted a victory for Republican nominee Alf\nLandon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012). This\ndiscrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended\nquestions, which may not have accurately captured the opinions of all voters.\nAn example of a biased survey question in a survey conducted by a shampoo company might be \"Do you\nprefer our br",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "1936 Literary Digest poll selected people surveyed what was wrong with the sample",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p72:fixed500o50:001",
+            "page": 72,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p72:fixed500o50:002",
+            "page": 72,
+            "score": 0.0315
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p74:fixed500o50:005",
+            "page": 74,
+            "score": 0.03128
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p72:fixed500o50:000",
+          "pods-ch02:p72:fixed500o50:002",
+          "pods-ch02:p72:fixed500o50:003",
+          "pods-ch02:p74:fixed500o50:004",
+          "pods-ch02:p74:fixed500o50:006"
+        ],
+        "context_ids": [
+          "pods-ch02:p72:fixed500o50:000",
+          "pods-ch02:p72:fixed500o50:001",
+          "pods-ch02:p72:fixed500o50:002"
+        ],
+        "context_chars": 1768,
+        "search_ms": 153.4
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 445,
+          "completion_tokens": 30,
+          "total_tokens": 475,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 991,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"1936 Literary Digest poll selected people surveyed what was wrong with the sample\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 830,
+          "completion_tokens": 71,
+          "total_tokens": 901,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1061,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The poll used a mailing list of telephone and automobile owners, which biased the sample toward affluent individuals and therefore toward Republican voters. [pods-ch02:p72:fixed500o50:001]\",\"citations\":[\"pods-ch02:p72:fixed500o50:001\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1275,
+    "tokens_out": 101,
+    "cost_usd": 0.00141075,
+    "elapsed_s": 2.21
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Lấy mẫu phân tầng (stratified sampling) là gì?",
+    "answerable": true,
+    "type": "cross_lingual",
+    "filter": null,
+    "status": "answered",
+    "answer": "Lấy mẫu phân tầng là cách chia quần thể thành các nhóm con dựa trên các yếu tố xác định, như tuổi, khu vực, thu nhập hoặc trình độ học vấn, rồi lấy một mẫu ngẫu nhiên từ mỗi tầng theo tỷ lệ kích thước của tầng đó trong quần thể. Cách này giúp đại diện chính xác hơn cho quần thể vì bảo đảm mọi nhóm con đều được thể hiện đầy đủ trong mẫu [pods-ch02:p73:fixed500o50:000][pods-ch02:p73:fixed500o50:001].",
+    "citations": [
+      "pods-ch02:p73:fixed500o50:000",
+      "pods-ch02:p73:fixed500o50:001"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p73:fixed500o50:000",
+      "pods-ch02:p73:fixed500o50:001",
+      "pods-ch02:p73:fixed500o50:002"
+    ],
+    "final_context": "[pods-ch02:p73:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 73]\nfor quality control testing. In the political arena, simple random sampling is commonly used to select\nrandomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the\ndata collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population. Stratified sampli\n\n[pods-ch02:p73:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 73]\nn to its size in the population. Stratified sampling allows for a more accurate\nrepresentation of the population as it ensures that all subgroups are adequately represented in the\nsample. This can be especially useful when the variables being studied vary significantly between the\nstratified groups.\n3. Cluster sampling. With cluster sampling, the population is divided into natural groups or clusters, such as\nschools, communities, or cities, with a random sample of these clusters picked and all m\n\n[pods-ch02:p73:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 73]\na random sample of these clusters picked and all members within the\nchosen clusters included in the sample. Cluster sampling is helpful to represent the entire population even\nif it is difficult or time-consuming due to challenges such as identifying clusters, sourcing a list of clusters,\ntraveling to different clusters, and communicating with them. Additionally, data analysis and sample size\ncalculation may be more complex, and there is a risk of bias in the sample. However, cluster sampling ca",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "stratified sampling definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p73:fixed500o50:001",
+            "page": 73,
+            "score": 0.03226
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p73:fixed500o50:000",
+            "page": 73,
+            "score": 0.03202
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p76:fixed500o50:002",
+            "page": 76,
+            "score": 0.0315
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p73:fixed500o50:000",
+          "pods-ch02:p73:fixed500o50:002",
+          "pods-ch02:p72:fixed500o50:009",
+          "pods-ch02:p76:fixed500o50:001",
+          "pods-ch02:p76:fixed500o50:003"
+        ],
+        "context_ids": [
+          "pods-ch02:p73:fixed500o50:000",
+          "pods-ch02:p73:fixed500o50:001",
+          "pods-ch02:p73:fixed500o50:002"
+        ],
+        "context_chars": 1768,
+        "search_ms": 134.6
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 440,
+          "completion_tokens": 21,
+          "total_tokens": 461,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 878,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"stratified sampling definition\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 820,
+          "completion_tokens": 161,
+          "total_tokens": 981,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1398,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Lấy mẫu phân tầng là cách chia quần thể thành các nhóm con dựa trên các yếu tố xác định, như tuổi, khu vực, thu nhập hoặc trình độ học vấn, rồi lấy một mẫu ngẫu nhiên từ mỗi tầng theo tỷ lệ kích thước của tầng đó trong quần thể. Cách này giúp đại diện chính xác hơn cho quần thể vì bảo đảm mọi nhóm con đều được thể hiện đầy đủ trong mẫu [pods-ch02:p73:fixed500o50:000][pods-ch02:p73:fixed500o50:001].\",\"citations\":[\"pods-ch02:p73:fixed500o50:000\",\"pods-ch02:p73:fixed500o50:001\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1260,
+    "tokens_out": 182,
+    "cost_usd": 0.001764,
+    "elapsed_s": 2.41
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Under what condition can systematic sampling produce a biased sample?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "status": "answered",
+    "answer": "Systematic sampling can produce a biased sample if there is a pattern in the sampling frame, because that pattern may make the sample unrepresentative of the population. It provides a representative sample when the population is randomly distributed, but a pattern in the sampling frame may lead to bias. [pods-ch02:p73:fixed500o50:007]",
+    "citations": [
+      "pods-ch02:p73:fixed500o50:007"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p73:fixed500o50:006",
+      "pods-ch02:p73:fixed500o50:007",
+      "pods-ch02:p73:fixed500o50:008"
+    ],
+    "final_context": "[pods-ch02:p73:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 73]\nstore to ask them about their shopping experience. The researcher only includes responses from those\nwho agreed to participate, resulting in a sample that is convenient but may not be representative of the\nentire population of shoppers in the mall.\n5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and\nthen selecting every nth member from a population to be contained in the sample. This process is\nstraightforward to implement, and it provides a r\n\n[pods-ch02:p73:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 73]\n\nstraightforward to implement, and it provides a representative sample when the population is randomly\ndistributed. However, if there is a pattern in the sampling frame (the organizing structure that represents\nthe population from which a sample is drawn), it may lead to a biased sample.\nSuppose a researcher wants to study the dietary habits of students in a high school. The researcher has a\nlist of all the students enrolled in the school, which is approximately 1,000 students. Instead of random\n\n[pods-ch02:p73:fixed500o50:008 | data/raw/Principles-of-Data-Science-WEB.pdf | page 73]\nis approximately 1,000 students. Instead of randomly\nselecting a sample of students, the researcher decides to use systematic sampling. The researcher first\nassigns a number to each student, going from 1 to 1,000. Then, the researcher randomly selects a number\nfrom 1 to 10—let's say they select 4. This number will be the starting point for selecting the sample of\nstudents. The researcher will then select every 10th student from the list, which means every student with\na number ending in 4 (14, 2",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "systematic sampling biased sample condition periodic pattern",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p73:fixed500o50:007",
+            "page": 73,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p73:fixed500o50:008",
+            "page": 73,
+            "score": 0.03126
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p74:fixed500o50:003",
+            "page": 74,
+            "score": 0.03055
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p73:fixed500o50:006",
+          "pods-ch02:p73:fixed500o50:008",
+          "pods-ch02:p73:fixed500o50:009",
+          "pods-ch02:p74:fixed500o50:002",
+          "pods-ch02:p74:fixed500o50:004"
+        ],
+        "context_ids": [
+          "pods-ch02:p73:fixed500o50:006",
+          "pods-ch02:p73:fixed500o50:007",
+          "pods-ch02:p73:fixed500o50:008"
+        ],
+        "context_chars": 1768,
+        "search_ms": 157.9
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 437,
+          "completion_tokens": 24,
+          "total_tokens": 461,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 968,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"systematic sampling biased sample condition periodic pattern\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 847,
+          "completion_tokens": 102,
+          "total_tokens": 949,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1311,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Systematic sampling can produce a biased sample if there is a pattern in the sampling frame, because that pattern may make the sample unrepresentative of the population. It provides a representative sample when the population is randomly distributed, but a pattern in the sampling frame may lead to bias. [pods-ch02:p73:fixed500o50:007]\",\"citations\":[\"pods-ch02:p73:fixed500o50:007\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1284,
+    "tokens_out": 126,
+    "cost_usd": 0.00153,
+    "elapsed_s": 2.44
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which web scraping technique is best for pulling out text in a fixed format such as dates, phone numbers, or email addresses?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "status": "answered",
+    "answer": "Regular expressions are best for pulling out text in a fixed format such as dates, phone numbers, or email addresses.[pods-ch02:p77:fixed500o50:001]",
+    "citations": [
+      "pods-ch02:p77:fixed500o50:001"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p77:fixed500o50:000",
+      "pods-ch02:p77:fixed500o50:001",
+      "pods-ch02:p77:fixed500o50:002"
+    ],
+    "final_context": "[pods-ch02:p77:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 77]\ncommon techniques used. (Note: The techniques used for web scraping will vary depending on the website\nand the type of data being collected. It may require a combination of different techniques to effectively scrape\ndata from a website.)\nWeb Scraping\nTechnique\nDetails\nWeb Crawling • Follows links on a web page to navigate to other pages and collect data\nfrom them\n• Useful for scraping data from multiple pages of a website\nXPath • Powerful query language\n• Navigates through the elements in an HTM\n\n[pods-ch02:p77:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 77]\nanguage\n• Navigates through the elements in an HTML document\n• Often used in combination with HTML parsing to select specific elements to\nscrape\nRegular Expressions • Search for and extract specific patterns of text from a web page\n• Useful for scraping data that follows a particular format, such as dates,\nphone numbers, or email addresses\nHTML Parsing • Analyzes the HTML (HyperText Markup Language) structure of a web page\nand identifies the specific tags and elements that contain the desired da\n\n[pods-ch02:p77:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 77]\nific tags and elements that contain the desired data\n• Often used for simple scraping tasks\nApplication\nProgramming\nInterfaces (APIs)\n• Authorize developers to access and retrieve data instantly without the need\nfor web scraping\n• Often a more efficient and reliable method for data collection\n(XML) API Subset • XML (Extensible Markup Language) is another markup language used\nexchanging data\n• This method works similarly to using the HTML API subset by making HTTP\nrequests to the website's API en",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "web scraping technique fixed format dates phone numbers email addresses regular expressions",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p77:fixed500o50:001",
+            "page": 77,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p81:fixed500o50:000",
+            "page": 81,
+            "score": 0.032
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p76:fixed500o50:004",
+            "page": 76,
+            "score": 0.03021
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p77:fixed500o50:000",
+          "pods-ch02:p77:fixed500o50:002",
+          "pods-ch02:p80:fixed500o50:004",
+          "pods-ch02:p81:fixed500o50:001",
+          "pods-ch02:p76:fixed500o50:003",
+          "pods-ch02:p76:fixed500o50:005"
+        ],
+        "context_ids": [
+          "pods-ch02:p77:fixed500o50:000",
+          "pods-ch02:p77:fixed500o50:001",
+          "pods-ch02:p77:fixed500o50:002"
+        ],
+        "context_chars": 1768,
+        "search_ms": 139.5
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 451,
+          "completion_tokens": 28,
+          "total_tokens": 479,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 930,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"web scraping technique fixed format dates phone numbers email addresses regular expressions\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 859,
+          "completion_tokens": 68,
+          "total_tokens": 927,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 954,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Regular expressions are best for pulling out text in a fixed format such as dates, phone numbers, or email addresses.[pods-ch02:p77:fixed500o50:001]\",\"citations\":[\"pods-ch02:p77:fixed500o50:001\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1310,
+    "tokens_out": 96,
+    "cost_usd": 0.0014145,
+    "elapsed_s": 2.02
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "In a survey about driving habits, some respondents accidentally skip the income question. What type of missing data is this?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "status": "answered",
+    "answer": "This is MCAR (missing completely at random), because the respondents accidentally skip the income question, and the missingness is not related to the variables being collected related to driving habits. [pods-ch02:p87:fixed500o50:001]",
+    "citations": [
+      "pods-ch02:p87:fixed500o50:001"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p87:fixed500o50:000",
+      "pods-ch02:p87:fixed500o50:001",
+      "pods-ch02:p87:fixed500o50:002"
+    ],
+    "final_context": "[pods-ch02:p87:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 87]\nmeasures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Enc\n\n[pods-ch02:p87:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 87]\nof Center and Measures of Variation as well as Encoding\nUnivariate Data).\nIt is important to distinguish between different types of missing data. MCAR (missing completely at\nrandom) data is missing data not related to any other variables, with no underlying cause for its absence.\nConsider data collection with a survey asking about driving habits. One of the demographic questions asks\nfor income level. Some respondents accidentally skip this question, and so there is missing data for\nincome, but \n\n[pods-ch02:p87:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 87]\nion, and so there is missing data for\nincome, but this is not related to the variables being collected related to driving habits.\nMAR (missing at random) data is missing data related to other variables but not to any unknown or\nunmeasured variables. As an example, during data collection, a survey is sent to respondents and the\nsurvey asks about loneliness. One of the questions asks about memory retention. Some older respondents\nmight skip this question since they may be unwilling to share this t",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "missing data respondents accidentally skip a question survey income question type of missing data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p87:fixed500o50:001",
+            "page": 87,
+            "score": 0.03252
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p87:fixed500o50:002",
+            "page": 87,
+            "score": 0.03252
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p87:fixed500o50:003",
+            "page": 87,
+            "score": 0.03175
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p87:fixed500o50:000",
+          "pods-ch02:p87:fixed500o50:002",
+          "pods-ch02:p87:fixed500o50:003",
+          "pods-ch02:p87:fixed500o50:004"
+        ],
+        "context_ids": [
+          "pods-ch02:p87:fixed500o50:000",
+          "pods-ch02:p87:fixed500o50:001",
+          "pods-ch02:p87:fixed500o50:002"
+        ],
+        "context_chars": 1768,
+        "search_ms": 136.7
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 449,
+          "completion_tokens": 30,
+          "total_tokens": 479,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1020,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"missing data respondents accidentally skip a question survey income question type of missing data\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 850,
+          "completion_tokens": 82,
+          "total_tokens": 932,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1174,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"This is MCAR (missing completely at random), because the respondents accidentally skip the income question, and the missingness is not related to the variables being collected related to driving habits. [pods-ch02:p87:fixed500o50:001]\",\"citations\":[\"pods-ch02:p87:fixed500o50:001\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1299,
+    "tokens_out": 112,
+    "cost_usd": 0.00147825,
+    "elapsed_s": 2.33
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What are the options for handling outliers, and what is the drawback of simply deleting them?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "chapter": 2
+    },
+    "status": "answered",
+    "answer": "The options mentioned are to delete the outliers or to deal with them as an individual group and analyze them separately from the rest of the data. The drawback of simply deleting them is that it can lead to a loss of valuable information. [pods-ch02:p87:fixed500o50:006] [pods-ch02:p87:fixed500o50:007]",
+    "citations": [
+      "pods-ch02:p87:fixed500o50:006",
+      "pods-ch02:p87:fixed500o50:007"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p87:fixed500o50:006",
+      "pods-ch02:p87:fixed500o50:007",
+      "pods-ch02:p87:fixed500o50:008"
+    ],
+    "final_context": "[pods-ch02:p87:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 87]\nr, but this can lead to a loss of important information.\nOther methods include imputation, where the absent values are replaced with estimated values based on\nthe remaining data or using predictive models to fill in the missing values.\n4. Consider the influence of outliers. Outliers can greatly affect the results of the analysis, so it is important\nto carefully consider their impact. One approach is to delete the outliers from the dataset, but this can also\nlead to a loss of valuable information\n\n[pods-ch02:p87:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 87]\nis can also\nlead to a loss of valuable information. Another option is to deal with the outliers as an individual group\nand analyze them separately from the rest of the data.\n5. Use robust statistical methods. When dealing with outliers, it is important to use statistical methods that\nare not affected by extreme values. This includes using median instead of mean and using nonparametric\ntests instead of parametric tests, as explained in Statistical Inference and Confidence Intervals.\n6. Validate t\n\n[pods-ch02:p87:fixed500o50:008 | data/raw/Principles-of-Data-Science-WEB.pdf | page 87]\n Inference and Confidence Intervals.\n6. Validate the results. After handling the missing data and outliers, it is important to validate the results to\nensure that they are robust and accurate. This can be done through various methods, such as cross-\nvalidation or comparing the results to external data sources.\nHandling missing data and outliers in a data science task requires careful consideration and appropriate\nmethods. It is important to understand the reasons behind these issues and to caref",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "outliers options handling drawback of deleting them",
+        "filter": {
+          "chapter": 2
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p87:fixed500o50:007",
+            "page": 87,
+            "score": 0.03175
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p93:fixed500o50:001",
+            "page": 93,
+            "score": 0.03105
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p87:fixed500o50:006",
+            "page": 87,
+            "score": 0.03048
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p87:fixed500o50:006",
+          "pods-ch02:p87:fixed500o50:008",
+          "pods-ch02:p93:fixed500o50:000",
+          "pods-ch02:p93:fixed500o50:002",
+          "pods-ch02:p87:fixed500o50:005"
+        ],
+        "context_ids": [
+          "pods-ch02:p87:fixed500o50:006",
+          "pods-ch02:p87:fixed500o50:007",
+          "pods-ch02:p87:fixed500o50:008"
+        ],
+        "context_chars": 1768,
+        "search_ms": 137.6
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 445,
+          "completion_tokens": 24,
+          "total_tokens": 469,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1020,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"outliers options handling drawback of deleting them\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 836,
+          "completion_tokens": 120,
+          "total_tokens": 956,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1257,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The options mentioned are to delete the outliers or to deal with them as an individual group and analyze them separately from the rest of the data. The drawback of simply deleting them is that it can lead to a loss of valuable information. [pods-ch02:p87:fixed500o50:006] [pods-ch02:p87:fixed500o50:007]\",\"citations\":[\"pods-ch02:p87:fixed500o50:006\",\"pods-ch02:p87:fixed500o50:007\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1281,
+    "tokens_out": 144,
+    "cost_usd": 0.00160875,
+    "elapsed_s": 2.42
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which type of compression is used for text and numerical data, and what are some examples?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "The type of compression used for text and numerical data is lossless compression. It is commonly used for text and numerical data, where every piece of information is crucial. Examples include ZIP, RAR, and PNG. [pods-ch02:p98:fixed500o50:007]",
+    "citations": [
+      "pods-ch02:p98:fixed500o50:007"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p98:fixed500o50:006",
+      "pods-ch02:p98:fixed500o50:007",
+      "pods-ch02:p98:fixed500o50:008"
+    ],
+    "final_context": "[pods-ch02:p98:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 98]\neduces the size of data by permanently extracting particular data that is considered\nirrelevant or redundant. This method can significantly decrease file sizes, but it also results in a loss of\nsome data. Lossy compression is often utilized for multimedia files and images, where slight modifications\nin quality may not be noticeable to the human eye. Examples of lossy compression include MP3 and JPEG.\n• Lossless compression aims to reduce file size without removing any data. This method achieves\n\n\n[pods-ch02:p98:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 98]\ne without removing any data. This method achieves\ncompression by finding patterns and redundancies in the data and representing them more efficiently.\nThis allows for the reconstruction of the original data without any loss in quality. Lossless compression is\ncommonly used for text and numerical data, where every piece of information is crucial. Examples of\nlossless compression include ZIP, RAR, and PNG.\nThere are several methods of data lossless compression, including Huffman coding. Huffman co\n\n[pods-ch02:p98:fixed500o50:008 | data/raw/Principles-of-Data-Science-WEB.pdf | page 98]\n compression, including Huffman coding. Huffman coding\nworks by assigning shorter binary codes to the most frequently used characters or symbols in a given\ndataset and longer codes to less frequently used characters, as shown in Figure 2.4. This results in a more",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "compression used for text and numerical data examples lossless compression text numeric data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p98:fixed500o50:007",
+            "page": 98,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p98:fixed500o50:006",
+            "page": 98,
+            "score": 0.03226
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p99:fixed500o50:000",
+            "page": 99,
+            "score": 0.0315
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p98:fixed500o50:006",
+          "pods-ch02:p98:fixed500o50:008",
+          "pods-ch02:p98:fixed500o50:005",
+          "pods-ch02:p99:fixed500o50:001"
+        ],
+        "context_ids": [
+          "pods-ch02:p98:fixed500o50:006",
+          "pods-ch02:p98:fixed500o50:007",
+          "pods-ch02:p98:fixed500o50:008"
+        ],
+        "context_chars": 1531,
+        "search_ms": 133.2
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 444,
+          "completion_tokens": 30,
+          "total_tokens": 474,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1052,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"compression used for text and numerical data examples lossless compression text numeric data\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 790,
+          "completion_tokens": 89,
+          "total_tokens": 879,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1392,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The type of compression used for text and numerical data is lossless compression. It is commonly used for text and numerical data, where every piece of information is crucial. Examples include ZIP, RAR, and PNG. [pods-ch02:p98:fixed500o50:007]\",\"citations\":[\"pods-ch02:p98:fixed500o50:007\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1234,
+    "tokens_out": 119,
+    "cost_usd": 0.001461,
+    "elapsed_s": 2.58
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Why is information like the chunk number and total number of chunks attached to each chunk?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "status": "answered",
+    "answer": "Information like the chunk number and the total number of chunks is attached so the chunks can be reassembled into the original dataset after they are transmitted or stored separately. [pods-ch02:p100:fixed500o50:002]",
+    "citations": [
+      "pods-ch02:p100:fixed500o50:002"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p100:fixed500o50:001",
+      "pods-ch02:p100:fixed500o50:002",
+      "pods-ch02:p100:fixed500o50:003"
+    ],
+    "final_context": "[pods-ch02:p100:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 100]\ncross multiple\ncomputing nodes or processing units.\nData chunking is used in data storage systems and data transmission over networks, and it is especially useful\nwhen working with large datasets that exceed the capacity of a single machine or when transferring data over\na network with limited bandwidth. The divided data in data chunking is known as a chunk or block. The size of\neach chunk can vary depending on the requirements and range from a few kilobytes to several gigabytes.\nThese chunks ar\n\n[pods-ch02:p100:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 100]\new kilobytes to several gigabytes.\nThese chunks are typically organized sequentially, with each chunk containing a set of data from the larger\ndataset. The process of data chunking also involves adding metadata (data that provides information about\nother data), such as the chunk number and the total number of chunks, to each chunk. This metadata allows\nthe chunks to be reassembled into the original dataset after being transmitted or stored separately. Data\nchunking has several advantages, includ\n\n[pods-ch02:p100:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 100]\ntely. Data\nchunking has several advantages, including the following:\n1. Increased speed. By dividing a large dataset into smaller chunks, data processing and transmission can\nbe performed more quickly, reducing the overall processing time.\n2. Better utilization of resources. Data chunking enables data to be distributed and processed across\nmultiple machines, making better use of available computing resources.\n3. Increased fault tolerance. In case of data corruption or loss, data chunking allows ",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "chunk number total number of chunks attached to each chunk why",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p100:fixed500o50:002",
+            "page": 100,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p100:fixed500o50:001",
+            "page": 100,
+            "score": 0.03226
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p100:fixed500o50:004",
+            "page": 100,
+            "score": 0.03101
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p100:fixed500o50:001",
+          "pods-ch02:p100:fixed500o50:003",
+          "pods-ch02:p100:fixed500o50:000",
+          "pods-ch02:p100:fixed500o50:005"
+        ],
+        "context_ids": [
+          "pods-ch02:p100:fixed500o50:001",
+          "pods-ch02:p100:fixed500o50:002",
+          "pods-ch02:p100:fixed500o50:003"
+        ],
+        "context_chars": 1774,
+        "search_ms": 138.2
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 27,
+          "total_tokens": 470,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 834,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"chunk number total number of chunks attached to each chunk why\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 832,
+          "completion_tokens": 78,
+          "total_tokens": 910,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1253,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Information like the chunk number and the total number of chunks is attached so the chunks can be reassembled into the original dataset after they are transmitted or stored separately. [pods-ch02:p100:fixed500o50:002]\",\"citations\":[\"pods-ch02:p100:fixed500o50:002\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1275,
+    "tokens_out": 105,
+    "cost_usd": 0.00142875,
+    "elapsed_s": 2.23
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Which US law regulates how federal agencies collect, use, maintain, and disseminate personal information?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "The US Privacy Act of 1974 regulates how federal agencies may collect, use, maintain, and disseminate personal information. [pods-ch08:p388:fixed500o50:006]",
+    "citations": [
+      "pods-ch08:p388:fixed500o50:006"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p388:fixed500o50:005",
+      "pods-ch08:p388:fixed500o50:006",
+      "pods-ch08:p388:fixed500o50:007"
+    ],
+    "final_context": "[pods-ch08:p388:fixed500o50:005 | data/raw/Principles-of-Data-Science-WEB.pdf | page 388]\nr/\nadasci)). In addition, one must be fully aware of governmental regulations and industry standards.\nRegulatory Compliance\nBefore beginning any data science project, it is important to understand the regulations and specific state and\nfederal laws as well as industry and professional guidelines that apply to the type of data gathering required.\nRegulations protect the privacy and security of personal and confidential data as well as secure its accuracy,\nintegrity, and completeness. Such regulat\n\n[pods-ch08:p388:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 388]\nccuracy,\nintegrity, and completeness. Such regulations may vary from country to country or even from state to state\nwithin a country. In the United States, the US Privacy Act of 1974 regulates how federal agencies may collect,\nuse, maintain, and disseminate personal information. This law was later supplemented by the E-Government\nAct of 2002, extending protections to data held digitally rather than physically. A good summary of these laws\nand other privacy regulations can be found at the GAO’s P\n\n[pods-ch08:p388:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 388]\ner privacy regulations can be found at the GAO’s Protecting Personal Privacy (https://openstax.org/r/\ngao) site.\nIndustry and Global Standards\nData privacy compliance requirements vary depending on the industry and the standards or laws that govern\nthe organization’s operations. Failure to comply with these requirements can result in penalties and legal\nconsequences for the organization, so data scientists in these industries need to be aware of and adhere to\nthese regulations to avoid any poten",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "US law regulates how federal agencies collect, use, maintain, and disseminate personal information",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p388:fixed500o50:006",
+            "page": 388,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p389:fixed500o50:001",
+            "page": 389,
+            "score": 0.03126
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p388:fixed500o50:005",
+            "page": 388,
+            "score": 0.02808
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p388:fixed500o50:005",
+          "pods-ch08:p388:fixed500o50:007",
+          "pods-ch08:p389:fixed500o50:000",
+          "pods-ch08:p389:fixed500o50:002",
+          "pods-ch08:p388:fixed500o50:004"
+        ],
+        "context_ids": [
+          "pods-ch08:p388:fixed500o50:005",
+          "pods-ch08:p388:fixed500o50:006",
+          "pods-ch08:p388:fixed500o50:007"
+        ],
+        "context_chars": 1774,
+        "search_ms": 158.8
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 445,
+          "completion_tokens": 33,
+          "total_tokens": 478,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1091,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"US law regulates how federal agencies collect, use, maintain, and disseminate personal information\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 844,
+          "completion_tokens": 71,
+          "total_tokens": 915,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1128,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The US Privacy Act of 1974 regulates how federal agencies may collect, use, maintain, and disseminate personal information. [pods-ch08:p388:fixed500o50:006]\",\"citations\":[\"pods-ch08:p388:fixed500o50:006\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1289,
+    "tokens_out": 104,
+    "cost_usd": 0.00143475,
+    "elapsed_s": 2.38
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What technique swaps sensitive values for artificial codes while keeping the data useful for analysis?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "status": "answered",
+    "answer": "Pseudonymization is the technique that replaces sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis. [pods-ch08:p390:fixed500o50:002]",
+    "citations": [
+      "pods-ch08:p390:fixed500o50:002"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p390:fixed500o50:001",
+      "pods-ch08:p390:fixed500o50:002",
+      "pods-ch08:p390:fixed500o50:003"
+    ],
+    "final_context": "[pods-ch08:p390:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 390]\n information from unauthorized access, disclosure,\nalteration, or destruction, ensuring confidentiality, integrity, and availability. It is the responsibility of the data\nscientist to ensure that all appropriate data security measures are being taken.\nBased on the project's purposes, data may need to be either anonymized or pseudonymized. Anonymization\nis the act of removing personal identifying information from datasets and other forms of data to make\nsensitive information usable for analysis w\n\n[pods-ch08:p390:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 390]\no make\nsensitive information usable for analysis without the risk of exposing personal information. This can involve\ntechniques such as removing or encrypting identifying information. Pseudonymization is the act of replacing\nsensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for\nanalysis. These techniques may be required to comply with data protection laws.\nTo further comply with regulations, some data components may need to be isolated\n\n[pods-ch08:p390:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 390]\nions, some data components may need to be isolated or removed from\ndatasets; for example, industry-specific information may need to be undisclosable from other datasets,\nespecially in the medical or financial domain. Ultimately, adhering to applicable regulatory provisions\nthroughout the data science cycle ensures that all relevant information and data are collected and stored in a\nway that meets its specific needs without violating any laws or regulations.\nThe importance of adhering to regulato",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "technique that swaps sensitive values for artificial codes while keeping the data useful for analysis",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p390:fixed500o50:002",
+            "page": 390,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p401:fixed500o50:007",
+            "page": 401,
+            "score": 0.03105
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p402:fixed500o50:004",
+            "page": 402,
+            "score": 0.02879
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p390:fixed500o50:001",
+          "pods-ch08:p390:fixed500o50:003",
+          "pods-ch08:p401:fixed500o50:006",
+          "pods-ch08:p401:fixed500o50:008",
+          "pods-ch08:p402:fixed500o50:003",
+          "pods-ch08:p402:fixed500o50:005"
+        ],
+        "context_ids": [
+          "pods-ch08:p390:fixed500o50:001",
+          "pods-ch08:p390:fixed500o50:002",
+          "pods-ch08:p390:fixed500o50:003"
+        ],
+        "context_chars": 1774,
+        "search_ms": 140.7
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 442,
+          "completion_tokens": 32,
+          "total_tokens": 474,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1002,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"technique that swaps sensitive values for artificial codes while keeping the data useful for analysis\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 814,
+          "completion_tokens": 73,
+          "total_tokens": 887,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1306,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Pseudonymization is the technique that replaces sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis. [pods-ch08:p390:fixed500o50:002]\",\"citations\":[\"pods-ch08:p390:fixed500o50:002\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1256,
+    "tokens_out": 105,
+    "cost_usd": 0.0014145,
+    "elapsed_s": 2.45
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How many Americans had their personal information exposed in the 2017 Equifax data breach?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "Over 145 million Americans had their personal information exposed in the 2017 Equifax data breach. [pods-ch08:p393:fixed500o50:003]",
+    "citations": [
+      "pods-ch08:p393:fixed500o50:003"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p393:fixed500o50:002",
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p393:fixed500o50:004"
+    ],
+    "final_context": "[pods-ch08:p393:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 393]\nte the risk of\ndata breaches throughout the development process. In addition, institutions should have a strategy ready for\nresponding to data breaches in an effective and timely manner. It is important for organizations to ensure that\nany data they collect or use has been obtained from secure and verified sources and that any data that is\nshared is done so securely.\nData breaches can have far-reaching consequences, from financial losses to diminished public trust in\norganizations. As an example\n\n[pods-ch08:p393:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 393]\nished public trust in\norganizations. As an example, consider the 2017 Equifax data breach. Equifax, one of the three major credit\nreporting agencies in the United States, experienced a massive data breach in 2017 (https://openstax.org/r/\noversight1). This breach exposed the personal information of over 145 million Americans (near half the total\nU.S. population) along with over 15 million British citizens and a smaller number of people from other\ncountries, making it one of the largest and most s\n\n[pods-ch08:p393:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 393]\ncountries, making it one of the largest and most severe data breaches in history. The data that was\ncompromised included names, Social Security numbers, birth dates, addresses, driver’s license numbers, and\nfor a small percentage of individuals, credit card information. The exposed information put millions of people\nat risk of identity theft and fraud. Criminals could use the stolen data to open new credit accounts, file\nfraudulent tax returns, and commit other forms of identity fraud. Victims o",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "2017 Equifax data breach how many Americans had their personal information exposed",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p393:fixed500o50:003",
+            "page": 393,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p393:fixed500o50:005",
+            "page": 393,
+            "score": 0.03126
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p389:fixed500o50:001",
+            "page": 389,
+            "score": 0.02983
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p393:fixed500o50:002",
+          "pods-ch08:p393:fixed500o50:004",
+          "pods-ch08:p393:fixed500o50:006",
+          "pods-ch08:p389:fixed500o50:000",
+          "pods-ch08:p389:fixed500o50:002"
+        ],
+        "context_ids": [
+          "pods-ch08:p393:fixed500o50:002",
+          "pods-ch08:p393:fixed500o50:003",
+          "pods-ch08:p393:fixed500o50:004"
+        ],
+        "context_chars": 1774,
+        "search_ms": 149.8
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 444,
+          "completion_tokens": 30,
+          "total_tokens": 474,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 919,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"2017 Equifax data breach how many Americans had their personal information exposed\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 853,
+          "completion_tokens": 66,
+          "total_tokens": 919,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1332,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Over 145 million Americans had their personal information exposed in the 2017 Equifax data breach. [pods-ch08:p393:fixed500o50:003]\",\"citations\":[\"pods-ch08:p393:fixed500o50:003\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1297,
+    "tokens_out": 96,
+    "cost_usd": 0.00140475,
+    "elapsed_s": 2.4
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "What are the three key areas that the process of data validation can be divided into?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "chapter": 8
+    },
+    "status": "answered",
+    "answer": "The process of data validation can be divided into three key areas: outlier detection, cross-validation, and ethical guidelines. [pods-ch08:p403:fixed500o50:005]",
+    "citations": [
+      "pods-ch08:p403:fixed500o50:005"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p403:fixed500o50:004",
+      "pods-ch08:p403:fixed500o50:005",
+      "pods-ch08:p403:fixed500o50:006"
+    ],
+    "final_context": "[pods-ch08:p403:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 403]\na\ncommitment to ethical data usage, which is an important component of any data governance policy. Effective\ndata validation will secure data from the influence of bias, prejudices, or preconceptions. As mentioned earlier,\nunbiased data is essential for ethical modeling, as it gives an accurate illustration of a real-world situation\nrather than being influenced by personal intentions or opinions held by certain individuals and ensures that\ndecisions are made on solid facts and evidence instead o\n\n[pods-ch08:p403:fixed500o50:005 | data/raw/Principles-of-Data-Science-WEB.pdf | page 403]\nons are made on solid facts and evidence instead of subjective opinion.\nThe process of data validation can be divided into three key areas: outlier detection, cross-validation, and\nethical guidelines.\nOutlier detection concerns the identification of observations that are significantly different from the rest of\nthe data and ensures that the data is free from outliers that can affect the results of the models and analysis. If\noutliers are detected, they may either be removed or imputed to have mo\n\n[pods-ch08:p403:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 403]\n, they may either be removed or imputed to have more reasonable values.\nCross-validation is a process used to evaluate a set of data, and it involves the comparison of the results with\ndifferent subsets of the data or with the entire dataset by repeatedly breaking the data into training and\ntesting sets and evaluating the model's performance on different subsets of the data. If the results vary too\nmuch on different subsets, then the model may have been over-fit, leading to biases and inaccurate",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "data validation three key areas process can be divided into",
+        "filter": {
+          "chapter": 8
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p403:fixed500o50:005",
+            "page": 403,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p403:fixed500o50:002",
+            "page": 403,
+            "score": 0.03125
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p403:fixed500o50:003",
+            "page": 403,
+            "score": 0.03021
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p403:fixed500o50:004",
+          "pods-ch08:p403:fixed500o50:006",
+          "pods-ch08:p403:fixed500o50:001",
+          "pods-ch08:p403:fixed500o50:003"
+        ],
+        "context_ids": [
+          "pods-ch08:p403:fixed500o50:004",
+          "pods-ch08:p403:fixed500o50:005",
+          "pods-ch08:p403:fixed500o50:006"
+        ],
+        "context_chars": 1774,
+        "search_ms": 164.0
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 26,
+          "total_tokens": 469,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1291,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"data validation three key areas process can be divided into\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 828,
+          "completion_tokens": 70,
+          "total_tokens": 898,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 4160,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The process of data validation can be divided into three key areas: outlier detection, cross-validation, and ethical guidelines. [pods-ch08:p403:fixed500o50:005]\",\"citations\":[\"pods-ch08:p403:fixed500o50:005\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1271,
+    "tokens_out": 96,
+    "cost_usd": 0.00138525,
+    "elapsed_s": 5.62
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "What did the 2016 investigation find about the COMPAS algorithm?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "The 2016 investigation found that the COMPAS algorithm was biased against Black defendants: it incorrectly flagged Black defendants as high risk at nearly twice the rate as White defendants. It also found that White defendants were more likely to be incorrectly flagged as low risk than Black defendants. [pods-ch08:p399:fixed500o50:005] [pods-ch08:p399:fixed500o50:006]",
+    "citations": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p399:fixed500o50:006"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p399:fixed500o50:004",
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p399:fixed500o50:006"
+    ],
+    "final_context": "[pods-ch08:p399:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\nny, data fabrication or falsification, “cherry-picking” (choosing only data that supports a\npredefined conclusion and ignoring the rest), and model manipulation to achieve a desired outcome.\nMotivations behind these practices include financial gain, prestige, and intent to discriminate against other\ndemographic groups.\nWhen data is biased, the resulting models and algorithms may lead to misinformed decisions, inaccurate\npredictions, or unfair outcomes. A real-world example of how bias in data sc\n\n[pods-ch08:p399:fixed500o50:005 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\ncomes. A real-world example of how bias in data science methods or data collection\ncan ruin an analysis is seen in the case of the COMPAS algorithm used in the U.S. criminal justice system.\nCOMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is an algorithm designed to\npredict the likelihood of a defendant reoffending (Berk et al., 2021). However, an investigation in 2016 found\nthat the algorithm was biased against Black defendants. The analysis revealed that the algori\n\n[pods-ch08:p399:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\n defendants. The analysis revealed that the algorithm incorrectly\nflagged Black defendants as high risk at nearly twice the rate as White defendants. Conversely, White\ndefendants were more likely to be incorrectly flagged as low risk compared to Black defendants. This bias in\nthe data collection and algorithm led to unjust sentencing and parole decisions, disproportionately affecting\nBlack individuals and undermining the fairness and accuracy of the judicial process. This case underscores the\ncr",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "2016 investigation COMPAS algorithm found",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p399:fixed500o50:005",
+            "page": 399,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p399:fixed500o50:006",
+            "page": 399,
+            "score": 0.02837
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p399:fixed500o50:008",
+            "page": 399,
+            "score": 0.02801
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p399:fixed500o50:004",
+          "pods-ch08:p399:fixed500o50:006",
+          "pods-ch08:p399:fixed500o50:007",
+          "pods-ch08:p399:fixed500o50:009"
+        ],
+        "context_ids": [
+          "pods-ch08:p399:fixed500o50:004",
+          "pods-ch08:p399:fixed500o50:005",
+          "pods-ch08:p399:fixed500o50:006"
+        ],
+        "context_chars": 1774,
+        "search_ms": 148.5
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 440,
+          "completion_tokens": 23,
+          "total_tokens": 463,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 920,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"2016 investigation COMPAS algorithm found\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 829,
+          "completion_tokens": 127,
+          "total_tokens": 956,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1471,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The 2016 investigation found that the COMPAS algorithm was biased against Black defendants: it incorrectly flagged Black defendants as high risk at nearly twice the rate as White defendants. It also found that White defendants were more likely to be incorrectly flagged as low risk than Black defendants. [pods-ch08:p399:fixed500o50:005] [pods-ch08:p399:fixed500o50:006]\",\"citations\":[\"pods-ch08:p399:fixed500o50:005\",\"pods-ch08:p399:fixed500o50:006\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1269,
+    "tokens_out": 150,
+    "cost_usd": 0.00162675,
+    "elapsed_s": 2.54
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "How much money did Equifax agree to pay in its settlement over the 2017 data breach?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "stop_reason": "model_abstain",
+    "searches": 1,
+    "error": null,
+    "context_evidence": null,
+    "final_context_ids": [
+      "pods-ch08:p393:fixed500o50:002",
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p393:fixed500o50:004"
+    ],
+    "final_context": "[pods-ch08:p393:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 393]\nte the risk of\ndata breaches throughout the development process. In addition, institutions should have a strategy ready for\nresponding to data breaches in an effective and timely manner. It is important for organizations to ensure that\nany data they collect or use has been obtained from secure and verified sources and that any data that is\nshared is done so securely.\nData breaches can have far-reaching consequences, from financial losses to diminished public trust in\norganizations. As an example\n\n[pods-ch08:p393:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 393]\nished public trust in\norganizations. As an example, consider the 2017 Equifax data breach. Equifax, one of the three major credit\nreporting agencies in the United States, experienced a massive data breach in 2017 (https://openstax.org/r/\noversight1). This breach exposed the personal information of over 145 million Americans (near half the total\nU.S. population) along with over 15 million British citizens and a smaller number of people from other\ncountries, making it one of the largest and most s\n\n[pods-ch08:p393:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 393]\ncountries, making it one of the largest and most severe data breaches in history. The data that was\ncompromised included names, Social Security numbers, birth dates, addresses, driver’s license numbers, and\nfor a small percentage of individuals, credit card information. The exposed information put millions of people\nat risk of identity theft and fraud. Criminals could use the stolen data to open new credit accounts, file\nfraudulent tax returns, and commit other forms of identity fraud. Victims o",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "Equifax settlement 2017 data breach amount paid",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p393:fixed500o50:003",
+            "page": 393,
+            "score": 0.03252
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p396:fixed500o50:002",
+            "page": 396,
+            "score": 0.03128
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p396:fixed500o50:005",
+            "page": 396,
+            "score": 0.03058
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p393:fixed500o50:002",
+          "pods-ch08:p393:fixed500o50:004",
+          "pods-ch08:p396:fixed500o50:001",
+          "pods-ch08:p396:fixed500o50:003",
+          "pods-ch08:p396:fixed500o50:004",
+          "pods-ch08:p396:fixed500o50:006"
+        ],
+        "context_ids": [
+          "pods-ch08:p393:fixed500o50:002",
+          "pods-ch08:p393:fixed500o50:003",
+          "pods-ch08:p393:fixed500o50:004"
+        ],
+        "context_chars": 1774,
+        "search_ms": 134.5
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The retrieved passages describe the 2017 Equifax data breach and its consequences, but they do not state how much money Equifax agreed to pay in its settlement.",
+        "searched_before_abstain": true
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 446,
+          "completion_tokens": 26,
+          "total_tokens": 472,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1029,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"Equifax settlement 2017 data breach amount paid\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 851,
+          "completion_tokens": 50,
+          "total_tokens": 901,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1097,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": "{\"reason\":\"The retrieved passages describe the 2017 Equifax data breach and its consequences, but they do not state how much money Equifax agreed to pay in its settlement.\"}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1297,
+    "tokens_out": 76,
+    "cost_usd": 0.00131475,
+    "elapsed_s": 2.26
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "Which news organization carried out the 2016 investigation of the COMPAS algorithm, and which company developed COMPAS?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "stop_reason": "model_abstain",
+    "searches": 1,
+    "error": null,
+    "context_evidence": null,
+    "final_context_ids": [
+      "pods-ch08:p399:fixed500o50:004",
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p399:fixed500o50:006"
+    ],
+    "final_context": "[pods-ch08:p399:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\nny, data fabrication or falsification, “cherry-picking” (choosing only data that supports a\npredefined conclusion and ignoring the rest), and model manipulation to achieve a desired outcome.\nMotivations behind these practices include financial gain, prestige, and intent to discriminate against other\ndemographic groups.\nWhen data is biased, the resulting models and algorithms may lead to misinformed decisions, inaccurate\npredictions, or unfair outcomes. A real-world example of how bias in data sc\n\n[pods-ch08:p399:fixed500o50:005 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\ncomes. A real-world example of how bias in data science methods or data collection\ncan ruin an analysis is seen in the case of the COMPAS algorithm used in the U.S. criminal justice system.\nCOMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is an algorithm designed to\npredict the likelihood of a defendant reoffending (Berk et al., 2021). However, an investigation in 2016 found\nthat the algorithm was biased against Black defendants. The analysis revealed that the algori\n\n[pods-ch08:p399:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\n defendants. The analysis revealed that the algorithm incorrectly\nflagged Black defendants as high risk at nearly twice the rate as White defendants. Conversely, White\ndefendants were more likely to be incorrectly flagged as low risk compared to Black defendants. This bias in\nthe data collection and algorithm led to unjust sentencing and parole decisions, disproportionately affecting\nBlack individuals and undermining the fairness and accuracy of the judicial process. This case underscores the\ncr",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "2016 investigation COMPAS algorithm news organization company developed COMPAS",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p399:fixed500o50:005",
+            "page": 399,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p391:fixed500o50:001",
+            "page": 391,
+            "score": 0.02862
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p390:fixed500o50:008",
+            "page": 390,
+            "score": 0.01613
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p399:fixed500o50:004",
+          "pods-ch08:p399:fixed500o50:006",
+          "pods-ch08:p391:fixed500o50:000",
+          "pods-ch08:p391:fixed500o50:002",
+          "pods-ch08:p390:fixed500o50:007",
+          "pods-ch08:p390:fixed500o50:009"
+        ],
+        "context_ids": [
+          "pods-ch08:p399:fixed500o50:004",
+          "pods-ch08:p399:fixed500o50:005",
+          "pods-ch08:p399:fixed500o50:006"
+        ],
+        "context_chars": 1774,
+        "search_ms": 157.4
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The retrieved passages mention the 2016 COMPAS investigation and describe the algorithm, but they do not identify which news organization carried it out or which company developed COMPAS. With no searches remaining and insufficient evidence for the whole question, I must abstain.",
+        "searched_before_abstain": true
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 449,
+          "completion_tokens": 28,
+          "total_tokens": 477,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 886,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"2016 investigation COMPAS algorithm news organization company developed COMPAS\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 843,
+          "completion_tokens": 68,
+          "total_tokens": 911,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1358,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": "{\"reason\":\"The retrieved passages mention the 2016 COMPAS investigation and describe the algorithm, but they do not identify which news organization carried it out or which company developed COMPAS. With no searches remaining and insufficient evidence for the whole question, I must abstain.\"}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1292,
+    "tokens_out": 96,
+    "cost_usd": 0.001401,
+    "elapsed_s": 2.4
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "model": "google/embeddinggemma-2",
+  "dim": 768,
+  "dtype": "float32",
+  "device": "cpu",
+  "text_chunking": "500 chars, overlap 50, per page, footer removed",
+  "document_prompt": "Document (title: none | text: ...)",
+  "image_dpi": 110,
+  "image_scope": "vision_candidate pages from page_profile.jsonl",
+  "interleaved_text_chars": 2000,
+  "stats_text": {
+    "chunks": 2970,
+    "pages": 560,
+    "seconds": 1123
+  },
+  "stats_image": {
+    "pages": 249,
+    "seconds_this_run": 1687
+  },
+  "stats_interleaved": {
+    "pages": 249,
+    "seconds_this_run": 2012
+  }
+}

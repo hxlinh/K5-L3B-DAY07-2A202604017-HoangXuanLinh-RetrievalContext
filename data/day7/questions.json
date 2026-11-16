@@ -1,0 +1,508 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What are some common methods for collecting data?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 68,
+        "evidence": "Some common methods for data collection include experiments, surveys, observation, focus groups, interviews, and document analysis."
+      }
+    ],
+    "expected_answer": "Experiments, surveys, observation, focus groups, interviews, and document analysis.",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What kind of data is gathered by watching and recording behavior without the researcher taking part?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 68,
+        "evidence": "Observational data, often used in qualitative research, is collected by systematically observing and recording behavior"
+      }
+    ],
+    "expected_answer": "Observational data (often used in qualitative research).",
+    "filter": null,
+    "type": "paraphrase",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any",
+    "label_fix": "xem FIXES: rút gọn/tách phần (ranh giới chunk) hoặc thêm evidence thay thế"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Why should a survey questionnaire be pilot tested before it is given to the full population?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 71,
+        "evidence": "the survey questionnaire should undergo a pilot test with a small group of individuals from the target population. This allows the researcher to identify any potential issues or confusion with the questions and make necessary adjustments before administering the survey to the larger population."
+      }
+    ],
+    "expected_answer": "A pilot test with a small group from the target population lets the researcher find issues or confusion in the questions and adjust them before the full survey.",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What was wrong with the way the 1936 Literary Digest poll selected the people it surveyed?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 72,
+        "evidence": "utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters."
+      }
+    ],
+    "expected_answer": "It used a mailing list of telephone and automobile owners, which was biased toward affluent individuals and therefore favored Republican voters.",
+    "filter": null,
+    "type": "paraphrase",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Lấy mẫu phân tầng (stratified sampling) là gì?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 73,
+        "evidence": "Stratified sampling involves splitting the population into subgroups based on specified factors, such as age, area, income, or education level, and taking a random sample from each stratum in proportion to its size in the population."
+      }
+    ],
+    "expected_answer": "Chia tổng thể thành các nhóm con (tầng) theo các yếu tố như tuổi, khu vực, thu nhập, học vấn, rồi lấy mẫu ngẫu nhiên từ mỗi tầng theo tỷ lệ kích thước của tầng đó.",
+    "filter": null,
+    "type": "cross_lingual",
+    "language": "vi",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Under what condition can systematic sampling produce a biased sample?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 73,
+        "evidence": "However, if there is a pattern in the sampling frame (the organizing structure that represents the population from which a sample is drawn), it may lead to a biased sample."
+      }
+    ],
+    "expected_answer": "When there is a pattern in the sampling frame.",
+    "filter": null,
+    "type": "conditional",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Which web scraping technique is best for pulling out text in a fixed format such as dates, phone numbers, or email addresses?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 77,
+        "evidence": "Regular Expressions • Search for and extract specific patterns of text from a web page • Useful for scraping data that follows a particular format, such as dates, phone numbers, or email addresses"
+      }
+    ],
+    "expected_answer": "Regular expressions.",
+    "filter": null,
+    "type": "paraphrase",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "In a survey about driving habits, some respondents accidentally skip the income question. What type of missing data is this?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 87,
+        "evidence": "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence."
+      }
+    ],
+    "expected_answer": "MCAR (missing completely at random).",
+    "filter": null,
+    "type": "conditional",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What are the options for handling outliers, and what is the drawback of simply deleting them?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 87,
+        "evidence": "One approach is to delete the outliers from the dataset, but this can also lead to a loss of valuable information"
+      },
+      {
+        "source_id": "pods-ch02",
+        "page": 87,
+        "evidence": "Another option is to deal with the outliers as an individual group and analyze them separately from the rest of the data."
+      }
+    ],
+    "expected_answer": "Delete them (but this can lose valuable information) or treat the outliers as a separate group and analyze them separately.",
+    "filter": {
+      "chapter": 2
+    },
+    "type": "filter",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "all",
+    "label_fix": "xem FIXES: rút gọn/tách phần (ranh giới chunk) hoặc thêm evidence thay thế"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which type of compression is used for text and numerical data, and what are some examples?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 98,
+        "evidence": "Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG."
+      }
+    ],
+    "expected_answer": "Lossless compression; examples are ZIP, RAR, and PNG.",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Why is information like the chunk number and total number of chunks attached to each chunk?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 100,
+        "evidence": "This metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately."
+      }
+    ],
+    "expected_answer": "This metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately.",
+    "filter": null,
+    "type": "paraphrase",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Which US law regulates how federal agencies collect, use, maintain, and disseminate personal information?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 388,
+        "evidence": "In the United States, the US Privacy Act of 1974 regulates how federal agencies may collect, use, maintain, and disseminate personal information."
+      }
+    ],
+    "expected_answer": "The US Privacy Act of 1974.",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What technique swaps sensitive values for artificial codes while keeping the data useful for analysis?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 390,
+        "evidence": "Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis."
+      },
+      {
+        "source_id": "pods-ch08",
+        "page": 401,
+        "evidence": "Pseudonymization of data involves masking, encoding, or encrypting the values of specific features of the data."
+      }
+    ],
+    "expected_answer": "Pseudonymization.",
+    "filter": null,
+    "type": "paraphrase",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any",
+    "label_fix": "xem FIXES: rút gọn/tách phần (ranh giới chunk) hoặc thêm evidence thay thế"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "How many Americans had their personal information exposed in the 2017 Equifax data breach?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 393,
+        "evidence": "This breach exposed the personal information of over 145 million Americans (near half the total U.S. population)"
+      }
+    ],
+    "expected_answer": "Over 145 million Americans (near half the U.S. population).",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What are the three key areas that the process of data validation can be divided into?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 403,
+        "evidence": "The process of data validation can be divided into three key areas: outlier detection, cross-validation, and ethical guidelines."
+      }
+    ],
+    "expected_answer": "Outlier detection, cross-validation, and ethical guidelines.",
+    "filter": {
+      "chapter": 8
+    },
+    "type": "filter",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "What did the 2016 investigation find about the COMPAS algorithm?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 399,
+        "evidence": "an investigation in 2016 found that the algorithm was biased against Black defendants."
+      },
+      {
+        "source_id": "pods-ch08",
+        "page": 399,
+        "evidence": "the algorithm incorrectly flagged Black defendants as high risk at nearly twice the rate as White defendants"
+      }
+    ],
+    "expected_answer": "It was biased against Black defendants: it incorrectly flagged them as high risk at nearly twice the rate of White defendants.",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "all",
+    "label_fix": "xem FIXES: rút gọn/tách phần (ranh giới chunk) hoặc thêm evidence thay thế"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What are the main causes of noisy data?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 93,
+        "evidence": "Most noisy data is caused by human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself."
+      }
+    ],
+    "expected_answer": "Human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself.",
+    "filter": null,
+    "type": "direct",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Before collecting data, what criteria should be decided for the data to be considered valid?",
+    "gold": [
+      {
+        "source_id": "pods-ch02",
+        "page": 94,
+        "evidence": "Before collecting data, it is important to determine the conditions or criteria that the data needs to meet to be considered valid. This can include factors such as precision, completeness, consistency, and timeliness."
+      }
+    ],
+    "expected_answer": "The conditions the data must meet, such as precision, completeness, consistency, and timeliness.",
+    "filter": {
+      "chapter": 2
+    },
+    "type": "filter",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "How can an unrepresentative training sample make an algorithm unfair?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 400,
+        "evidence": "Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group."
+      }
+    ],
+    "expected_answer": "If the training data lacks significant representation of a group, the algorithm will not be qualified to properly serve that group.",
+    "filter": {
+      "chapter": 8
+    },
+    "type": "filter",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Khi phát hiện rò rỉ dữ liệu, bước đầu tiên nhóm cần làm là gì?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 396,
+        "evidence": "Identify and contain the breach: The first step is to identify the type and scope of the breach. This may involve investigating any unauthorized access, stolen or lost devices, or other security incidents. Once identified, the breach must be contained to prevent further exposure of sensitive data."
+      }
+    ],
+    "expected_answer": "Xác định và khoanh vùng sự cố: xác định loại và phạm vi vụ rò rỉ, sau đó ngăn chặn để dữ liệu nhạy cảm không bị lộ thêm.",
+    "filter": null,
+    "type": "cross_lingual",
+    "language": "vi",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question": "For ethical reporting, how should the axis scales in a chart be set?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 405,
+        "evidence": "Ensure that the scales on all axes in a chart are consistent and proportionate."
+      }
+    ],
+    "expected_answer": "The scales on all axes should be consistent and proportionate.",
+    "filter": null,
+    "type": "paraphrase",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any"
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question": "In what situation must permission be obtained before using data in graphs or reports?",
+    "gold": [
+      {
+        "source_id": "pods-ch08",
+        "page": 411,
+        "evidence": "if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source"
+      }
+    ],
+    "expected_answer": "When the data is not publicly available: permission must be obtained from the source.",
+    "filter": null,
+    "type": "conditional",
+    "language": "en",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "evidence_mode": "any",
+    "label_fix": "xem FIXES: rút gọn/tách phần (ranh giới chunk) hoặc thêm evidence thay thế"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "unanswerable",
+    "language": "en",
+    "question": "How much money did Equifax agree to pay in its settlement over the 2017 data breach?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "near_topic_page": {
+      "source_id": "pods-ch08",
+      "page": 393
+    },
+    "absence_reason": "Page 393 describes the 2017 Equifax breach (145 million Americans exposed) but never mentions a settlement, fine or payment amount.",
+    "absence_check": "Whitespace-normalized, case-insensitive search over all 64 corpus pages (Day 6 pages.jsonl) and 455 index-A chunks: 'settlement', 'agreed to pay', 'compensat', 'billion', '575', '700' -> 0 hits; 'Equifax' -> page 393 only. '$' appears only on chapter 2 pages (83, 91, 92), unrelated."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "unanswerable",
+    "language": "en",
+    "question": "Which news organization carried out the 2016 investigation of the COMPAS algorithm, and which company developed COMPAS?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "near_topic_page": {
+      "source_id": "pods-ch08",
+      "page": 399
+    },
+    "absence_reason": "Page 399 says 'an investigation in 2016' found COMPAS biased, but names neither the investigating organization nor the developer of the algorithm (only cites Berk et al., 2021).",
+    "absence_check": "Search over all corpus pages and chunks: 'ProPublica', 'Northpointe', 'journalis' -> 0 hits; 'developed by' -> 1 hit on page 388 about IADSS standards, unrelated."
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "unanswerable",
+    "language": "en",
+    "question": "What is the maximum fine a company can receive for violating the GDPR?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "near_topic_page": {
+      "source_id": "pods-ch08",
+      "page": 388
+    },
+    "absence_reason": "Pages 388-389 name the GDPR and say non-compliance 'can result in penalties and legal consequences', but give no fine amount or percentage.",
+    "absence_check": "Search over all corpus pages and chunks: '€', 'turnover', 'fine of', 'billion' -> 0 hits; '4%' -> pages 404 (greenhouse emissions) and 408 (soft-drink market share), unrelated; 'penalt' -> page 388 only, generic sentence."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "unanswerable",
+    "language": "vi",
+    "question": "Facebook đã bị phạt bao nhiêu tiền sau vụ lộ dữ liệu người dùng năm 2019?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "near_topic_page": {
+      "source_id": "pods-ch08",
+      "page": 394
+    },
+    "absence_reason": "Page 394 says two Facebook app datasets were exposed in 2019 (over 500 million users) but mentions no fine, penalty or regulator action against Facebook.",
+    "absence_check": "Search over all corpus pages and chunks: 'Facebook' -> page 394 only (2 hits, both about the exposure itself); 'billion', 'fine of', 'penalt' (outside page 388) -> 0 hits; 'FTC' -> page 394 only, as a link to a breach-response guide for businesses, not a fine."
+  }
+]

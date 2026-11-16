@@ -1,0 +1,31 @@
+{
+ "selected": {
+  "tag": "hinter-k5-v4",
+  "method": "hybrid_inter",
+  "top_k": 5,
+  "max_searches": 2,
+  "model": "gpt-5.4-mini",
+  "image_detail": "high",
+  "page_image_dpi": 110,
+  "page_text_chars": 1500,
+  "agent": "advanced/agent_adv.py as of the v4 dev run (prompt rules 1-9, required `reading` per citation, one citation-repair turn, bracket-aware citation check)"
+ },
+ "criterion": "Pass rate on dev (graded by hand against the PDF), then retrieval coverage of the whole book, then cost.",
+ "dev_results": {
+  "dev-hinter-k5": "15/18 (fail AD07, AD12, AD16)",
+  "dev-inter-k5": "15/18 (fail AD07, AD16, AD17)",
+  "dev-hinter-k5-v2": "16/18 (fail AD07, AD16)",
+  "dev-hinter-k5-v3": "17/18 (fail AD12)",
+  "dev-hinter-k5-v4": "17/18 (fail AD07)"
+ },
+ "why": [
+  "Retrieval on dev: hybrid_inter and interleaved both put the evidence pages in the top 5 for 15/15 answerable questions; hybrid_inter also searches the text of all 560 pages, while interleaved only covers the 249 pages with figures or tables.",
+  "v1 agents tied at 15/18; hybrid_inter was cheaper.",
+  "v2 prompt rules alone were partly ignored; v3 made the model write what it read on the page image (`reading`), which fixed the substituted-row error on unanswerable questions.",
+  "v4 is v3 plus a fix to the citation checker (it rejected valid combined brackets such as [p204 text, p208 Table 4.16]); it was run end to end on dev before freezing."
+ ],
+ "known_risk": "AD07 (name the tallest histogram bar by its axis label) passed in v3 and failed in v4 with the same prompt: when the page text describes a chart in words ('the tallest bar is in the center'), the model sometimes repeats the text instead of reading the label in the image. Chart questions on test may be affected.",
+ "dev_iterations": "Dev was used for 5 runs (2 retrieval methods, 3 agent versions). Test was not run or inspected during tuning.",
+ "frozen_at": "2026-11-16",
+ "ledger_usd_at_freeze": 1.6189
+}

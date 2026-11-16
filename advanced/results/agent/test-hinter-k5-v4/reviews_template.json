@@ -1,0 +1,212 @@
+[
+ {
+  "query_id": "AT01",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT02",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT03",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT04",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT05",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT06",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT07",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT08",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT09",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT10",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT11",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT12",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT13",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT14",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT15",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT16",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT17",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT18",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT19",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT20",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT21",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT22",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT23",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT24",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT25",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT26",
+  "group": "unanswerable",
+  "status": "abstain",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT27",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT28",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT29",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AT30",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ }
+]

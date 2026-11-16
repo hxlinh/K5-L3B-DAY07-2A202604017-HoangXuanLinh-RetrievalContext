@@ -1,0 +1,34 @@
+{
+  "config": {
+    "run_at": "2026-11-16T05:53:22+00:00",
+    "split": "test",
+    "tag": "baseline",
+    "top_k": 3,
+    "budget_chars": 2000,
+    "filter": true,
+    "neighbors": 0,
+    "index": "A (Day 6, fixed 500/50)",
+    "embedding": "google/embeddinggemma-2, 768d",
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "rrf": {
+      "k": 60,
+      "candidates": 20
+    },
+    "hit_definition": "whitespace-normalized substring, đúng source_id + page; evidence_mode any/all"
+  },
+  "results": {
+    "dense": {
+      "N": 6,
+      "hit1": 4,
+      "hit3": 6,
+      "context_hit": 6,
+      "avg_context_chars": 1707,
+      "median_ms": 157.3,
+      "cost_usd": 0,
+      "miss_hit3": []
+    }
+  }
+}

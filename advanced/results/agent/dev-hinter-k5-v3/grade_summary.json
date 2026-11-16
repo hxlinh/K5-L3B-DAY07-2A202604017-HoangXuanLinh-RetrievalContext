@@ -1,0 +1,19 @@
+{
+ "tag": "dev-hinter-k5-v3",
+ "passed": 17,
+ "total": 18,
+ "rate": 0.944,
+ "meets_90": true,
+ "cost_usd": 0.3022,
+ "by_group": {
+  "table": "3/3",
+  "image": "3/3",
+  "chart": "3/3",
+  "multihop": "2/3",
+  "text": "3/3",
+  "unanswerable": "3/3"
+ },
+ "failed": [
+  "AD12"
+ ]
+}

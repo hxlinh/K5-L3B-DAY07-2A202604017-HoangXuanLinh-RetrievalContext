@@ -1,0 +1,2245 @@
+[
+ {
+  "query_id": "AD01",
+  "group": "table",
+  "question": "In the course evaluation records, what was the class size, instructor and rating in Fall 2021?",
+  "evidence_pages": [
+   27
+  ],
+  "rankings": {
+   "text_dense": [
+    27,
+    28,
+    34,
+    521,
+    109,
+    567,
+    29,
+    12,
+    566,
+    9
+   ],
+   "bm25": [
+    27,
+    28,
+    34,
+    29,
+    235,
+    250,
+    273,
+    108,
+    24,
+    461
+   ],
+   "image": [
+    27,
+    34,
+    33,
+    32,
+    109,
+    280,
+    528,
+    6,
+    507,
+    529
+   ],
+   "interleaved": [
+    27,
+    33,
+    34,
+    109,
+    280,
+    110,
+    420,
+    15,
+    272,
+    273
+   ],
+   "hybrid_text": [
+    27,
+    28,
+    34,
+    29,
+    109,
+    272,
+    527,
+    521,
+    235,
+    250
+   ],
+   "hybrid_image": [
+    27,
+    34,
+    29,
+    109,
+    28,
+    280,
+    273,
+    32,
+    33,
+    250
+   ],
+   "hybrid_inter": [
+    27,
+    34,
+    29,
+    109,
+    272,
+    28,
+    280,
+    273,
+    110,
+    33
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD02",
+  "group": "table",
+  "question": "In the filtered movie DataFrame output shown for the comedy movies, how many votes did 'Ted' receive and what was its worldwide gross?",
+  "evidence_pages": [
+   55
+  ],
+  "rankings": {
+   "text_dense": [
+    120,
+    54,
+    49,
+    51,
+    52,
+    129,
+    50,
+    568,
+    435,
+    483
+   ],
+   "bm25": [
+    120,
+    58,
+    54,
+    55,
+    59,
+    129,
+    406,
+    119,
+    278,
+    342
+   ],
+   "image": [
+    55,
+    120,
+    125,
+    47,
+    49,
+    50,
+    57,
+    385,
+    129,
+    433
+   ],
+   "interleaved": [
+    120,
+    125,
+    50,
+    55,
+    47,
+    468,
+    129,
+    49,
+    57,
+    385
+   ],
+   "hybrid_text": [
+    120,
+    54,
+    129,
+    52,
+    58,
+    55,
+    47,
+    545,
+    49,
+    51
+   ],
+   "hybrid_image": [
+    120,
+    129,
+    55,
+    47,
+    58,
+    54,
+    49,
+    50,
+    125,
+    52
+   ],
+   "hybrid_inter": [
+    120,
+    129,
+    55,
+    47,
+    58,
+    54,
+    50,
+    49,
+    125,
+    52
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "bm25": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD03",
+  "group": "table",
+  "question": "In the retail sales data on the normalization scale, which product has a normalized value of 0.63?",
+  "evidence_pages": [
+   92
+  ],
+  "rankings": {
+   "text_dense": [
+    92,
+    91,
+    90,
+    128,
+    65,
+    88,
+    559,
+    118,
+    560,
+    351
+   ],
+   "bm25": [
+    92,
+    91,
+    69,
+    90,
+    398,
+    105,
+    23,
+    271,
+    480,
+    21
+   ],
+   "image": [
+    92,
+    91,
+    90,
+    407,
+    409,
+    468,
+    460,
+    89,
+    288,
+    143
+   ],
+   "interleaved": [
+    92,
+    91,
+    89,
+    409,
+    90,
+    407,
+    144,
+    113,
+    468,
+    433
+   ],
+   "hybrid_text": [
+    92,
+    91,
+    90,
+    559,
+    105,
+    128,
+    118,
+    338,
+    407,
+    69
+   ],
+   "hybrid_image": [
+    92,
+    91,
+    90,
+    407,
+    559,
+    409,
+    105,
+    406,
+    89,
+    128
+   ],
+   "hybrid_inter": [
+    92,
+    91,
+    90,
+    407,
+    559,
+    409,
+    89,
+    105,
+    128,
+    69
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD04",
+  "group": "image",
+  "question": "How many principles are shown in the GDPR principles diagram, and which one is listed last?",
+  "evidence_pages": [
+   389
+  ],
+  "rankings": {
+   "text_dense": [
+    389,
+    561,
+    388,
+    397,
+    392,
+    316,
+    414,
+    387,
+    393,
+    411
+   ],
+   "bm25": [
+    389,
+    11,
+    387,
+    405,
+    415,
+    40,
+    37,
+    412,
+    343,
+    29
+   ],
+   "image": [
+    389,
+    411,
+    404,
+    387,
+    420,
+    316,
+    298,
+    275,
+    409,
+    466
+   ],
+   "interleaved": [
+    389,
+    387,
+    420,
+    316,
+    411,
+    406,
+    466,
+    275,
+    433,
+    326
+   ],
+   "hybrid_text": [
+    389,
+    387,
+    405,
+    388,
+    392,
+    415,
+    419,
+    403,
+    11,
+    561
+   ],
+   "hybrid_image": [
+    389,
+    387,
+    411,
+    316,
+    405,
+    388,
+    343,
+    392,
+    415,
+    419
+   ],
+   "hybrid_inter": [
+    389,
+    387,
+    316,
+    411,
+    405,
+    388,
+    392,
+    415,
+    410,
+    419
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD05",
+  "group": "image",
+  "question": "According to the CCPA/CPRA principles diagram, which two rights are listed under CPRA?",
+  "evidence_pages": [
+   389
+  ],
+  "rankings": {
+   "text_dense": [
+    389,
+    388,
+    390,
+    397,
+    377,
+    414,
+    415,
+    417,
+    4,
+    376
+   ],
+   "bm25": [
+    389,
+    388,
+    387,
+    343,
+    402,
+    11,
+    34,
+    379,
+    146,
+    198
+   ],
+   "image": [
+    389,
+    420,
+    411,
+    404,
+    387,
+    16,
+    6,
+    406,
+    67,
+    410
+   ],
+   "interleaved": [
+    389,
+    420,
+    406,
+    404,
+    411,
+    407,
+    387,
+    410,
+    408,
+    179
+   ],
+   "hybrid_text": [
+    389,
+    388,
+    11,
+    387,
+    390,
+    418,
+    394,
+    143,
+    376,
+    343
+   ],
+   "hybrid_image": [
+    389,
+    387,
+    388,
+    16,
+    11,
+    411,
+    420,
+    390,
+    418,
+    434
+   ],
+   "hybrid_inter": [
+    389,
+    387,
+    388,
+    11,
+    420,
+    390,
+    411,
+    343,
+    418,
+    434
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD06",
+  "group": "image",
+  "question": "In the B-tree indexing diagram, what value is at the root, what are its children, and what values are in the leaves?",
+  "evidence_pages": [
+   100
+  ],
+  "rankings": {
+   "text_dense": [
+    99,
+    319,
+    323,
+    324,
+    100,
+    321,
+    322,
+    485,
+    34,
+    325
+   ],
+   "bm25": [
+    99,
+    269,
+    44,
+    503,
+    70,
+    502,
+    504,
+    20,
+    274,
+    440
+   ],
+   "image": [
+    321,
+    324,
+    320,
+    99,
+    316,
+    317,
+    326,
+    34,
+    300,
+    323
+   ],
+   "interleaved": [
+    321,
+    100,
+    34,
+    320,
+    316,
+    324,
+    99,
+    317,
+    225,
+    319
+   ],
+   "hybrid_text": [
+    99,
+    44,
+    269,
+    319,
+    323,
+    324,
+    503,
+    70,
+    100,
+    321
+   ],
+   "hybrid_image": [
+    99,
+    324,
+    321,
+    323,
+    320,
+    316,
+    34,
+    100,
+    319,
+    317
+   ],
+   "hybrid_inter": [
+    99,
+    321,
+    100,
+    324,
+    319,
+    34,
+    323,
+    320,
+    316,
+    317
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "image": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD07",
+  "group": "chart",
+  "question": "In the bell-shaped histogram example, which bar is the tallest?",
+  "evidence_pages": [
+   431
+  ],
+  "rankings": {
+   "text_dense": [
+    430,
+    433,
+    429,
+    431,
+    512,
+    432,
+    150,
+    446,
+    511,
+    145
+   ],
+   "bm25": [
+    433,
+    430,
+    431,
+    429,
+    137,
+    144,
+    150,
+    159,
+    447,
+    556
+   ],
+   "image": [
+    433,
+    431,
+    430,
+    429,
+    144,
+    447,
+    512,
+    511,
+    346,
+    514
+   ],
+   "interleaved": [
+    431,
+    433,
+    430,
+    429,
+    144,
+    511,
+    444,
+    447,
+    512,
+    145
+   ],
+   "hybrid_text": [
+    430,
+    433,
+    429,
+    431,
+    150,
+    432,
+    145,
+    447,
+    511,
+    467
+   ],
+   "hybrid_image": [
+    433,
+    430,
+    431,
+    429,
+    447,
+    511,
+    145,
+    445,
+    528,
+    144
+   ],
+   "hybrid_inter": [
+    433,
+    430,
+    431,
+    429,
+    511,
+    145,
+    447,
+    445,
+    528,
+    144
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD08",
+  "group": "chart",
+  "question": "In the January 2024 heatmap of differences from average temperature, was the northeastern United States warmer or colder than the 1991–2020 average, and what range does the color scale cover?",
+  "evidence_pages": [
+   450
+  ],
+  "rankings": {
+   "text_dense": [
+    450,
+    451,
+    453,
+    270,
+    29,
+    452,
+    235,
+    449,
+    462,
+    467
+   ],
+   "bm25": [
+    450,
+    65,
+    235,
+    452,
+    415,
+    268,
+    24,
+    389,
+    388,
+    195
+   ],
+   "image": [
+    450,
+    453,
+    267,
+    451,
+    270,
+    460,
+    421,
+    252,
+    245,
+    246
+   ],
+   "interleaved": [
+    450,
+    453,
+    267,
+    461,
+    451,
+    245,
+    460,
+    235,
+    246,
+    463
+   ],
+   "hybrid_text": [
+    450,
+    235,
+    452,
+    415,
+    270,
+    262,
+    65,
+    451,
+    453,
+    29
+   ],
+   "hybrid_image": [
+    450,
+    270,
+    235,
+    453,
+    451,
+    452,
+    29,
+    415,
+    245,
+    461
+   ],
+   "hybrid_inter": [
+    450,
+    235,
+    270,
+    453,
+    451,
+    452,
+    29,
+    415,
+    461,
+    245
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD09",
+  "group": "chart",
+  "question": "In the bar chart of clinical-trial participants by age group, which age group has the shortest bar?",
+  "evidence_pages": [
+   410
+  ],
+  "rankings": {
+   "text_dense": [
+    410,
+    194,
+    512,
+    499,
+    411,
+    513,
+    171,
+    409,
+    435,
+    429
+   ],
+   "bm25": [
+    410,
+    416,
+    134,
+    511,
+    512,
+    133,
+    433,
+    219,
+    468,
+    430
+   ],
+   "image": [
+    410,
+    411,
+    512,
+    513,
+    433,
+    409,
+    511,
+    519,
+    427,
+    528
+   ],
+   "interleaved": [
+    410,
+    512,
+    411,
+    513,
+    511,
+    409,
+    444,
+    433,
+    528,
+    427
+   ],
+   "hybrid_text": [
+    410,
+    512,
+    194,
+    134,
+    513,
+    416,
+    435,
+    190,
+    75,
+    510
+   ],
+   "hybrid_image": [
+    410,
+    512,
+    194,
+    513,
+    134,
+    411,
+    511,
+    433,
+    409,
+    430
+   ],
+   "hybrid_inter": [
+    410,
+    512,
+    513,
+    134,
+    194,
+    411,
+    511,
+    409,
+    433,
+    430
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD10",
+  "group": "multihop",
+  "question": "Which product has a normalized sales value of 0.50, and which branch sold it and for how much according to the original sales table?",
+  "evidence_pages": [
+   91,
+   92
+  ],
+  "rankings": {
+   "text_dense": [
+    92,
+    91,
+    559,
+    408,
+    128,
+    249,
+    271,
+    90,
+    124,
+    146
+   ],
+   "bm25": [
+    91,
+    92,
+    271,
+    23,
+    21,
+    324,
+    407,
+    322,
+    481,
+    242
+   ],
+   "image": [
+    92,
+    91,
+    409,
+    468,
+    220,
+    353,
+    408,
+    271,
+    529,
+    241
+   ],
+   "interleaved": [
+    92,
+    91,
+    409,
+    271,
+    468,
+    408,
+    89,
+    522,
+    144,
+    385
+   ],
+   "hybrid_text": [
+    91,
+    92,
+    271,
+    242,
+    128,
+    90,
+    406,
+    559,
+    23,
+    408
+   ],
+   "hybrid_image": [
+    92,
+    91,
+    271,
+    90,
+    408,
+    407,
+    324,
+    242,
+    128,
+    50
+   ],
+   "hybrid_inter": [
+    92,
+    91,
+    271,
+    90,
+    408,
+    407,
+    242,
+    128,
+    129,
+    221
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD11",
+  "group": "multihop",
+  "question": "Which age group has the shortest bar in the 'insufficient information' clinical trials chart, and what percentage label does the improved participants chart show for that group?",
+  "evidence_pages": [
+   410,
+   411
+  ],
+  "rankings": {
+   "text_dense": [
+    410,
+    411,
+    93,
+    409,
+    90,
+    499,
+    565,
+    498,
+    433,
+    513
+   ],
+   "bm25": [
+    410,
+    433,
+    434,
+    435,
+    513,
+    511,
+    512,
+    416,
+    134,
+    234
+   ],
+   "image": [
+    410,
+    411,
+    512,
+    433,
+    513,
+    511,
+    498,
+    409,
+    471,
+    110
+   ],
+   "interleaved": [
+    410,
+    411,
+    512,
+    498,
+    513,
+    409,
+    433,
+    511,
+    436,
+    110
+   ],
+   "hybrid_text": [
+    410,
+    433,
+    513,
+    512,
+    411,
+    392,
+    435,
+    75,
+    436,
+    93
+   ],
+   "hybrid_image": [
+    410,
+    433,
+    513,
+    512,
+    411,
+    436,
+    409,
+    511,
+    498,
+    194
+   ],
+   "hybrid_inter": [
+    410,
+    433,
+    513,
+    512,
+    411,
+    436,
+    409,
+    498,
+    511,
+    434
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD12",
+  "group": "multihop",
+  "question": "For the Fortune 500 company in the revenue-versus-advertising scatterplot, what revenue does the regression equation predict for $150,000 of advertising, and what is the residual if the observed revenue was $19,200,000?",
+  "evidence_pages": [
+   204
+  ],
+  "rankings": {
+   "text_dense": [
+    204,
+    211,
+    522,
+    521,
+    212,
+    456,
+    208,
+    207,
+    210,
+    220
+   ],
+   "bm25": [
+    204,
+    211,
+    521,
+    522,
+    208,
+    456,
+    212,
+    207,
+    220,
+    458
+   ],
+   "image": [
+    204,
+    211,
+    208,
+    522,
+    209,
+    207,
+    457,
+    198,
+    459,
+    305
+   ],
+   "interleaved": [
+    204,
+    211,
+    522,
+    208,
+    207,
+    209,
+    198,
+    457,
+    203,
+    305
+   ],
+   "hybrid_text": [
+    204,
+    211,
+    521,
+    522,
+    208,
+    212,
+    456,
+    207,
+    220,
+    210
+   ],
+   "hybrid_image": [
+    204,
+    211,
+    522,
+    208,
+    207,
+    220,
+    457,
+    203,
+    209,
+    521
+   ],
+   "hybrid_inter": [
+    204,
+    211,
+    522,
+    208,
+    207,
+    220,
+    457,
+    203,
+    209,
+    521
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD13",
+  "group": "text",
+  "question": "What rule of thumb does the book give for choosing the number of histogram bins, and how many bins would that suggest for 500 data values?",
+  "evidence_pages": [
+   430
+  ],
+  "rankings": {
+   "text_dense": [
+    430,
+    432,
+    429,
+    433,
+    440,
+    128,
+    467,
+    431,
+    513,
+    142
+   ],
+   "bm25": [
+    430,
+    433,
+    432,
+    255,
+    440,
+    226,
+    24,
+    150,
+    125,
+    108
+   ],
+   "image": [
+    430,
+    433,
+    431,
+    143,
+    468,
+    444,
+    441,
+    445,
+    340,
+    60
+   ],
+   "interleaved": [
+    430,
+    433,
+    444,
+    431,
+    441,
+    429,
+    273,
+    340,
+    447,
+    512
+   ],
+   "hybrid_text": [
+    430,
+    432,
+    433,
+    440,
+    510,
+    429,
+    255,
+    128,
+    226,
+    24
+   ],
+   "hybrid_image": [
+    430,
+    433,
+    432,
+    440,
+    431,
+    429,
+    441,
+    468,
+    447,
+    510
+   ],
+   "hybrid_inter": [
+    430,
+    433,
+    432,
+    429,
+    440,
+    431,
+    441,
+    447,
+    510,
+    410
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD14",
+  "group": "text",
+  "question": "Why does data chunking increase fault tolerance?",
+  "evidence_pages": [
+   100
+  ],
+  "rankings": {
+   "text_dense": [
+    100,
+    104,
+    414,
+    90,
+    105,
+    98,
+    493,
+    93,
+    99,
+    564
+   ],
+   "bm25": [
+    100,
+    175,
+    502,
+    482,
+    108,
+    169,
+    290,
+    271,
+    98,
+    564
+   ],
+   "image": [
+    100,
+    6,
+    101,
+    404,
+    487,
+    436,
+    434,
+    223,
+    99,
+    111
+   ],
+   "interleaved": [
+    100,
+    99,
+    487,
+    436,
+    404,
+    323,
+    471,
+    476,
+    111,
+    410
+   ],
+   "hybrid_text": [
+    100,
+    98,
+    104,
+    482,
+    564,
+    175,
+    414,
+    502,
+    90,
+    105
+   ],
+   "hybrid_image": [
+    100,
+    101,
+    98,
+    104,
+    90,
+    99,
+    482,
+    564,
+    93,
+    111
+   ],
+   "hybrid_inter": [
+    100,
+    99,
+    98,
+    104,
+    482,
+    564,
+    101,
+    93,
+    111,
+    320
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD15",
+  "group": "text",
+  "question": "Which two kinds of layers does every neural network always have, and what lies between them?",
+  "evidence_pages": [
+   343
+  ],
+  "rankings": {
+   "text_dense": [
+    343,
+    351,
+    341,
+    344,
+    364,
+    342,
+    347,
+    348,
+    352,
+    345
+   ],
+   "bm25": [
+    343,
+    380,
+    364,
+    367,
+    381,
+    363,
+    555,
+    382,
+    383,
+    342
+   ],
+   "image": [
+    344,
+    364,
+    354,
+    343,
+    363,
+    341,
+    358,
+    368,
+    355,
+    359
+   ],
+   "interleaved": [
+    343,
+    341,
+    363,
+    364,
+    344,
+    354,
+    385,
+    368,
+    355,
+    346
+   ],
+   "hybrid_text": [
+    343,
+    364,
+    380,
+    344,
+    381,
+    342,
+    363,
+    367,
+    383,
+    382
+   ],
+   "hybrid_image": [
+    343,
+    364,
+    344,
+    363,
+    354,
+    353,
+    341,
+    380,
+    381,
+    342
+   ],
+   "hybrid_inter": [
+    343,
+    364,
+    344,
+    363,
+    354,
+    353,
+    341,
+    380,
+    381,
+    342
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AD16",
+  "group": "unanswerable",
+  "question": "In the course evaluation records, what rating did the course receive in Spring 2020?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    27,
+    28,
+    517,
+    29,
+    16,
+    4,
+    538,
+    34,
+    520,
+    521
+   ],
+   "bm25": [
+    27,
+    28,
+    120,
+    34,
+    16,
+    267,
+    12,
+    29,
+    528,
+    121
+   ],
+   "image": [
+    27,
+    33,
+    34,
+    6,
+    280,
+    468,
+    32,
+    339,
+    270,
+    528
+   ],
+   "interleaved": [
+    27,
+    33,
+    280,
+    34,
+    420,
+    108,
+    529,
+    263,
+    6,
+    468
+   ],
+   "hybrid_text": [
+    27,
+    28,
+    16,
+    29,
+    34,
+    12,
+    107,
+    120,
+    517,
+    4
+   ],
+   "hybrid_image": [
+    27,
+    34,
+    16,
+    28,
+    29,
+    33,
+    120,
+    528,
+    339,
+    267
+   ],
+   "hybrid_inter": [
+    27,
+    34,
+    16,
+    29,
+    28,
+    33,
+    280,
+    339,
+    12,
+    267
+   ]
+  }
+ },
+ {
+  "query_id": "AD17",
+  "group": "unanswerable",
+  "question": "What rating did Instructor C receive in the course evaluation records?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    27,
+    34,
+    28,
+    318,
+    12,
+    29,
+    539,
+    521,
+    400,
+    366
+   ],
+   "bm25": [
+    27,
+    34,
+    28,
+    25,
+    271,
+    175,
+    29,
+    527,
+    528,
+    153
+   ],
+   "image": [
+    27,
+    33,
+    34,
+    6,
+    507,
+    160,
+    528,
+    522,
+    270,
+    280
+   ],
+   "interleaved": [
+    27,
+    33,
+    34,
+    280,
+    410,
+    244,
+    110,
+    29,
+    160,
+    507
+   ],
+   "hybrid_text": [
+    27,
+    34,
+    28,
+    29,
+    527,
+    11,
+    16,
+    14,
+    25,
+    318
+   ],
+   "hybrid_image": [
+    27,
+    34,
+    29,
+    16,
+    28,
+    33,
+    528,
+    280,
+    32,
+    527
+   ],
+   "hybrid_inter": [
+    27,
+    34,
+    29,
+    16,
+    28,
+    33,
+    280,
+    110,
+    410,
+    527
+   ]
+  }
+ },
+ {
+  "query_id": "AD18",
+  "group": "unanswerable",
+  "question": "According to the January 2024 temperature heatmap, what was the exact average temperature in Chicago?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    450,
+    258,
+    452,
+    568,
+    29,
+    28,
+    451,
+    462,
+    492,
+    330
+   ],
+   "bm25": [
+    450,
+    330,
+    65,
+    415,
+    107,
+    29,
+    71,
+    475,
+    24,
+    28
+   ],
+   "image": [
+    450,
+    270,
+    469,
+    385,
+    244,
+    252,
+    30,
+    460,
+    453,
+    267
+   ],
+   "interleaved": [
+    450,
+    453,
+    469,
+    451,
+    244,
+    265,
+    449,
+    460,
+    267,
+    385
+   ],
+   "hybrid_text": [
+    450,
+    29,
+    330,
+    28,
+    107,
+    415,
+    65,
+    452,
+    491,
+    258
+   ],
+   "hybrid_image": [
+    450,
+    29,
+    330,
+    270,
+    28,
+    30,
+    451,
+    107,
+    415,
+    65
+   ],
+   "hybrid_inter": [
+    450,
+    451,
+    29,
+    330,
+    28,
+    107,
+    415,
+    453,
+    65,
+    270
+   ]
+  }
+ }
+]

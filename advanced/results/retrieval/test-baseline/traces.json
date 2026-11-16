@@ -1,0 +1,3701 @@
+[
+ {
+  "query_id": "AT01",
+  "group": "table",
+  "question": "In the table of nursing and non-nursing degrees by age group, what percentage of the degrees awarded to graduates aged 22 and under were nursing degrees?",
+  "evidence_pages": [
+   134
+  ],
+  "rankings": {
+   "text_dense": [
+    134,
+    133,
+    410,
+    287,
+    286,
+    499,
+    28,
+    170,
+    566,
+    214
+   ],
+   "bm25": [
+    134,
+    133,
+    548,
+    214,
+    163,
+    183,
+    213,
+    195,
+    410,
+    162
+   ],
+   "image": [
+    134,
+    133,
+    411,
+    288,
+    111,
+    163,
+    6,
+    410,
+    171,
+    170
+   ],
+   "interleaved": [
+    134,
+    288,
+    410,
+    170,
+    133,
+    301,
+    411,
+    498,
+    171,
+    90
+   ],
+   "hybrid_text": [
+    134,
+    133,
+    410,
+    214,
+    163,
+    169,
+    170,
+    164,
+    15,
+    548
+   ],
+   "hybrid_image": [
+    134,
+    133,
+    410,
+    163,
+    214,
+    170,
+    169,
+    288,
+    164,
+    471
+   ],
+   "hybrid_inter": [
+    134,
+    133,
+    410,
+    170,
+    163,
+    169,
+    288,
+    214,
+    164,
+    498
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT02",
+  "group": "table",
+  "question": "In the smartphone defect data collected over one month, which failure category had the most defects, and how many?",
+  "evidence_pages": [
+   434
+  ],
+  "rankings": {
+   "text_dense": [
+    434,
+    436,
+    20,
+    435,
+    90,
+    94,
+    182,
+    394,
+    565,
+    70
+   ],
+   "bm25": [
+    434,
+    20,
+    436,
+    435,
+    224,
+    198,
+    184,
+    316,
+    364,
+    38
+   ],
+   "image": [
+    434,
+    436,
+    273,
+    272,
+    20,
+    111,
+    108,
+    244,
+    109,
+    92
+   ],
+   "interleaved": [
+    436,
+    434,
+    108,
+    20,
+    273,
+    110,
+    272,
+    109,
+    111,
+    93
+   ],
+   "hybrid_text": [
+    434,
+    20,
+    436,
+    435,
+    184,
+    239,
+    90,
+    224,
+    94,
+    198
+   ],
+   "hybrid_image": [
+    434,
+    436,
+    20,
+    435,
+    272,
+    198,
+    273,
+    110,
+    184,
+    109
+   ],
+   "hybrid_inter": [
+    434,
+    436,
+    20,
+    435,
+    272,
+    93,
+    110,
+    38,
+    184,
+    273
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT03",
+  "group": "table",
+  "question": "In the DataFrame.describe() output for the Movie Profit dataset, what are the maximum and the 75th percentile of Worldwide_Gross_Million?",
+  "evidence_pages": [
+   120
+  ],
+  "rankings": {
+   "text_dense": [
+    120,
+    129,
+    49,
+    125,
+    52,
+    47,
+    545,
+    119,
+    46,
+    124
+   ],
+   "bm25": [
+    120,
+    129,
+    125,
+    57,
+    545,
+    119,
+    49,
+    126,
+    65,
+    58
+   ],
+   "image": [
+    125,
+    120,
+    50,
+    49,
+    57,
+    129,
+    47,
+    468,
+    425,
+    55
+   ],
+   "interleaved": [
+    125,
+    120,
+    49,
+    129,
+    50,
+    46,
+    47,
+    145,
+    426,
+    433
+   ],
+   "hybrid_text": [
+    120,
+    129,
+    125,
+    49,
+    545,
+    119,
+    126,
+    57,
+    52,
+    124
+   ],
+   "hybrid_image": [
+    120,
+    125,
+    129,
+    49,
+    57,
+    50,
+    47,
+    171,
+    545,
+    119
+   ],
+   "hybrid_inter": [
+    120,
+    125,
+    129,
+    49,
+    50,
+    57,
+    47,
+    171,
+    545,
+    119
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT04",
+  "group": "table",
+  "question": "For the data point with x = 12 in the comparison of the cubic and linear models, what did each model predict and what was the actual value?",
+  "evidence_pages": [
+   282
+  ],
+  "rankings": {
+   "text_dense": [
+    281,
+    282,
+    280,
+    201,
+    206,
+    274,
+    212,
+    308,
+    200,
+    361
+   ],
+   "bm25": [
+    281,
+    282,
+    204,
+    36,
+    553,
+    305,
+    418,
+    153,
+    491,
+    504
+   ],
+   "image": [
+    281,
+    282,
+    312,
+    207,
+    283,
+    280,
+    206,
+    313,
+    288,
+    522
+   ],
+   "interleaved": [
+    282,
+    281,
+    283,
+    339,
+    280,
+    385,
+    312,
+    274,
+    340,
+    271
+   ],
+   "hybrid_text": [
+    281,
+    282,
+    280,
+    212,
+    153,
+    206,
+    361,
+    305,
+    227,
+    493
+   ],
+   "hybrid_image": [
+    281,
+    282,
+    280,
+    206,
+    283,
+    305,
+    227,
+    212,
+    274,
+    153
+   ],
+   "hybrid_inter": [
+    281,
+    282,
+    280,
+    283,
+    305,
+    206,
+    227,
+    274,
+    212,
+    153
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT05",
+  "group": "table",
+  "question": "In the jacket dataset, on which dates was a jacket needed, and what were the temperatures on those dates?",
+  "evidence_pages": [
+   30
+  ],
+  "rankings": {
+   "text_dense": [
+    28,
+    30,
+    29,
+    81,
+    107,
+    415,
+    565,
+    328,
+    88,
+    235
+   ],
+   "bm25": [
+    28,
+    30,
+    29,
+    230,
+    110,
+    415,
+    246,
+    393,
+    330,
+    338
+   ],
+   "image": [
+    30,
+    29,
+    270,
+    250,
+    267,
+    251,
+    272,
+    529,
+    252,
+    38
+   ],
+   "interleaved": [
+    30,
+    29,
+    267,
+    251,
+    110,
+    109,
+    106,
+    235,
+    466,
+    36
+   ],
+   "hybrid_text": [
+    28,
+    30,
+    29,
+    415,
+    81,
+    330,
+    230,
+    107,
+    110,
+    246
+   ],
+   "hybrid_image": [
+    30,
+    29,
+    28,
+    415,
+    270,
+    267,
+    272,
+    81,
+    330,
+    88
+   ],
+   "hybrid_inter": [
+    30,
+    29,
+    28,
+    110,
+    415,
+    267,
+    235,
+    81,
+    88,
+    330
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT06",
+  "group": "table",
+  "question": "According to the book's brief history of NLP, in what year was the Transformer architecture introduced, and in which paper?",
+  "evidence_pages": [
+   371
+  ],
+  "rankings": {
+   "text_dense": [
+    371,
+    370,
+    379,
+    369,
+    377,
+    372,
+    373,
+    13,
+    347,
+    8
+   ],
+   "bm25": [
+    371,
+    370,
+    37,
+    25,
+    372,
+    376,
+    14,
+    348,
+    153,
+    369
+   ],
+   "image": [
+    371,
+    370,
+    341,
+    372,
+    343,
+    363,
+    385,
+    368,
+    275,
+    6
+   ],
+   "interleaved": [
+    371,
+    370,
+    372,
+    343,
+    341,
+    363,
+    359,
+    96,
+    275,
+    95
+   ],
+   "hybrid_text": [
+    371,
+    370,
+    372,
+    369,
+    376,
+    348,
+    4,
+    374,
+    37,
+    379
+   ],
+   "hybrid_image": [
+    371,
+    370,
+    372,
+    341,
+    369,
+    37,
+    376,
+    348,
+    363,
+    4
+   ],
+   "hybrid_inter": [
+    371,
+    370,
+    372,
+    369,
+    341,
+    376,
+    348,
+    37,
+    363,
+    96
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT07",
+  "group": "image",
+  "question": "In the diagram of the data science cycle, which stage comes immediately after Data Preparation, and which stage ends the cycle?",
+  "evidence_pages": [
+   21
+  ],
+  "rankings": {
+   "text_dense": [
+    20,
+    21,
+    67,
+    64,
+    19,
+    62,
+    406,
+    388,
+    276,
+    12
+   ],
+   "bm25": [
+    20,
+    21,
+    64,
+    87,
+    406,
+    12,
+    392,
+    67,
+    388,
+    62
+   ],
+   "image": [
+    21,
+    19,
+    406,
+    20,
+    67,
+    387,
+    407,
+    404,
+    277,
+    471
+   ],
+   "interleaved": [
+    21,
+    19,
+    67,
+    406,
+    20,
+    68,
+    407,
+    387,
+    476,
+    410
+   ],
+   "hybrid_text": [
+    20,
+    21,
+    64,
+    67,
+    406,
+    19,
+    12,
+    62,
+    388,
+    224
+   ],
+   "hybrid_image": [
+    21,
+    20,
+    406,
+    67,
+    19,
+    410,
+    387,
+    277,
+    64,
+    12
+   ],
+   "hybrid_inter": [
+    21,
+    20,
+    67,
+    406,
+    19,
+    410,
+    387,
+    64,
+    12,
+    62
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT08",
+  "group": "image",
+  "question": "In the Venn diagram relating ethical rules, cross-validation and outlier detection, what is shown in the region where all three circles overlap?",
+  "evidence_pages": [
+   404
+  ],
+  "rankings": {
+   "text_dense": [
+    404,
+    403,
+    388,
+    401,
+    410,
+    405,
+    420,
+    400,
+    398,
+    318
+   ],
+   "bm25": [
+    404,
+    403,
+    398,
+    500,
+    487,
+    488,
+    343,
+    90,
+    298,
+    493
+   ],
+   "image": [
+    404,
+    410,
+    407,
+    296,
+    387,
+    487,
+    267,
+    411,
+    420,
+    385
+   ],
+   "interleaved": [
+    404,
+    487,
+    407,
+    420,
+    387,
+    410,
+    296,
+    267,
+    297,
+    406
+   ],
+   "hybrid_text": [
+    404,
+    403,
+    398,
+    401,
+    500,
+    493,
+    487,
+    127,
+    418,
+    415
+   ],
+   "hybrid_image": [
+    404,
+    487,
+    403,
+    410,
+    398,
+    407,
+    401,
+    420,
+    267,
+    387
+   ],
+   "hybrid_inter": [
+    404,
+    487,
+    403,
+    420,
+    410,
+    398,
+    407,
+    401,
+    267,
+    387
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT09",
+  "group": "image",
+  "question": "Using the Huffman tree diagram in the book, what binary code is assigned to symbol D?",
+  "evidence_pages": [
+   99
+  ],
+  "rankings": {
+   "text_dense": [
+    98,
+    99,
+    317,
+    323,
+    325,
+    321,
+    319,
+    316,
+    322,
+    320
+   ],
+   "bm25": [
+    99,
+    98,
+    316,
+    177,
+    485,
+    352,
+    182,
+    325,
+    369,
+    365
+   ],
+   "image": [
+    320,
+    317,
+    261,
+    316,
+    300,
+    324,
+    99,
+    321,
+    344,
+    326
+   ],
+   "interleaved": [
+    317,
+    99,
+    321,
+    320,
+    319,
+    316,
+    326,
+    324,
+    284,
+    300
+   ],
+   "hybrid_text": [
+    98,
+    99,
+    316,
+    325,
+    485,
+    322,
+    319,
+    450,
+    353,
+    317
+   ],
+   "hybrid_image": [
+    99,
+    316,
+    325,
+    319,
+    98,
+    317,
+    320,
+    321,
+    323,
+    324
+   ],
+   "hybrid_inter": [
+    99,
+    316,
+    325,
+    319,
+    353,
+    98,
+    317,
+    321,
+    320,
+    485
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT10",
+  "group": "image",
+  "question": "Using the decision tree flowchart in Figure 6.20, how would the point (x = 16, y = 5) be classified, and which conditions does it pass through?",
+  "evidence_pages": [
+   321
+  ],
+  "rankings": {
+   "text_dense": [
+    322,
+    321,
+    320,
+    323,
+    316,
+    319,
+    324,
+    317,
+    318,
+    349
+   ],
+   "bm25": [
+    316,
+    322,
+    324,
+    321,
+    320,
+    298,
+    312,
+    521,
+    319,
+    323
+   ],
+   "image": [
+    321,
+    324,
+    319,
+    323,
+    316,
+    300,
+    320,
+    317,
+    294,
+    298
+   ],
+   "interleaved": [
+    321,
+    324,
+    316,
+    319,
+    317,
+    320,
+    300,
+    284,
+    323,
+    291
+   ],
+   "hybrid_text": [
+    322,
+    316,
+    321,
+    320,
+    324,
+    323,
+    319,
+    298,
+    318,
+    317
+   ],
+   "hybrid_image": [
+    321,
+    316,
+    324,
+    320,
+    323,
+    319,
+    298,
+    317,
+    326,
+    275
+   ],
+   "hybrid_inter": [
+    321,
+    316,
+    324,
+    320,
+    319,
+    323,
+    298,
+    317,
+    326,
+    297
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT11",
+  "group": "image",
+  "question": "In the simple neural network diagram (Figure 7.3), how many neurons are there in the hidden layers in total, and how many input and output neurons?",
+  "evidence_pages": [
+   343
+  ],
+  "rankings": {
+   "text_dense": [
+    343,
+    365,
+    342,
+    348,
+    344,
+    349,
+    356,
+    363,
+    354,
+    341
+   ],
+   "bm25": [
+    343,
+    344,
+    342,
+    356,
+    363,
+    341,
+    381,
+    365,
+    380,
+    367
+   ],
+   "image": [
+    343,
+    344,
+    364,
+    363,
+    385,
+    358,
+    341,
+    346,
+    353,
+    354
+   ],
+   "interleaved": [
+    343,
+    363,
+    341,
+    344,
+    353,
+    385,
+    364,
+    355,
+    346,
+    368
+   ],
+   "hybrid_text": [
+    343,
+    342,
+    344,
+    365,
+    356,
+    363,
+    341,
+    349,
+    354,
+    348
+   ],
+   "hybrid_image": [
+    343,
+    344,
+    363,
+    341,
+    349,
+    354,
+    358,
+    355,
+    364,
+    385
+   ],
+   "hybrid_inter": [
+    343,
+    344,
+    363,
+    341,
+    349,
+    354,
+    355,
+    358,
+    364,
+    385
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT12",
+  "group": "chart",
+  "question": "In the graph of the binomial distribution for n = 20 and p = 0.92, which value of x has the highest probability, and approximately what is that probability?",
+  "evidence_pages": [
+   141
+  ],
+  "rankings": {
+   "text_dense": [
+    443,
+    147,
+    141,
+    140,
+    442,
+    441,
+    531,
+    445,
+    447,
+    547
+   ],
+   "bm25": [
+    443,
+    147,
+    531,
+    530,
+    547,
+    442,
+    141,
+    140,
+    150,
+    181
+   ],
+   "image": [
+    444,
+    141,
+    445,
+    143,
+    447,
+    340,
+    430,
+    441,
+    285,
+    468
+   ],
+   "interleaved": [
+    444,
+    141,
+    340,
+    445,
+    441,
+    447,
+    143,
+    431,
+    433,
+    145
+   ],
+   "hybrid_text": [
+    443,
+    147,
+    141,
+    531,
+    442,
+    140,
+    530,
+    547,
+    441,
+    447
+   ],
+   "hybrid_image": [
+    141,
+    441,
+    447,
+    143,
+    443,
+    147,
+    531,
+    445,
+    442,
+    140
+   ],
+   "hybrid_inter": [
+    141,
+    441,
+    447,
+    143,
+    443,
+    147,
+    531,
+    442,
+    140,
+    445
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT13",
+  "group": "chart",
+  "question": "In the grid heatmap of crop harvests by local farmer, how many tons of lettuce per year did Agrifun harvest, and which farmer harvested the most lettuce?",
+  "evidence_pages": [
+   451
+  ],
+  "rankings": {
+   "text_dense": [
+    451,
+    568,
+    444,
+    467,
+    512,
+    565,
+    323,
+    453,
+    450,
+    567
+   ],
+   "bm25": [
+    451,
+    226,
+    453,
+    452,
+    467,
+    382,
+    151,
+    384,
+    493,
+    153
+   ],
+   "image": [
+    451,
+    111,
+    450,
+    271,
+    364,
+    453,
+    433,
+    55,
+    469,
+    288
+   ],
+   "interleaved": [
+    451,
+    111,
+    453,
+    512,
+    433,
+    61,
+    291,
+    55,
+    466,
+    339
+   ],
+   "hybrid_text": [
+    451,
+    467,
+    453,
+    452,
+    565,
+    450,
+    226,
+    568,
+    444,
+    512
+   ],
+   "hybrid_image": [
+    451,
+    453,
+    450,
+    467,
+    111,
+    512,
+    364,
+    469,
+    452,
+    565
+   ],
+   "hybrid_inter": [
+    451,
+    453,
+    450,
+    467,
+    512,
+    111,
+    444,
+    429,
+    452,
+    565
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT14",
+  "group": "chart",
+  "question": "In the histogram of heights of 100 male semiprofessional soccer players, what proportion of players are taller than 71.95 inches?",
+  "evidence_pages": [
+   430
+  ],
+  "rankings": {
+   "text_dense": [
+    429,
+    430,
+    426,
+    512,
+    53,
+    145,
+    146,
+    432,
+    424,
+    126
+   ],
+   "bm25": [
+    429,
+    430,
+    146,
+    426,
+    133,
+    506,
+    517,
+    25,
+    126,
+    196
+   ],
+   "image": [
+    430,
+    429,
+    513,
+    433,
+    431,
+    506,
+    364,
+    125,
+    339,
+    426
+   ],
+   "interleaved": [
+    430,
+    429,
+    426,
+    433,
+    431,
+    512,
+    447,
+    513,
+    145,
+    444
+   ],
+   "hybrid_text": [
+    429,
+    430,
+    426,
+    146,
+    126,
+    512,
+    517,
+    432,
+    431,
+    120
+   ],
+   "hybrid_image": [
+    429,
+    430,
+    426,
+    512,
+    431,
+    517,
+    433,
+    427,
+    146,
+    506
+   ],
+   "hybrid_inter": [
+    429,
+    430,
+    426,
+    512,
+    517,
+    431,
+    433,
+    427,
+    120,
+    146
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT15",
+  "group": "chart",
+  "question": "In the chart of monthly coal consumption for electricity generation in the United States from 2016 to 2022, approximately when was consumption lowest, and roughly how low did it get?",
+  "evidence_pages": [
+   233
+  ],
+  "rankings": {
+   "text_dense": [
+    233,
+    362,
+    234,
+    245,
+    247,
+    262,
+    565,
+    266,
+    360,
+    251
+   ],
+   "bm25": [
+    247,
+    233,
+    266,
+    234,
+    245,
+    262,
+    362,
+    359,
+    246,
+    404
+   ],
+   "image": [
+    234,
+    233,
+    267,
+    245,
+    263,
+    248,
+    363,
+    246,
+    420,
+    252
+   ],
+   "interleaved": [
+    234,
+    233,
+    245,
+    267,
+    252,
+    251,
+    359,
+    109,
+    248,
+    420
+   ],
+   "hybrid_text": [
+    233,
+    247,
+    234,
+    362,
+    245,
+    266,
+    262,
+    359,
+    269,
+    235
+   ],
+   "hybrid_image": [
+    233,
+    234,
+    245,
+    359,
+    247,
+    362,
+    266,
+    262,
+    246,
+    252
+   ],
+   "hybrid_inter": [
+    233,
+    234,
+    245,
+    359,
+    247,
+    362,
+    266,
+    262,
+    252,
+    251
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT16",
+  "group": "chart",
+  "question": "In the chart of US retail employment with outliers (1939–2019), after peaking at about 8,000 thousand employers in the mid-2000s, roughly when did employment drop sharply and to about what level?",
+  "evidence_pages": [
+   88
+  ],
+  "rankings": {
+   "text_dense": [
+    89,
+    88,
+    65,
+    117,
+    566,
+    127,
+    270,
+    560,
+    559,
+    128
+   ],
+   "bm25": [
+    88,
+    89,
+    26,
+    433,
+    127,
+    412,
+    406,
+    13,
+    395,
+    338
+   ],
+   "image": [
+    88,
+    89,
+    270,
+    407,
+    425,
+    267,
+    273,
+    108,
+    111,
+    145
+   ],
+   "interleaved": [
+    88,
+    89,
+    109,
+    407,
+    145,
+    273,
+    108,
+    270,
+    272,
+    468
+   ],
+   "hybrid_text": [
+    88,
+    89,
+    127,
+    119,
+    87,
+    92,
+    79,
+    26,
+    65,
+    117
+   ],
+   "hybrid_image": [
+    88,
+    89,
+    119,
+    92,
+    270,
+    127,
+    108,
+    407,
+    433,
+    273
+   ],
+   "hybrid_inter": [
+    88,
+    89,
+    92,
+    127,
+    270,
+    108,
+    109,
+    433,
+    145,
+    407
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT17",
+  "group": "multihop",
+  "question": "Which quarter had the highest kayak and canoe rental revenue in 2023 according to the revenue line chart, and by how many dollars did that quarter's revenue grow compared with the same quarter in 2021 according to the revenue table?",
+  "evidence_pages": [
+   235,
+   236
+  ],
+  "rankings": {
+   "text_dense": [
+    251,
+    250,
+    235,
+    236,
+    207,
+    239,
+    521,
+    271,
+    228,
+    520
+   ],
+   "bm25": [
+    211,
+    251,
+    522,
+    21,
+    235,
+    208,
+    521,
+    204,
+    207,
+    456
+   ],
+   "image": [
+    251,
+    235,
+    236,
+    250,
+    271,
+    220,
+    273,
+    425,
+    522,
+    111
+   ],
+   "interleaved": [
+    251,
+    235,
+    236,
+    250,
+    522,
+    234,
+    271,
+    426,
+    273,
+    437
+   ],
+   "hybrid_text": [
+    251,
+    235,
+    207,
+    521,
+    250,
+    204,
+    220,
+    236,
+    434,
+    23
+   ],
+   "hybrid_image": [
+    251,
+    235,
+    250,
+    236,
+    220,
+    204,
+    522,
+    271,
+    207,
+    521
+   ],
+   "hybrid_inter": [
+    251,
+    235,
+    250,
+    236,
+    220,
+    522,
+    207,
+    521,
+    271,
+    437
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": false,
+    "@5": false
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": false,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT18",
+  "group": "multihop",
+  "question": "Using the soft-drink market share table, how many times larger is Coca-Cola's share than Pepsi's, and which of the two bar graphs (Graph A or Graph B) uses a vertical axis that tops out at 20?",
+  "evidence_pages": [
+   408,
+   409
+  ],
+  "rankings": {
+   "text_dense": [
+    408,
+    409,
+    532,
+    534,
+    444,
+    512,
+    91,
+    434,
+    435,
+    430
+   ],
+   "bm25": [
+    408,
+    409,
+    532,
+    422,
+    467,
+    528,
+    535,
+    534,
+    437,
+    527
+   ],
+   "image": [
+    409,
+    408,
+    444,
+    433,
+    468,
+    420,
+    511,
+    434,
+    513,
+    111
+   ],
+   "interleaved": [
+    409,
+    408,
+    444,
+    511,
+    512,
+    433,
+    513,
+    522,
+    434,
+    528
+   ],
+   "hybrid_text": [
+    408,
+    409,
+    532,
+    534,
+    528,
+    434,
+    430,
+    527,
+    415,
+    511
+   ],
+   "hybrid_image": [
+    408,
+    409,
+    434,
+    528,
+    511,
+    430,
+    532,
+    444,
+    534,
+    433
+   ],
+   "hybrid_inter": [
+    408,
+    409,
+    528,
+    434,
+    511,
+    532,
+    444,
+    512,
+    534,
+    513
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT19",
+  "group": "multihop",
+  "question": "In the flower/tree/grass confusion matrix, what fraction of the actual grasses were misclassified as flowers, and how does the book describe this rate?",
+  "evidence_pages": [
+   300,
+   301
+  ],
+  "rankings": {
+   "text_dense": [
+    300,
+    301,
+    302,
+    336,
+    316,
+    489,
+    348,
+    317,
+    37,
+    319
+   ],
+   "bm25": [
+    300,
+    301,
+    302,
+    504,
+    94,
+    503,
+    333,
+    465,
+    494,
+    119
+   ],
+   "image": [
+    300,
+    301,
+    316,
+    364,
+    323,
+    56,
+    317,
+    326,
+    37,
+    319
+   ],
+   "interleaved": [
+    301,
+    300,
+    316,
+    317,
+    56,
+    466,
+    325,
+    37,
+    319,
+    284
+   ],
+   "hybrid_text": [
+    300,
+    301,
+    302,
+    489,
+    336,
+    316,
+    333,
+    37,
+    323,
+    364
+   ],
+   "hybrid_image": [
+    300,
+    301,
+    316,
+    323,
+    37,
+    364,
+    325,
+    284,
+    302,
+    317
+   ],
+   "hybrid_inter": [
+    300,
+    301,
+    316,
+    37,
+    323,
+    325,
+    284,
+    302,
+    317,
+    489
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT20",
+  "group": "multihop",
+  "question": "The S&P 500 year-end line chart shows dips in two years. Which years are they, and how much did the index fall in each year according to the table of year-end values?",
+  "evidence_pages": [
+   225
+  ],
+  "rankings": {
+   "text_dense": [
+    225,
+    265,
+    256,
+    198,
+    529,
+    257,
+    242,
+    235,
+    258,
+    199
+   ],
+   "bm25": [
+    225,
+    257,
+    227,
+    256,
+    235,
+    226,
+    255,
+    198,
+    199,
+    153
+   ],
+   "image": [
+    225,
+    257,
+    231,
+    227,
+    265,
+    256,
+    529,
+    339,
+    242,
+    198
+   ],
+   "interleaved": [
+    225,
+    265,
+    257,
+    256,
+    231,
+    227,
+    229,
+    242,
+    199,
+    529
+   ],
+   "hybrid_text": [
+    225,
+    256,
+    257,
+    198,
+    235,
+    227,
+    242,
+    265,
+    199,
+    255
+   ],
+   "hybrid_image": [
+    225,
+    257,
+    256,
+    227,
+    198,
+    265,
+    242,
+    199,
+    235,
+    229
+   ],
+   "hybrid_inter": [
+    225,
+    257,
+    256,
+    227,
+    265,
+    242,
+    199,
+    198,
+    235,
+    229
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT21",
+  "group": "text",
+  "question": "If a histogram has taller bars on its left side, what kind of distribution does that indicate, and on which side is the longer tail?",
+  "evidence_pages": [
+   430
+  ],
+  "rankings": {
+   "text_dense": [
+    430,
+    431,
+    423,
+    427,
+    426,
+    429,
+    433,
+    467,
+    434,
+    445
+   ],
+   "bm25": [
+    430,
+    433,
+    423,
+    426,
+    427,
+    431,
+    302,
+    432,
+    325,
+    144
+   ],
+   "image": [
+    430,
+    431,
+    433,
+    429,
+    447,
+    444,
+    441,
+    445,
+    143,
+    144
+   ],
+   "interleaved": [
+    431,
+    430,
+    433,
+    429,
+    447,
+    441,
+    444,
+    144,
+    445,
+    434
+   ],
+   "hybrid_text": [
+    430,
+    423,
+    431,
+    433,
+    426,
+    427,
+    144,
+    432,
+    434,
+    447
+   ],
+   "hybrid_image": [
+    430,
+    431,
+    433,
+    427,
+    144,
+    447,
+    434,
+    423,
+    426,
+    429
+   ],
+   "hybrid_inter": [
+    430,
+    431,
+    433,
+    427,
+    426,
+    144,
+    434,
+    447,
+    410,
+    423
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT22",
+  "group": "text",
+  "question": "According to the Anaconda (2020) survey cited in the book, how is data scientists' time split between data collection and cleaning versus data analysis and communication?",
+  "evidence_pages": [
+   21
+  ],
+  "rankings": {
+   "text_dense": [
+    21,
+    334,
+    84,
+    224,
+    67,
+    70,
+    422,
+    22,
+    471,
+    68
+   ],
+   "bm25": [
+    21,
+    65,
+    67,
+    436,
+    93,
+    78,
+    90,
+    24,
+    107,
+    7
+   ],
+   "image": [
+    21,
+    67,
+    20,
+    387,
+    68,
+    406,
+    111,
+    19,
+    407,
+    38
+   ],
+   "interleaved": [
+    21,
+    67,
+    68,
+    20,
+    110,
+    471,
+    30,
+    406,
+    19,
+    387
+   ],
+   "hybrid_text": [
+    21,
+    67,
+    224,
+    334,
+    90,
+    93,
+    87,
+    7,
+    20,
+    564
+   ],
+   "hybrid_image": [
+    21,
+    67,
+    20,
+    93,
+    68,
+    224,
+    471,
+    406,
+    334,
+    90
+   ],
+   "hybrid_inter": [
+    21,
+    67,
+    20,
+    93,
+    68,
+    471,
+    30,
+    224,
+    334,
+    406
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT23",
+  "group": "text",
+  "question": "What share of global electricity demand does the book attribute to information and communication technology, and what is projected for its greenhouse gas emissions by 2040?",
+  "evidence_pages": [
+   404
+  ],
+  "rankings": {
+   "text_dense": [
+    404,
+    413,
+    20,
+    420,
+    26,
+    343,
+    387,
+    13,
+    498,
+    24
+   ],
+   "bm25": [
+    404,
+    420,
+    504,
+    107,
+    392,
+    475,
+    37,
+    501,
+    19,
+    408
+   ],
+   "image": [
+    420,
+    404,
+    6,
+    387,
+    38,
+    421,
+    155,
+    498,
+    370,
+    371
+   ],
+   "interleaved": [
+    420,
+    404,
+    38,
+    267,
+    6,
+    498,
+    19,
+    436,
+    20,
+    95
+   ],
+   "hybrid_text": [
+    404,
+    420,
+    107,
+    19,
+    26,
+    17,
+    413,
+    20,
+    504,
+    392
+   ],
+   "hybrid_image": [
+    404,
+    420,
+    19,
+    387,
+    20,
+    498,
+    107,
+    421,
+    38,
+    6
+   ],
+   "hybrid_inter": [
+    404,
+    420,
+    19,
+    20,
+    498,
+    107,
+    38,
+    108,
+    6,
+    26
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": false,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT24",
+  "group": "text",
+  "question": "In error-based (reduced-error) pruning of a decision tree, what happens when a split would separate a set into a singleton, and how is the label of the resulting leaf chosen?",
+  "evidence_pages": [
+   323
+  ],
+  "rankings": {
+   "text_dense": [
+    323,
+    319,
+    325,
+    320,
+    322,
+    337,
+    336,
+    324,
+    327,
+    317
+   ],
+   "bm25": [
+    323,
+    336,
+    325,
+    337,
+    319,
+    322,
+    486,
+    327,
+    487,
+    320
+   ],
+   "image": [
+    323,
+    319,
+    320,
+    325,
+    324,
+    316,
+    317,
+    326,
+    321,
+    300
+   ],
+   "interleaved": [
+    323,
+    320,
+    319,
+    325,
+    324,
+    317,
+    316,
+    321,
+    326,
+    301
+   ],
+   "hybrid_text": [
+    323,
+    325,
+    319,
+    336,
+    337,
+    322,
+    320,
+    327,
+    486,
+    321
+   ],
+   "hybrid_image": [
+    323,
+    319,
+    325,
+    320,
+    321,
+    336,
+    337,
+    322,
+    324,
+    317
+   ],
+   "hybrid_inter": [
+    323,
+    319,
+    325,
+    320,
+    321,
+    487,
+    336,
+    337,
+    322,
+    324
+   ]
+  },
+  "hits": {
+   "text_dense": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "bm25": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "interleaved": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_text": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_image": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   },
+   "hybrid_inter": {
+    "@1": true,
+    "@3": true,
+    "@5": true
+   }
+  }
+ },
+ {
+  "query_id": "AT25",
+  "group": "unanswerable",
+  "question": "In the grid heatmap of local farmers' harvests, how many tons of carrots did Organiculture harvest per year?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    451,
+    565,
+    467,
+    450,
+    568,
+    453,
+    452,
+    567,
+    466,
+    421
+   ],
+   "bm25": [
+    451,
+    467,
+    452,
+    453,
+    382,
+    226,
+    480,
+    153,
+    380,
+    235
+   ],
+   "image": [
+    451,
+    450,
+    111,
+    469,
+    453,
+    364,
+    288,
+    460,
+    300,
+    55
+   ],
+   "interleaved": [
+    451,
+    453,
+    450,
+    111,
+    466,
+    469,
+    463,
+    300,
+    433,
+    244
+   ],
+   "hybrid_text": [
+    451,
+    467,
+    452,
+    453,
+    565,
+    450,
+    382,
+    568,
+    226,
+    480
+   ],
+   "hybrid_image": [
+    451,
+    453,
+    450,
+    467,
+    452,
+    565,
+    364,
+    220,
+    463,
+    301
+   ],
+   "hybrid_inter": [
+    451,
+    453,
+    450,
+    467,
+    452,
+    565,
+    466,
+    463,
+    444,
+    461
+   ]
+  }
+ },
+ {
+  "query_id": "AT26",
+  "group": "unanswerable",
+  "question": "What was Red Bull's share of volume in the global soft drinks market in 2019?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    408,
+    62,
+    419,
+    91,
+    219,
+    415,
+    4,
+    421,
+    564,
+    478
+   ],
+   "bm25": [
+    408,
+    409,
+    225,
+    14,
+    494,
+    398,
+    319,
+    323,
+    420,
+    325
+   ],
+   "image": [
+    409,
+    408,
+    339,
+    111,
+    420,
+    457,
+    270,
+    208,
+    469,
+    223
+   ],
+   "interleaved": [
+    408,
+    409,
+    111,
+    420,
+    433,
+    522,
+    469,
+    106,
+    339,
+    459
+   ],
+   "hybrid_text": [
+    408,
+    409,
+    419,
+    478,
+    498,
+    62,
+    225,
+    14,
+    91,
+    219
+   ],
+   "hybrid_image": [
+    408,
+    409,
+    420,
+    91,
+    419,
+    111,
+    404,
+    454,
+    478,
+    125
+   ],
+   "hybrid_inter": [
+    408,
+    409,
+    420,
+    91,
+    419,
+    111,
+    404,
+    113,
+    454,
+    478
+   ]
+  }
+ },
+ {
+  "query_id": "AT27",
+  "group": "unanswerable",
+  "question": "What was the S&P 500 index value at the end of 2012?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    225,
+    265,
+    256,
+    198,
+    201,
+    529,
+    226,
+    534,
+    199,
+    257
+   ],
+   "bm25": [
+    225,
+    257,
+    198,
+    242,
+    227,
+    255,
+    199,
+    226,
+    534,
+    231
+   ],
+   "image": [
+    225,
+    529,
+    257,
+    265,
+    231,
+    227,
+    198,
+    256,
+    242,
+    425
+   ],
+   "interleaved": [
+    225,
+    257,
+    256,
+    265,
+    242,
+    529,
+    199,
+    231,
+    240,
+    227
+   ],
+   "hybrid_text": [
+    225,
+    198,
+    257,
+    256,
+    226,
+    199,
+    534,
+    242,
+    529,
+    227
+   ],
+   "hybrid_image": [
+    225,
+    198,
+    257,
+    529,
+    256,
+    242,
+    227,
+    199,
+    265,
+    231
+   ],
+   "hybrid_inter": [
+    225,
+    257,
+    256,
+    242,
+    199,
+    198,
+    529,
+    265,
+    227,
+    240
+   ]
+  }
+ },
+ {
+  "query_id": "AT28",
+  "group": "unanswerable",
+  "question": "How many people were employed in US retail in 1935, according to the retail employment data?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    89,
+    88,
+    79,
+    149,
+    563,
+    141,
+    111,
+    52,
+    65,
+    170
+   ],
+   "bm25": [
+    88,
+    89,
+    92,
+    27,
+    69,
+    478,
+    130,
+    338,
+    391,
+    23
+   ],
+   "image": [
+    88,
+    89,
+    111,
+    6,
+    58,
+    339,
+    454,
+    80,
+    425,
+    220
+   ],
+   "interleaved": [
+    89,
+    88,
+    145,
+    109,
+    339,
+    468,
+    430,
+    38,
+    433,
+    37
+   ],
+   "hybrid_text": [
+    88,
+    89,
+    79,
+    92,
+    27,
+    149,
+    69,
+    563,
+    141,
+    478
+   ],
+   "hybrid_image": [
+    88,
+    89,
+    92,
+    111,
+    79,
+    58,
+    529,
+    468,
+    6,
+    27
+   ],
+   "hybrid_inter": [
+    89,
+    88,
+    92,
+    69,
+    79,
+    111,
+    58,
+    468,
+    444,
+    529
+   ]
+  }
+ },
+ {
+  "query_id": "AT29",
+  "group": "unanswerable",
+  "question": "In the smartphone defect study, what was the average repair cost of a cracked screen?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    434,
+    436,
+    20,
+    182,
+    108,
+    435,
+    90,
+    94,
+    65,
+    184
+   ],
+   "bm25": [
+    436,
+    434,
+    108,
+    435,
+    20,
+    463,
+    491,
+    270,
+    23,
+    177
+   ],
+   "image": [
+    434,
+    108,
+    436,
+    20,
+    6,
+    111,
+    220,
+    273,
+    120,
+    272
+   ],
+   "interleaved": [
+    436,
+    108,
+    434,
+    110,
+    273,
+    106,
+    468,
+    20,
+    280,
+    272
+   ],
+   "hybrid_text": [
+    434,
+    436,
+    20,
+    108,
+    435,
+    463,
+    182,
+    83,
+    153,
+    110
+   ],
+   "hybrid_image": [
+    434,
+    436,
+    108,
+    20,
+    110,
+    435,
+    463,
+    6,
+    182,
+    177
+   ],
+   "hybrid_inter": [
+    436,
+    434,
+    108,
+    20,
+    110,
+    435,
+    463,
+    182,
+    83,
+    273
+   ]
+  }
+ },
+ {
+  "query_id": "AT30",
+  "group": "unanswerable",
+  "question": "What numeric weights are assigned to the connections between the input layer and the first hidden layer in the book's simple neural network diagram (Figure 7.3)?",
+  "evidence_pages": [],
+  "rankings": {
+   "text_dense": [
+    343,
+    349,
+    348,
+    344,
+    354,
+    355,
+    342,
+    365,
+    345,
+    358
+   ],
+   "bm25": [
+    343,
+    354,
+    352,
+    363,
+    349,
+    351,
+    358,
+    344,
+    347,
+    381
+   ],
+   "image": [
+    344,
+    358,
+    355,
+    343,
+    364,
+    349,
+    354,
+    385,
+    346,
+    363
+   ],
+   "interleaved": [
+    343,
+    363,
+    355,
+    341,
+    344,
+    349,
+    353,
+    354,
+    385,
+    364
+   ],
+   "hybrid_text": [
+    343,
+    349,
+    354,
+    344,
+    363,
+    358,
+    352,
+    365,
+    355,
+    342
+   ],
+   "hybrid_image": [
+    343,
+    344,
+    349,
+    354,
+    358,
+    355,
+    363,
+    353,
+    385,
+    364
+   ],
+   "hybrid_inter": [
+    343,
+    349,
+    354,
+    363,
+    344,
+    355,
+    358,
+    353,
+    385,
+    364
+   ]
+  }
+ }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "q01", "split": "dev", "type": "direct", "language": "en",
+    "question": "What are some common methods for collecting data?",
+    "expected_answer": "Experiments, surveys, observation, focus groups, interviews, and document analysis.",
+    "gold_source_id": "pods-ch02", "gold_page": 68,
+    "evidence_quote": "Some common methods for data collection include experiments, surveys, observation, focus groups, interviews, and document analysis.",
+    "filter": null
+  },
+  {
+    "id": "q02", "split": "dev", "type": "paraphrase", "language": "en",
+    "question": "What kind of data is gathered by watching and recording behavior without the researcher taking part?",
+    "expected_answer": "Observational data (often used in qualitative research).",
+    "gold_source_id": "pods-ch02", "gold_page": 68,
+    "evidence_quote": "Observational data, often used in qualitative research, is collected by systematically observing and recording behavior without the active participation of the researcher.",
+    "filter": null
+  },
+  {
+    "id": "q03", "split": "dev", "type": "direct", "language": "en",
+    "question": "Why should a survey questionnaire be pilot tested before it is given to the full population?",
+    "expected_answer": "A pilot test with a small group from the target population lets the researcher find issues or confusion in the questions and adjust them before the full survey.",
+    "gold_source_id": "pods-ch02", "gold_page": 71,
+    "evidence_quote": "the survey questionnaire should undergo a pilot test with a small group of individuals from the target population. This allows the researcher to identify any potential issues or confusion with the questions and make necessary adjustments before administering the survey to the larger population.",
+    "filter": null
+  },
+  {
+    "id": "q04", "split": "dev", "type": "paraphrase", "language": "en",
+    "question": "What was wrong with the way the 1936 Literary Digest poll selected the people it surveyed?",
+    "expected_answer": "It used a mailing list of telephone and automobile owners, which was biased toward affluent individuals and therefore favored Republican voters.",
+    "gold_source_id": "pods-ch02", "gold_page": 72,
+    "evidence_quote": "utilized a mailing list of telephone and automobile owners. This approach was considered biased toward affluent individuals and therefore favored Republican voters.",
+    "filter": null
+  },
+  {
+    "id": "q05", "split": "dev", "type": "cross_lingual", "language": "vi",
+    "question": "Lấy mẫu phân tầng (stratified sampling) là gì?",
+    "expected_answer": "Chia tổng thể thành các nhóm con (tầng) theo các yếu tố như tuổi, khu vực, thu nhập, học vấn, rồi lấy mẫu ngẫu nhiên từ mỗi tầng theo tỷ lệ kích thước của tầng đó.",
+    "gold_source_id": "pods-ch02", "gold_page": 73,
+    "evidence_quote": "Stratified sampling involves splitting the population into subgroups based on specified factors, such as age, area, income, or education level, and taking a random sample from each stratum in proportion to its size in the population.",
+    "alternative_gold": [
+      {"source_id": "pods-ch02", "page": 76,
+       "evidence_quote": "This involves dividing the population into subgroups or strata based on certain characteristics and then randomly selecting participants from each subgroup."}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06", "split": "dev", "type": "conditional", "language": "en",
+    "question": "Under what condition can systematic sampling produce a biased sample?",
+    "expected_answer": "When there is a pattern in the sampling frame.",
+    "gold_source_id": "pods-ch02", "gold_page": 73,
+    "evidence_quote": "However, if there is a pattern in the sampling frame (the organizing structure that represents the population from which a sample is drawn), it may lead to a biased sample.",
+    "filter": null
+  },
+  {
+    "id": "q07", "split": "dev", "type": "paraphrase", "language": "en",
+    "question": "Which web scraping technique is best for pulling out text in a fixed format such as dates, phone numbers, or email addresses?",
+    "expected_answer": "Regular expressions.",
+    "gold_source_id": "pods-ch02", "gold_page": 77,
+    "evidence_quote": "Regular Expressions • Search for and extract specific patterns of text from a web page • Useful for scraping data that follows a particular format, such as dates, phone numbers, or email addresses",
+    "filter": null
+  },
+  {
+    "id": "q08", "split": "dev", "type": "conditional", "language": "en",
+    "question": "In a survey about driving habits, some respondents accidentally skip the income question. What type of missing data is this?",
+    "expected_answer": "MCAR (missing completely at random).",
+    "gold_source_id": "pods-ch02", "gold_page": 87,
+    "evidence_quote": "MCAR (missing completely at random) data is missing data not related to any other variables, with no underlying cause for its absence.",
+    "filter": null
+  },
+  {
+    "id": "q09", "split": "dev", "type": "filter", "language": "en",
+    "question": "What are the options for handling outliers, and what is the drawback of simply deleting them?",
+    "expected_answer": "Delete them (but this can lose valuable information) or treat the outliers as a separate group and analyze them separately.",
+    "gold_source_id": "pods-ch02", "gold_page": 87,
+    "evidence_quote": "One approach is to delete the outliers from the dataset, but this can also lead to a loss of valuable information. Another option is to deal with the outliers as an individual group and analyze them separately from the rest of the data.",
+    "filter": {"chapter": 2},
+    "filter_note": "Assumed user context: reading the data preparation chapter (chapter 2). Chapter 8 (pp. 400, 403) also discusses outliers."
+  },
+  {
+    "id": "q10", "split": "dev", "type": "direct", "language": "en",
+    "question": "Which type of compression is used for text and numerical data, and what are some examples?",
+    "expected_answer": "Lossless compression; examples are ZIP, RAR, and PNG.",
+    "gold_source_id": "pods-ch02", "gold_page": 98,
+    "evidence_quote": "Lossless compression is commonly used for text and numerical data, where every piece of information is crucial. Examples of lossless compression include ZIP, RAR, and PNG.",
+    "filter": null
+  },
+  {
+    "id": "q11", "split": "dev", "type": "paraphrase", "language": "en",
+    "question": "Why is information like the chunk number and total number of chunks attached to each chunk?",
+    "expected_answer": "This metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately.",
+    "gold_source_id": "pods-ch02", "gold_page": 100,
+    "evidence_quote": "This metadata allows the chunks to be reassembled into the original dataset after being transmitted or stored separately.",
+    "filter": null
+  },
+  {
+    "id": "q12", "split": "dev", "type": "direct", "language": "en",
+    "question": "Which US law regulates how federal agencies collect, use, maintain, and disseminate personal information?",
+    "expected_answer": "The US Privacy Act of 1974.",
+    "gold_source_id": "pods-ch08", "gold_page": 388,
+    "evidence_quote": "In the United States, the US Privacy Act of 1974 regulates how federal agencies may collect, use, maintain, and disseminate personal information.",
+    "filter": null
+  },
+  {
+    "id": "q13", "split": "dev", "type": "paraphrase", "language": "en",
+    "question": "What technique swaps sensitive values for artificial codes while keeping the data useful for analysis?",
+    "expected_answer": "Pseudonymization.",
+    "gold_source_id": "pods-ch08", "gold_page": 390,
+    "evidence_quote": "Pseudonymization is the act of replacing sensitive information in a dataset with artificial identifiers or codes while still maintaining its usefulness for analysis.",
+    "alternative_gold": [
+      {"source_id": "pods-ch08", "page": 402,
+       "evidence_quote": "This is an example of pseudonymization, as the PII is encoded rather than removed from the dataset."}
+    ],
+    "filter": null
+  },
+  {
+    "id": "q14", "split": "dev", "type": "direct", "language": "en",
+    "question": "How many Americans had their personal information exposed in the 2017 Equifax data breach?",
+    "expected_answer": "Over 145 million Americans (near half the U.S. population).",
+    "gold_source_id": "pods-ch08", "gold_page": 393,
+    "evidence_quote": "This breach exposed the personal information of over 145 million Americans (near half the total U.S. population)",
+    "filter": null
+  },
+  {
+    "id": "q15", "split": "dev", "type": "filter", "language": "en",
+    "question": "What are the three key areas that the process of data validation can be divided into?",
+    "expected_answer": "Outlier detection, cross-validation, and ethical guidelines.",
+    "gold_source_id": "pods-ch08", "gold_page": 403,
+    "evidence_quote": "The process of data validation can be divided into three key areas: outlier detection, cross-validation, and ethical guidelines.",
+    "filter": {"chapter": 8},
+    "filter_note": "Assumed user context: reading the ethics chapter (chapter 8). Chapter 2 (pp. 93-94) also describes data validation."
+  },
+  {
+    "id": "q16", "split": "dev", "type": "direct", "language": "en",
+    "question": "What did the 2016 investigation find about the COMPAS algorithm?",
+    "expected_answer": "It was biased against Black defendants: it incorrectly flagged them as high risk at nearly twice the rate of White defendants.",
+    "gold_source_id": "pods-ch08", "gold_page": 399,
+    "evidence_quote": "an investigation in 2016 found that the algorithm was biased against Black defendants. The analysis revealed that the algorithm incorrectly flagged Black defendants as high risk at nearly twice the rate as White defendants.",
+    "filter": null
+  },
+  {
+    "id": "q17", "split": "test", "type": "direct", "language": "en",
+    "question": "What are the main causes of noisy data?",
+    "expected_answer": "Human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself.",
+    "gold_source_id": "pods-ch02", "gold_page": 93,
+    "evidence_quote": "Most noisy data is caused by human errors in data entry, technical errors in data collection or transmission, or natural variability in the data itself.",
+    "filter": null
+  },
+  {
+    "id": "q18", "split": "test", "type": "filter", "language": "en",
+    "question": "Before collecting data, what criteria should be decided for the data to be considered valid?",
+    "expected_answer": "The conditions the data must meet, such as precision, completeness, consistency, and timeliness.",
+    "gold_source_id": "pods-ch02", "gold_page": 94,
+    "evidence_quote": "Before collecting data, it is important to determine the conditions or criteria that the data needs to meet to be considered valid. This can include factors such as precision, completeness, consistency, and timeliness.",
+    "filter": {"chapter": 2},
+    "filter_note": "Assumed user context: reading the data preparation chapter (chapter 2). Chapter 8 (p. 403) also covers data validation."
+  },
+  {
+    "id": "q19", "split": "test", "type": "filter", "language": "en",
+    "question": "How can an unrepresentative training sample make an algorithm unfair?",
+    "expected_answer": "If the training data lacks significant representation of a group, the algorithm will not be qualified to properly serve that group.",
+    "gold_source_id": "pods-ch08", "gold_page": 400,
+    "evidence_quote": "Unrepresentative samples. If the data employed to train an algorithm lacks significant representations of a particular group, then that algorithm will not be qualified to properly serve that group.",
+    "filter": {"chapter": 8},
+    "filter_note": "Assumed user context: reading the ethics chapter (chapter 8). Chapter 2 (pp. 72-75) discusses sampling bias in surveys."
+  },
+  {
+    "id": "q20", "split": "test", "type": "cross_lingual", "language": "vi",
+    "question": "Khi phát hiện rò rỉ dữ liệu, bước đầu tiên nhóm cần làm là gì?",
+    "expected_answer": "Xác định và khoanh vùng sự cố: xác định loại và phạm vi vụ rò rỉ, sau đó ngăn chặn để dữ liệu nhạy cảm không bị lộ thêm.",
+    "gold_source_id": "pods-ch08", "gold_page": 396,
+    "evidence_quote": "Identify and contain the breach: The first step is to identify the type and scope of the breach. This may involve investigating any unauthorized access, stolen or lost devices, or other security incidents. Once identified, the breach must be contained to prevent further exposure of sensitive data.",
+    "filter": null
+  },
+  {
+    "id": "q21", "split": "test", "type": "paraphrase", "language": "en",
+    "question": "For ethical reporting, how should the axis scales in a chart be set?",
+    "expected_answer": "The scales on all axes should be consistent and proportionate.",
+    "gold_source_id": "pods-ch08", "gold_page": 405,
+    "evidence_quote": "Ensure that the scales on all axes in a chart are consistent and proportionate.",
+    "filter": null
+  },
+  {
+    "id": "q22", "split": "test", "type": "conditional", "language": "en",
+    "question": "In what situation must permission be obtained before using data in graphs or reports?",
+    "expected_answer": "When the data is not publicly available: permission must be obtained from the source before using it in new research or publication.",
+    "gold_source_id": "pods-ch08", "gold_page": 411,
+    "evidence_quote": "if the data utilized in graphs or reports are not publicly available, permission must be obtained from the source before using it in new research or publication.",
+    "filter": null
+  }
+]

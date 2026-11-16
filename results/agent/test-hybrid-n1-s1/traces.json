@@ -1,0 +1,1058 @@
+[
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What are the main causes of noisy data?",
+    "answerable": true,
+    "type": "direct",
+    "filter": null,
+    "status": "answered",
+    "answer": "The main causes of noisy data are human errors in data entry, technical errors in data collection or transmission, and natural variability in the data itself [pods-ch02:p93:fixed500o50:000].",
+    "citations": [
+      "pods-ch02:p93:fixed500o50:000"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p92:fixed500o50:006",
+      "pods-ch02:p93:fixed500o50:000",
+      "pods-ch02:p93:fixed500o50:001"
+    ],
+    "final_context": "[pods-ch02:p92:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 92]\na transformation can be a useful tool for data analysts to address issues with\ndata distribution and improve the accuracy of their analyses.\nDealing with Noisy Data\nNoisy data refers to data that retains errors, outliers, or irrelevant information that can conceal true patterns\nand relationships within the dataset. The presence of noisy data in the dataset causes difficulty in drawing\n\n[pods-ch02:p93:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 93]\naccurate conclusions and making predictions from the data. Most noisy data is caused by human errors in data\nentry, technical errors in data collection or transmission, or natural variability in the data itself. Noisy data is\nremoved and cleaned by identifying and correcting errors, removing outliers, and filtering out irrelevant\ninformation. Noisy data can negatively impact data analysis and modeling, and it may indicate that there are\nissues with the model's structure or assumptions. Noisy dat\n\n[pods-ch02:p93:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 93]\nth the model's structure or assumptions. Noisy data is unwanted information that can be removed.\nStrategies to reduce the noisy data are summarized in Table 2.7.\nStrategy Example\nData cleaning Removing duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing A technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One ex",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "main causes of noisy data",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p93:fixed500o50:000",
+            "page": 93,
+            "score": 0.03252
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p92:fixed500o50:006",
+            "page": 92,
+            "score": 0.03202
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p93:fixed500o50:001",
+            "page": 93,
+            "score": 0.03126
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p92:fixed500o50:006",
+          "pods-ch02:p93:fixed500o50:001",
+          "pods-ch02:p92:fixed500o50:005",
+          "pods-ch02:p93:fixed500o50:002"
+        ],
+        "context_ids": [
+          "pods-ch02:p92:fixed500o50:006",
+          "pods-ch02:p93:fixed500o50:000",
+          "pods-ch02:p93:fixed500o50:001"
+        ],
+        "context_chars": 1655,
+        "search_ms": 281.1
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 435,
+          "completion_tokens": 21,
+          "total_tokens": 456,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1134,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"main causes of noisy data\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 792,
+          "completion_tokens": 74,
+          "total_tokens": 866,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1133,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"The main causes of noisy data are human errors in data entry, technical errors in data collection or transmission, and natural variability in the data itself [pods-ch02:p93:fixed500o50:000].\",\"citations\":[\"pods-ch02:p93:fixed500o50:000\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1227,
+    "tokens_out": 95,
+    "cost_usd": 0.00134775,
+    "elapsed_s": 2.55
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Before collecting data, what criteria should be decided for the data to be considered valid?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "chapter": 2
+    },
+    "status": "answered",
+    "answer": "Before collecting data, the conditions or criteria the data needs to meet should be decided so it can be considered valid. The text gives examples of these criteria as precision, completeness, consistency, and timeliness. [pods-ch02:p94:fixed500o50:000]",
+    "citations": [
+      "pods-ch02:p94:fixed500o50:000"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch02:p93:fixed500o50:007",
+      "pods-ch02:p94:fixed500o50:000",
+      "pods-ch02:p94:fixed500o50:001"
+    ],
+    "final_context": "[pods-ch02:p93:fixed500o50:007 | data/raw/Principles-of-Data-Science-WEB.pdf | page 93]\nnd\nstandards. This approach involves identifying and correcting any errors or inconsistencies in the collected data\nas well as ensuring that the data is relevant and reliable for analysis. Data validation can be performed\n\n[pods-ch02:p94:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 94]\nthrough a variety of techniques, including manual checks, automated scripts, and statistical analysis. Some\ncommon inspections in data validation include checking for duplicates, checking for mislaid values, and\nverifying data against external sources or references. Before collecting data, it is important to determine the\nconditions or criteria that the data needs to meet to be considered valid. This can include factors such as\nprecision, completeness, consistency, and timeliness. For example, a\n\n[pods-ch02:p94:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 94]\neness, consistency, and timeliness. For example, a company may set up a data validation\nprocess to ensure that all customer information entered into its database follows a specific format. This would\ninvolve checking for correct spellings and proper formatting of phone numbers and addresses and validating\nthe correctness of customer names and account numbers. The data would also be checked against external\nsources, such as official government records, to verify the accuracy of the information. A",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "Before collecting data, what criteria should be decided for the data to be considered valid?",
+        "filter": {
+          "chapter": 2
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch02:p94:fixed500o50:000",
+            "page": 94,
+            "score": 0.03252
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch02:p68:fixed500o50:004",
+            "page": 68,
+            "score": 0.02976
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch02:p94:fixed500o50:002",
+            "page": 94,
+            "score": 0.02971
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch02:p93:fixed500o50:007",
+          "pods-ch02:p94:fixed500o50:001",
+          "pods-ch02:p68:fixed500o50:003",
+          "pods-ch02:p68:fixed500o50:005",
+          "pods-ch02:p94:fixed500o50:003"
+        ],
+        "context_ids": [
+          "pods-ch02:p93:fixed500o50:007",
+          "pods-ch02:p94:fixed500o50:000",
+          "pods-ch02:p94:fixed500o50:001"
+        ],
+        "context_chars": 1489,
+        "search_ms": 131.8
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 443,
+          "completion_tokens": 33,
+          "total_tokens": 476,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1042,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"Before collecting data, what criteria should be decided for the data to be considered valid?\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 772,
+          "completion_tokens": 87,
+          "total_tokens": 859,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1417,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Before collecting data, the conditions or criteria the data needs to meet should be decided so it can be considered valid. The text gives examples of these criteria as precision, completeness, consistency, and timeliness. [pods-ch02:p94:fixed500o50:000]\",\"citations\":[\"pods-ch02:p94:fixed500o50:000\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1215,
+    "tokens_out": 120,
+    "cost_usd": 0.00145125,
+    "elapsed_s": 2.59
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "How can an unrepresentative training sample make an algorithm unfair?",
+    "answerable": true,
+    "type": "filter",
+    "filter": {
+      "chapter": 8
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "stop_reason": "model_abstain",
+    "searches": 1,
+    "error": null,
+    "context_evidence": false,
+    "final_context_ids": [
+      "pods-ch08:p399:fixed500o50:008",
+      "pods-ch08:p399:fixed500o50:009",
+      "pods-ch08:p399:fixed500o50:010"
+    ],
+    "final_context": "[pods-ch08:p399:fixed500o50:008 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\na scientist’s primary goal is to construct models that can accurately and fairly depict the population of\ninterest by measuring and mitigating potential bias as much as they can in the datasets used to prepare the\nmodels and implementing fairness into the algorithms used to analyze the data. This includes objectively\ntesting the algorithm design, using standard protocols for data collection, ensuring proper handling of data,\nand making sure that any decisions made in the modeling process are bas\n\n[pods-ch08:p399:fixed500o50:009 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\nany decisions made in the modeling process are based on improving the model, not\nmanipulating the model to achieve a desired outcome. The use of available training datasets (see Decision-\nMaking Using Machine Learning Basics) is crucial in detecting discrepancies or inequalities that could lead to\nunfair results. Models and algorithms should be tested frequently for potential and any expected bias to\nensure continuous fairness throughout the model’s serviceability.\nFactors That Might Lead to Bia\n\n[pods-ch08:p399:fixed500o50:010 | data/raw/Principles-of-Data-Science-WEB.pdf | page 399]\nl’s serviceability.\nFactors That Might Lead to Bias\nThe following factors might cause bias in the process of conducting data science projects:",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "unrepresentative training sample algorithm unfair training sample unfairness bias",
+        "filter": {
+          "chapter": 8
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p399:fixed500o50:009",
+            "page": 399,
+            "score": 0.03252
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p400:fixed500o50:000",
+            "page": 400,
+            "score": 0.03252
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p399:fixed500o50:003",
+            "page": 399,
+            "score": 0.03175
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p399:fixed500o50:008",
+          "pods-ch08:p399:fixed500o50:010",
+          "pods-ch08:p400:fixed500o50:001",
+          "pods-ch08:p399:fixed500o50:002",
+          "pods-ch08:p399:fixed500o50:004"
+        ],
+        "context_ids": [
+          "pods-ch08:p399:fixed500o50:008",
+          "pods-ch08:p399:fixed500o50:009",
+          "pods-ch08:p399:fixed500o50:010"
+        ],
+        "context_chars": 1416,
+        "search_ms": 148.9
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The retrieved passages say that scientists should measure and mitigate bias in datasets, use training datasets to detect discrepancies or inequalities that could lead to unfair results, and test models frequently for bias to ensure fairness, but they do not explain specifically how an unrepresentative training sample makes an algorithm unfair. The available evidence is not enough to answer the whole question.",
+        "searched_before_abstain": true
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 439,
+          "completion_tokens": 28,
+          "total_tokens": 467,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1043,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"unrepresentative training sample algorithm unfair training sample unfairness bias\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 743,
+          "completion_tokens": 86,
+          "total_tokens": 829,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1335,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": "{\"reason\":\"The retrieved passages say that scientists should measure and mitigate bias in datasets, use training datasets to detect discrepancies or inequalities that could lead to unfair results, and test models frequently for bias to ensure fairness, but they do not explain specifically how an unrepresentative training sample makes an algorithm unfair. The available evidence is not enough to answer the whole question.\"}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1182,
+    "tokens_out": 114,
+    "cost_usd": 0.0013995,
+    "elapsed_s": 2.53
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Khi phát hiện rò rỉ dữ liệu, bước đầu tiên nhóm cần làm là gì?",
+    "answerable": true,
+    "type": "cross_lingual",
+    "filter": null,
+    "status": "answered",
+    "answer": "Bước đầu tiên là **xác định và cô lập rò rỉ**: nhóm cần xác định loại và phạm vi của sự cố, rồi cô lập nó để ngăn việc tiếp xúc thêm với dữ liệu حساس/nhạy cảm. [pods-ch08:p396:fixed500o50:001]",
+    "citations": [
+      "pods-ch08:p396:fixed500o50:001"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p396:fixed500o50:000",
+      "pods-ch08:p396:fixed500o50:001",
+      "pods-ch08:p396:fixed500o50:002"
+    ],
+    "final_context": "[pods-ch08:p396:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 396]\nacknowledges the ongoing risk of data breaches during the development process. What should the data\nscientists do if they encounter a data security breach during the development process?\nSolution\nA possible data security breach can only be handled if the team already has a response plan in place.\nHaving a response plan also shows that data scientists are prepared to handle any potential issues that may\narise, can minimize the damage caused by a breach, and can prevent further breaches from occur\n\n[pods-ch08:p396:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 396]\nreach, and can prevent further breaches from occurring. The\nsteps to be taken should include the following:\n1. Identify and contain the breach: The first step is to identify the type and scope of the breach. This may\ninvolve investigating any unauthorized access, stolen or lost devices, or other security incidents. Once\nidentified, the breach must be contained to prevent further exposure of sensitive data.\n2. Assess the damage: Once the breach is contained, the team must assess the extent of the\n\n[pods-ch08:p396:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 396]\n contained, the team must assess the extent of the damage\ncaused. This may involve determining the type and amount of data that was compromised as well as\nany potential impact on affected individuals.\n3. Notify authorities: Depending on the nature of the breach, it may be necessary to notify authorities\nsuch as law enforcement or regulatory agencies. This is especially important for breaches involving\npersonally identifiable information (PII) or sensitive data.\n4. Notify affected individuals: Th",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "data breach first step team should take when a data leak is discovered incident response first action",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p396:fixed500o50:001",
+            "page": 396,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p396:fixed500o50:000",
+            "page": 396,
+            "score": 0.032
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p396:fixed500o50:005",
+            "page": 396,
+            "score": 0.03175
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p396:fixed500o50:000",
+          "pods-ch08:p396:fixed500o50:002",
+          "pods-ch08:p395:fixed500o50:007",
+          "pods-ch08:p396:fixed500o50:004",
+          "pods-ch08:p396:fixed500o50:006"
+        ],
+        "context_ids": [
+          "pods-ch08:p396:fixed500o50:000",
+          "pods-ch08:p396:fixed500o50:001",
+          "pods-ch08:p396:fixed500o50:002"
+        ],
+        "context_chars": 1774,
+        "search_ms": 145.0
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 445,
+          "completion_tokens": 33,
+          "total_tokens": 478,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 905,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"data breach first step team should take when a data leak is discovered incident response first action\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 840,
+          "completion_tokens": 96,
+          "total_tokens": 936,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1184,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Bước đầu tiên là **xác định và cô lập rò rỉ**: nhóm cần xác định loại và phạm vi của sự cố, rồi cô lập nó để ngăn việc tiếp xúc thêm với dữ liệu حساس/nhạy cảm. [pods-ch08:p396:fixed500o50:001]\",\"citations\":[\"pods-ch08:p396:fixed500o50:001\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1285,
+    "tokens_out": 129,
+    "cost_usd": 0.00154425,
+    "elapsed_s": 2.23
+  },
+  {
+    "query_id": "q21",
+    "split": "test",
+    "question": "For ethical reporting, how should the axis scales in a chart be set?",
+    "answerable": true,
+    "type": "paraphrase",
+    "filter": null,
+    "status": "answered",
+    "answer": "For ethical reporting, the scales on all axes in a chart should be consistent and proportionate. [pods-ch08:p405:fixed500o50:005]",
+    "citations": [
+      "pods-ch08:p405:fixed500o50:005"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p405:fixed500o50:004",
+      "pods-ch08:p405:fixed500o50:005",
+      "pods-ch08:p405:fixed500o50:006"
+    ],
+    "final_context": "[pods-ch08:p405:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 405]\nse practices:\n1. Exercise objectivity when drafting and presenting any reports or findings.\n2. Acknowledge all third-party data sources appropriately.\n3. Ensure that all visualizations are unambiguous and do not focus on any sensationalized data points.\n4. Construct visualizations in a meaningful way, utilizing appropriate titles, labels, scales, and legends.\n5. Present all data in a complete picture, avoiding masking or omitting portions of graphs.\n6. Ensure that the scales on all axes in a cha\n\n[pods-ch08:p405:fixed500o50:005 | data/raw/Principles-of-Data-Science-WEB.pdf | page 405]\nhs.\n6. Ensure that the scales on all axes in a chart are consistent and proportionate.\n7. Exercise caution when implying causality between connected data points, providing supporting evidence if\nneeded.\n8. Utilize representative datasets of the population of interest.\nAccurate Representation\nAccurate representation is a crucial aspect of data science and reporting, and it refers to presenting data in a\nway that authentically reflects the underlying information. This includes ensuring that the da\n\n[pods-ch08:p405:fixed500o50:006 | data/raw/Principles-of-Data-Science-WEB.pdf | page 405]\nng information. This includes ensuring that the data is not\nmisrepresented or manipulated in any way and that the findings are based on reliable and valid data. From a\ndata scientist perspective, accurate representation involves this sequence of steps:\n1. Understanding the data. Before visualizing or reporting on data, a data scientist must have a thorough\nunderstanding of the data, including its sources, limitations, and potential biases.\n2. Choosing appropriate visualizations. Data can be pres",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "ethical reporting axis scales chart should be set",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p405:fixed500o50:005",
+            "page": 405,
+            "score": 0.03227
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p405:fixed500o50:004",
+            "page": 405,
+            "score": 0.03202
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p405:fixed500o50:003",
+            "page": 405,
+            "score": 0.03175
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p405:fixed500o50:004",
+          "pods-ch08:p405:fixed500o50:006",
+          "pods-ch08:p405:fixed500o50:003",
+          "pods-ch08:p405:fixed500o50:002"
+        ],
+        "context_ids": [
+          "pods-ch08:p405:fixed500o50:004",
+          "pods-ch08:p405:fixed500o50:005",
+          "pods-ch08:p405:fixed500o50:006"
+        ],
+        "context_chars": 1774,
+        "search_ms": 137.2
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 441,
+          "completion_tokens": 24,
+          "total_tokens": 465,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 884,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"ethical reporting axis scales chart should be set\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 827,
+          "completion_tokens": 65,
+          "total_tokens": 892,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1237,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"For ethical reporting, the scales on all axes in a chart should be consistent and proportionate. [pods-ch08:p405:fixed500o50:005]\",\"citations\":[\"pods-ch08:p405:fixed500o50:005\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1268,
+    "tokens_out": 89,
+    "cost_usd": 0.0013515,
+    "elapsed_s": 2.26
+  },
+  {
+    "query_id": "q22",
+    "split": "test",
+    "question": "In what situation must permission be obtained before using data in graphs or reports?",
+    "answerable": true,
+    "type": "conditional",
+    "filter": null,
+    "status": "answered",
+    "answer": "Permission must be obtained when the data used in graphs or reports are not publicly available; in that case, the source must give permission before the data are used in new research or publication, and proper attribution and citation are also required [pods-ch08:p411:fixed500o50:003] [pods-ch08:p411:fixed500o50:004].",
+    "citations": [
+      "pods-ch08:p411:fixed500o50:003",
+      "pods-ch08:p411:fixed500o50:004"
+    ],
+    "stop_reason": "answer",
+    "searches": 1,
+    "error": null,
+    "context_evidence": true,
+    "final_context_ids": [
+      "pods-ch08:p411:fixed500o50:002",
+      "pods-ch08:p411:fixed500o50:003",
+      "pods-ch08:p411:fixed500o50:004"
+    ],
+    "final_context": "[pods-ch08:p411:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 411]\n2. Trust and transparency. By disclosing the sources of data, it promotes trust and transparency between\ndata producers and consumers. This is especially important when data is used to inform decision-making\nor to shape public perceptions.\n3. Accountability. Featuring full attribution in the available results allows the rest of the research\ncommunity to validate and further research the results provided. This safeguard enforces data integrity\nand holds developers accountable for the claims and c\n\n[pods-ch08:p411:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 411]\n holds developers accountable for the claims and conclusions put forth.\n4. Privacy considerations. In some circumstances, the data employed in visualizations may retain sensitive\nor personal information. Attributing the source of the data can help protect individuals' privacy and avoid\npotential harm or misuse of their information.\nIt is important to note that if the data utilized in graphs or reports are not publicly available, permission must\nbe obtained from the source before using it in new \n\n[pods-ch08:p411:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 411]\ne obtained from the source before using it in new research or publication. This would also require proper\nattribution and citation to the source of the data.\nData source attribution is also closely tied to the principles of accessibility and inclusivity. By clearly stating the\nsources of data, it enables people with different backgrounds and abilities to access and understand the\ninformation presented.\nProper attribution of sources also builds trust. Without explicit citations and permissions in",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "permission must be obtained before using data in graphs or reports situation",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p411:fixed500o50:003",
+            "page": 411,
+            "score": 0.03279
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p394:fixed500o50:002",
+            "page": 394,
+            "score": 0.0315
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p405:fixed500o50:001",
+            "page": 405,
+            "score": 0.03128
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p411:fixed500o50:002",
+          "pods-ch08:p411:fixed500o50:004",
+          "pods-ch08:p394:fixed500o50:001",
+          "pods-ch08:p394:fixed500o50:003",
+          "pods-ch08:p405:fixed500o50:000",
+          "pods-ch08:p405:fixed500o50:002"
+        ],
+        "context_ids": [
+          "pods-ch08:p411:fixed500o50:002",
+          "pods-ch08:p411:fixed500o50:003",
+          "pods-ch08:p411:fixed500o50:004"
+        ],
+        "context_chars": 1774,
+        "search_ms": 156.1
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 441,
+          "completion_tokens": 28,
+          "total_tokens": 469,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 835,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"permission must be obtained before using data in graphs or reports situation\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 807,
+          "completion_tokens": 118,
+          "total_tokens": 925,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1214,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "answer",
+            "arguments": "{\"answer\":\"Permission must be obtained when the data used in graphs or reports are not publicly available; in that case, the source must give permission before the data are used in new research or publication, and proper attribution and citation are also required [pods-ch08:p411:fixed500o50:003] [pods-ch08:p411:fixed500o50:004].\",\"citations\":[\"pods-ch08:p411:fixed500o50:003\",\"pods-ch08:p411:fixed500o50:004\"]}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1248,
+    "tokens_out": 146,
+    "cost_usd": 0.001593,
+    "elapsed_s": 2.21
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "What is the maximum fine a company can receive for violating the GDPR?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "stop_reason": "model_abstain",
+    "searches": 1,
+    "error": null,
+    "context_evidence": null,
+    "final_context_ids": [
+      "pods-ch08:p388:fixed500o50:008",
+      "pods-ch08:p389:fixed500o50:000",
+      "pods-ch08:p389:fixed500o50:001"
+    ],
+    "final_context": "[pods-ch08:p388:fixed500o50:008 | data/raw/Principles-of-Data-Science-WEB.pdf | page 388]\nand adhere to\nthese regulations to avoid any potential repercussions.\nData Security Regulations are based on data protection laws, such as the General Data Protection Regulation\nin the European Union (https://openstax.org/r/gdpr) (GDPR) and the 2018 California Consumer Privacy Act\n(https://openstax.org/r/privacy) (CCPA) in the United States, with its amendment, CPRA (2023). These\nregulations demand that organizations collect, process, and accumulate confidential data securely and\n\n[pods-ch08:p389:fixed500o50:000 | data/raw/Principles-of-Data-Science-WEB.pdf | page 389]\ntransparently. Figure 8.2 and Figure 8.3 summarize the GDPR and CCPA/CPRA principles. This GDPR Checklist\nfor Data Controllers (https://openstax.org/r/gdpr1) on the EU website presents the principles in an actionable\nformat for organizations.\nFigure 8.2 GDPR Principles\nFigure 8.3 CCPA/CPRA Principles\nSome countries have laws regarding data sovereignty that require data collected from their citizens to be\nstored and processed within their borders, making it important to understand where data is b\n\n[pods-ch08:p389:fixed500o50:001 | data/raw/Principles-of-Data-Science-WEB.pdf | page 389]\n making it important to understand where data is being collected\nand stored. Many countries have also enacted laws and regulations involving data retention, or how long\npersonal data may be stored (e.g., the Sarbanes-Oxley Act [SOX] in the United States or the Data Protection Act\n[DPA] in the United Kingdom); data breach notification, or what to do when data is stolen by a malicious third\nparty (Gramm-Leach-Bliley Act [GLBA] in the United States or the Personal Information Protection and\nElectro",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "GDPR maximum fine company violating GDPR",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p389:fixed500o50:000",
+            "page": 389,
+            "score": 0.03252
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p391:fixed500o50:001",
+            "page": 391,
+            "score": 0.03068
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p388:fixed500o50:008",
+            "page": 388,
+            "score": 0.03062
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p388:fixed500o50:008",
+          "pods-ch08:p389:fixed500o50:001",
+          "pods-ch08:p391:fixed500o50:000",
+          "pods-ch08:p391:fixed500o50:002",
+          "pods-ch08:p388:fixed500o50:007"
+        ],
+        "context_ids": [
+          "pods-ch08:p388:fixed500o50:008",
+          "pods-ch08:p389:fixed500o50:000",
+          "pods-ch08:p389:fixed500o50:001"
+        ],
+        "context_chars": 1758,
+        "search_ms": 137.0
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The retrieved passages mention GDPR as a data protection regulation but do not state the maximum fine for a company violating it.",
+        "searched_before_abstain": true
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 440,
+          "completion_tokens": 23,
+          "total_tokens": 463,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 810,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"GDPR maximum fine company violating GDPR\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 867,
+          "completion_tokens": 40,
+          "total_tokens": 907,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1003,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": "{\"reason\":\"The retrieved passages mention GDPR as a data protection regulation but do not state the maximum fine for a company violating it.\"}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1307,
+    "tokens_out": 63,
+    "cost_usd": 0.00126375,
+    "elapsed_s": 1.95
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "Facebook đã bị phạt bao nhiêu tiền sau vụ lộ dữ liệu người dùng năm 2019?",
+    "answerable": false,
+    "type": "unanswerable",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "stop_reason": "model_abstain",
+    "searches": 1,
+    "error": null,
+    "context_evidence": null,
+    "final_context_ids": [
+      "pods-ch08:p394:fixed500o50:002",
+      "pods-ch08:p394:fixed500o50:003",
+      "pods-ch08:p394:fixed500o50:004"
+    ],
+    "final_context": "[pods-ch08:p394:fixed500o50:002 | data/raw/Principles-of-Data-Science-WEB.pdf | page 394]\nrty rights can be accessed legitimately, if\nproper permission from the holder of the copyright is obtained and proper attribution given. More about\ncopyright and attribution of data will be discussed in Ethics in Visualization and Reporting.\nSome kinds of data are publicly available. Even when this is the case, data scientists need to be aware of the\nnature of the data to ensure it is used appropriately. For example, if publicly available data contains a person's\nmedical information or financial\n\n[pods-ch08:p394:fixed500o50:003 | data/raw/Principles-of-Data-Science-WEB.pdf | page 394]\nntains a person's\nmedical information or financial information, this would still pose a data security risk. Organizations should\nalways ensure that any data they make publicly available is secure and protected by their data security policies\nand protocols. If data is accidentally breached during the project development process (thereby inadvertently\nmaking it public data), this could have serious and damaging consequences. For example, in 2019, two\ndatasets from Facebook apps were breached and e\n\n[pods-ch08:p394:fixed500o50:004 | data/raw/Principles-of-Data-Science-WEB.pdf | page 394]\nwo\ndatasets from Facebook apps were breached and exposed to the public internet, revealing phone numbers,\naccount names, and Facebook IDs of over 500 million users. Now that the data has been released, there is no\nway to ensure its security going forward.\nSecurity for Quantitative and Qualitative Data\nThe collection of quantitative and qualitative data (defined in Data and Datasets) have different ethical data\nsecurity conditions. Securing quantitative data typically involves encryption and anon",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_book",
+        "strategy": "hybrid_rrf",
+        "query": "Facebook fined how much after the 2019 user data leak",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "pods-ch08:p394:fixed500o50:003",
+            "page": 394,
+            "score": 0.03227
+          },
+          {
+            "rank": 2,
+            "id": "pods-ch08:p394:fixed500o50:004",
+            "page": 394,
+            "score": 0.03226
+          },
+          {
+            "rank": 3,
+            "id": "pods-ch08:p402:fixed500o50:003",
+            "page": 402,
+            "score": 0.02565
+          }
+        ],
+        "neighbors_added": [
+          "pods-ch08:p394:fixed500o50:002",
+          "pods-ch08:p394:fixed500o50:004",
+          "pods-ch08:p394:fixed500o50:005",
+          "pods-ch08:p402:fixed500o50:002",
+          "pods-ch08:p402:fixed500o50:004"
+        ],
+        "context_ids": [
+          "pods-ch08:p394:fixed500o50:002",
+          "pods-ch08:p394:fixed500o50:003",
+          "pods-ch08:p394:fixed500o50:004"
+        ],
+        "context_chars": 1774,
+        "search_ms": 147.6
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The retrieved passages mention the 2019 Facebook data breach and that over 500 million users were exposed, but they do not state any fine amount, so I cannot answer how much Facebook was fined from the provided evidence.",
+        "searched_before_abstain": true
+      }
+    ],
+    "model_calls": [
+      {
+        "searches_before": 0,
+        "usage": {
+          "prompt_tokens": 448,
+          "completion_tokens": 28,
+          "total_tokens": 476,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 872,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "search_book",
+            "arguments": "{\"query\":\"Facebook fined how much after the 2019 user data leak\"}"
+          }
+        ]
+      },
+      {
+        "searches_before": 1,
+        "usage": {
+          "prompt_tokens": 825,
+          "completion_tokens": 61,
+          "total_tokens": 886,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "latency_ms": 1170,
+        "attempts": 1,
+        "model": "gpt-5.4-mini-2026-03-17",
+        "tool_calls": [
+          {
+            "name": "abstain",
+            "arguments": "{\"reason\":\"The retrieved passages mention the 2019 Facebook data breach and that over 500 million users were exposed, but they do not state any fine amount, so I cannot answer how much Facebook was fined from the provided evidence.\"}"
+          }
+        ]
+      }
+    ],
+    "llm_calls": 2,
+    "tokens_in": 1273,
+    "tokens_out": 89,
+    "cost_usd": 0.00135525,
+    "elapsed_s": 2.19
+  }
+]

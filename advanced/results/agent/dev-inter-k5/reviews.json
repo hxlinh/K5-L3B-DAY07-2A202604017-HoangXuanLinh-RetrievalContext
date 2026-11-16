@@ -1,0 +1,128 @@
+[
+ {
+  "query_id": "AD01",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD02",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD03",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD04",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD05",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD06",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD07",
+  "group": "chart",
+  "status": "answered",
+  "pass": false,
+  "note": "Chỉ nói 'cột ở giữa', không nêu nhãn trục 7."
+ },
+ {
+  "query_id": "AD08",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD09",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng 47–56; cite Figure 8.10 (cũng là biểu đồ số người tham gia theo nhóm tuổi, cùng kết luận)."
+ },
+ {
+  "query_id": "AD10",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Table 2.6 có đủ cột Branch, Product, Sales nên citation một bảng vẫn hỗ trợ đủ câu trả lời."
+ },
+ {
+  "query_id": "AD11",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD12",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD13",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD14",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD15",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD16",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": false,
+  "note": "Bảng 1.1 không có Spring 2020. Model lấy nhầm dòng Fall 2020, là khẳng định sai."
+ },
+ {
+  "query_id": "AD17",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": false,
+  "note": "Khẳng định Instructor C được 'Recommended' rồi tự mâu thuẫn; câu trả lời suy đoán."
+ },
+ {
+  "query_id": "AD18",
+  "group": "unanswerable",
+  "status": "abstain",
+  "pass": true,
+  "note": "Từ chối đúng."
+ }
+]

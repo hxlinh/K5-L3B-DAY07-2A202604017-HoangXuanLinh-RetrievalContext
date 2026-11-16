@@ -1,0 +1,2478 @@
+[
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What are some common methods for collecting data?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p68:fixed500o50:000",
+        "page": 68,
+        "score": 0.802
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p68:fixed500o50:002",
+        "page": 68,
+        "score": 0.7994
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p67:fixed500o50:002",
+        "page": 67,
+        "score": 0.79439
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p68:fixed500o50:000",
+      "pods-ch02:p68:fixed500o50:002",
+      "pods-ch02:p67:fixed500o50:002"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 303.8,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What kind of data is gathered by watching and recording behavior without the researcher taking part?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p68:fixed500o50:006",
+        "page": 68,
+        "score": 0.85882
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p68:fixed500o50:005",
+        "page": 68,
+        "score": 0.7769
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p68:fixed500o50:007",
+        "page": 68,
+        "score": 0.77558
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p68:fixed500o50:006",
+      "pods-ch02:p68:fixed500o50:005",
+      "pods-ch02:p68:fixed500o50:007"
+    ],
+    "context_chars": 1604,
+    "elapsed_ms": 177.3,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Why should a survey questionnaire be pilot tested before it is given to the full population?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p71:fixed500o50:007",
+        "page": 71,
+        "score": 0.8259
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p71:fixed500o50:005",
+        "page": 71,
+        "score": 0.72869
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p71:fixed500o50:008",
+        "page": 71,
+        "score": 0.72624
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p71:fixed500o50:007",
+      "pods-ch02:p71:fixed500o50:005",
+      "pods-ch02:p71:fixed500o50:008"
+    ],
+    "context_chars": 1456,
+    "elapsed_ms": 139.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What was wrong with the way the 1936 Literary Digest poll selected the people it surveyed?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p72:fixed500o50:001",
+        "page": 72,
+        "score": 0.77805
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p72:fixed500o50:002",
+        "page": 72,
+        "score": 0.69106
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p75:fixed500o50:009",
+        "page": 75,
+        "score": 0.67877
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p72:fixed500o50:001",
+      "pods-ch02:p72:fixed500o50:002",
+      "pods-ch02:p75:fixed500o50:009"
+    ],
+    "context_chars": 1384,
+    "elapsed_ms": 151.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Lấy mẫu phân tầng (stratified sampling) là gì?",
+    "type": "cross_lingual",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p73:fixed500o50:001",
+        "page": 73,
+        "score": 0.79325
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p73:fixed500o50:000",
+        "page": 73,
+        "score": 0.78937
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p76:fixed500o50:001",
+        "page": 76,
+        "score": 0.78298
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p73:fixed500o50:001",
+      "pods-ch02:p73:fixed500o50:000",
+      "pods-ch02:p76:fixed500o50:001"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 144.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Under what condition can systematic sampling produce a biased sample?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p73:fixed500o50:007",
+        "page": 73,
+        "score": 0.80197
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p72:fixed500o50:001",
+        "page": 72,
+        "score": 0.76368
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p72:fixed500o50:003",
+        "page": 72,
+        "score": 0.75926
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p73:fixed500o50:007",
+      "pods-ch02:p72:fixed500o50:001",
+      "pods-ch02:p72:fixed500o50:003"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 152.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which web scraping technique is best for pulling out text in a fixed format such as dates, phone numbers, or email addresses?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p77:fixed500o50:001",
+        "page": 77,
+        "score": 0.78648
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p77:fixed500o50:000",
+        "page": 77,
+        "score": 0.77661
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p76:fixed500o50:007",
+        "page": 76,
+        "score": 0.77529
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p77:fixed500o50:001",
+      "pods-ch02:p77:fixed500o50:000",
+      "pods-ch02:p76:fixed500o50:007"
+    ],
+    "context_chars": 1401,
+    "elapsed_ms": 154.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "In a survey about driving habits, some respondents accidentally skip the income question. What type of missing data is this?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p87:fixed500o50:002",
+        "page": 87,
+        "score": 0.88669
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p87:fixed500o50:001",
+        "page": 87,
+        "score": 0.86938
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p87:fixed500o50:003",
+        "page": 87,
+        "score": 0.77219
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p87:fixed500o50:002",
+      "pods-ch02:p87:fixed500o50:001",
+      "pods-ch02:p87:fixed500o50:003"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 170.3,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What are the options for handling outliers, and what is the drawback of simply deleting them?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p87:fixed500o50:007",
+        "page": 87,
+        "score": 0.80944
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p87:fixed500o50:006",
+        "page": 87,
+        "score": 0.80942
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p87:fixed500o50:005",
+        "page": 87,
+        "score": 0.7872
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p87:fixed500o50:007",
+      "pods-ch02:p87:fixed500o50:006",
+      "pods-ch02:p87:fixed500o50:005"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 173.1,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which type of compression is used for text and numerical data, and what are some examples?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p98:fixed500o50:007",
+        "page": 98,
+        "score": 0.79564
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p98:fixed500o50:008",
+        "page": 98,
+        "score": 0.77692
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p98:fixed500o50:005",
+        "page": 98,
+        "score": 0.76917
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p98:fixed500o50:007",
+      "pods-ch02:p98:fixed500o50:008",
+      "pods-ch02:p98:fixed500o50:005"
+    ],
+    "context_chars": 1531,
+    "elapsed_ms": 155.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Why is information like the chunk number and total number of chunks attached to each chunk?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p100:fixed500o50:002",
+        "page": 100,
+        "score": 0.83763
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p100:fixed500o50:001",
+        "page": 100,
+        "score": 0.79064
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p100:fixed500o50:003",
+        "page": 100,
+        "score": 0.76995
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p100:fixed500o50:002",
+      "pods-ch02:p100:fixed500o50:001",
+      "pods-ch02:p100:fixed500o50:003"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 155.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Which US law regulates how federal agencies collect, use, maintain, and disseminate personal information?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p388:fixed500o50:006",
+        "page": 388,
+        "score": 0.82487
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p389:fixed500o50:001",
+        "page": 389,
+        "score": 0.73732
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p397:fixed500o50:008",
+        "page": 397,
+        "score": 0.72623
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p388:fixed500o50:006",
+      "pods-ch08:p389:fixed500o50:001",
+      "pods-ch08:p397:fixed500o50:008"
+    ],
+    "context_chars": 1530,
+    "elapsed_ms": 156.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What technique swaps sensitive values for artificial codes while keeping the data useful for analysis?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p390:fixed500o50:002",
+        "page": 390,
+        "score": 0.7637
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p401:fixed500o50:007",
+        "page": 401,
+        "score": 0.74227
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p393:fixed500o50:006",
+        "page": 393,
+        "score": 0.73712
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p390:fixed500o50:002",
+      "pods-ch08:p401:fixed500o50:007",
+      "pods-ch08:p393:fixed500o50:006"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 176.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How many Americans had their personal information exposed in the 2017 Equifax data breach?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p393:fixed500o50:003",
+        "page": 393,
+        "score": 0.7991
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p393:fixed500o50:004",
+        "page": 393,
+        "score": 0.76603
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 0.73305
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p393:fixed500o50:004",
+      "pods-ch08:p393:fixed500o50:005"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 152.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "What are the three key areas that the process of data validation can be divided into?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 8
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p403:fixed500o50:005",
+        "page": 403,
+        "score": 0.80295
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p403:fixed500o50:003",
+        "page": 403,
+        "score": 0.76603
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p403:fixed500o50:002",
+        "page": 403,
+        "score": 0.74633
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p403:fixed500o50:005",
+      "pods-ch08:p403:fixed500o50:003",
+      "pods-ch08:p403:fixed500o50:002"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 149.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q16",
+    "split": "dev",
+    "question": "What did the 2016 investigation find about the COMPAS algorithm?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p399:fixed500o50:005",
+        "page": 399,
+        "score": 0.75156
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p403:fixed500o50:008",
+        "page": 403,
+        "score": 0.69354
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p393:fixed500o50:006",
+        "page": 393,
+        "score": 0.6809
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p403:fixed500o50:008",
+      "pods-ch08:p393:fixed500o50:006"
+    ],
+    "context_chars": 1516,
+    "elapsed_ms": 139.5,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "u01",
+    "split": "dev",
+    "question": "How much money did Equifax agree to pay in its settlement over the 2017 data breach?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 0.71237
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p393:fixed500o50:003",
+        "page": 393,
+        "score": 0.7069
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p396:fixed500o50:005",
+        "page": 396,
+        "score": 0.68917
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p393:fixed500o50:005",
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p396:fixed500o50:005"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 155.7
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "u02",
+    "split": "dev",
+    "question": "Which news organization carried out the 2016 investigation of the COMPAS algorithm, and which company developed COMPAS?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p399:fixed500o50:005",
+        "page": 399,
+        "score": 0.68617
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p405:fixed500o50:002",
+        "page": 405,
+        "score": 0.64204
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p403:fixed500o50:008",
+        "page": 403,
+        "score": 0.63882
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p405:fixed500o50:002",
+      "pods-ch08:p403:fixed500o50:008"
+    ],
+    "context_chars": 1516,
+    "elapsed_ms": 155.9
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What are some common methods for collecting data?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p68:fixed500o50:002",
+        "page": 68,
+        "score": 10.57916
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p94:fixed500o50:000",
+        "page": 94,
+        "score": 10.49966
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p99:fixed500o50:001",
+        "page": 99,
+        "score": 8.83783
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p68:fixed500o50:002",
+      "pods-ch02:p94:fixed500o50:000",
+      "pods-ch02:p99:fixed500o50:001"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 1.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What kind of data is gathered by watching and recording behavior without the researcher taking part?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p68:fixed500o50:006",
+        "page": 68,
+        "score": 14.75218
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p68:fixed500o50:005",
+        "page": 68,
+        "score": 13.3687
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p69:fixed500o50:001",
+        "page": 69,
+        "score": 11.29989
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p68:fixed500o50:006",
+      "pods-ch02:p68:fixed500o50:005",
+      "pods-ch02:p69:fixed500o50:001"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 2.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Why should a survey questionnaire be pilot tested before it is given to the full population?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p71:fixed500o50:007",
+        "page": 71,
+        "score": 23.81107
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p86:fixed500o50:006",
+        "page": 86,
+        "score": 13.86806
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p68:fixed500o50:004",
+        "page": 68,
+        "score": 12.36287
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p71:fixed500o50:007",
+      "pods-ch02:p86:fixed500o50:006",
+      "pods-ch02:p68:fixed500o50:004"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 1.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What was wrong with the way the 1936 Literary Digest poll selected the people it surveyed?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p72:fixed500o50:001",
+        "page": 72,
+        "score": 25.6136
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p95:fixed500o50:002",
+        "page": 95,
+        "score": 9.12449
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p81:fixed500o50:005",
+        "page": 81,
+        "score": 8.12888
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p72:fixed500o50:001",
+      "pods-ch02:p95:fixed500o50:002",
+      "pods-ch02:p81:fixed500o50:005"
+    ],
+    "context_chars": 1533,
+    "elapsed_ms": 1.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Lấy mẫu phân tầng (stratified sampling) là gì?",
+    "type": "cross_lingual",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p73:fixed500o50:000",
+        "page": 73,
+        "score": 11.22001
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p73:fixed500o50:001",
+        "page": 73,
+        "score": 10.00679
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p72:fixed500o50:006",
+        "page": 72,
+        "score": 8.66595
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p73:fixed500o50:000",
+      "pods-ch02:p73:fixed500o50:001",
+      "pods-ch02:p72:fixed500o50:006"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 0.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Under what condition can systematic sampling produce a biased sample?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p73:fixed500o50:006",
+        "page": 73,
+        "score": 13.17279
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p71:fixed500o50:002",
+        "page": 71,
+        "score": 12.94993
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p74:fixed500o50:003",
+        "page": 74,
+        "score": 11.73643
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p73:fixed500o50:006",
+      "pods-ch02:p71:fixed500o50:002",
+      "pods-ch02:p74:fixed500o50:003"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 1.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which web scraping technique is best for pulling out text in a fixed format such as dates, phone numbers, or email addresses?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p77:fixed500o50:001",
+        "page": 77,
+        "score": 38.9852
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p81:fixed500o50:000",
+        "page": 81,
+        "score": 29.72142
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p94:fixed500o50:001",
+        "page": 94,
+        "score": 19.54908
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p77:fixed500o50:001",
+      "pods-ch02:p81:fixed500o50:000",
+      "pods-ch02:p94:fixed500o50:001"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 1.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "In a survey about driving habits, some respondents accidentally skip the income question. What type of missing data is this?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p87:fixed500o50:001",
+        "page": 87,
+        "score": 47.20109
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p87:fixed500o50:002",
+        "page": 87,
+        "score": 42.80968
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p87:fixed500o50:004",
+        "page": 87,
+        "score": 22.07714
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p87:fixed500o50:001",
+      "pods-ch02:p87:fixed500o50:002",
+      "pods-ch02:p87:fixed500o50:004"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 1.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What are the options for handling outliers, and what is the drawback of simply deleting them?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p101:fixed500o50:005",
+        "page": 101,
+        "score": 12.72424
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p87:fixed500o50:008",
+        "page": 87,
+        "score": 11.06131
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p78:fixed500o50:003",
+        "page": 78,
+        "score": 10.76204
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p101:fixed500o50:005",
+      "pods-ch02:p87:fixed500o50:008",
+      "pods-ch02:p78:fixed500o50:003"
+    ],
+    "context_chars": 1770,
+    "elapsed_ms": 1.1,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which type of compression is used for text and numerical data, and what are some examples?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p98:fixed500o50:007",
+        "page": 98,
+        "score": 23.4172
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p98:fixed500o50:006",
+        "page": 98,
+        "score": 15.20984
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p101:fixed500o50:005",
+        "page": 101,
+        "score": 14.48362
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p98:fixed500o50:007",
+      "pods-ch02:p98:fixed500o50:006",
+      "pods-ch02:p101:fixed500o50:005"
+    ],
+    "context_chars": 1770,
+    "elapsed_ms": 1.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Why is information like the chunk number and total number of chunks attached to each chunk?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p100:fixed500o50:002",
+        "page": 100,
+        "score": 39.23559
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p100:fixed500o50:001",
+        "page": 100,
+        "score": 21.00128
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p410:fixed500o50:003",
+        "page": 410,
+        "score": 17.40693
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p100:fixed500o50:002",
+      "pods-ch02:p100:fixed500o50:001",
+      "pods-ch08:p410:fixed500o50:003"
+    ],
+    "context_chars": 1458,
+    "elapsed_ms": 1.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Which US law regulates how federal agencies collect, use, maintain, and disseminate personal information?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p388:fixed500o50:006",
+        "page": 388,
+        "score": 43.66691
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p394:fixed500o50:006",
+        "page": 394,
+        "score": 12.79311
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p396:fixed500o50:002",
+        "page": 396,
+        "score": 10.84229
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p388:fixed500o50:006",
+      "pods-ch08:p394:fixed500o50:006",
+      "pods-ch08:p396:fixed500o50:002"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 1.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What technique swaps sensitive values for artificial codes while keeping the data useful for analysis?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p390:fixed500o50:002",
+        "page": 390,
+        "score": 20.48747
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p402:fixed500o50:004",
+        "page": 402,
+        "score": 11.37974
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p92:fixed500o50:005",
+        "page": 92,
+        "score": 10.69737
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p390:fixed500o50:002",
+      "pods-ch08:p402:fixed500o50:004",
+      "pods-ch02:p92:fixed500o50:005"
+    ],
+    "context_chars": 1772,
+    "elapsed_ms": 1.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How many Americans had their personal information exposed in the 2017 Equifax data breach?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p393:fixed500o50:003",
+        "page": 393,
+        "score": 35.37168
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p389:fixed500o50:001",
+        "page": 389,
+        "score": 16.02844
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p387:fixed500o50:002",
+        "page": 387,
+        "score": 12.45604
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p389:fixed500o50:001",
+      "pods-ch08:p387:fixed500o50:002"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 1.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "What are the three key areas that the process of data validation can be divided into?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 8
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p403:fixed500o50:005",
+        "page": 403,
+        "score": 28.75644
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p403:fixed500o50:007",
+        "page": 403,
+        "score": 18.21842
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p398:fixed500o50:007",
+        "page": 398,
+        "score": 11.9544
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p403:fixed500o50:005",
+      "pods-ch08:p403:fixed500o50:007",
+      "pods-ch08:p398:fixed500o50:007"
+    ],
+    "context_chars": 1642,
+    "elapsed_ms": 0.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "q16",
+    "split": "dev",
+    "question": "What did the 2016 investigation find about the COMPAS algorithm?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p399:fixed500o50:005",
+        "page": 399,
+        "score": 25.29519
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p406:fixed500o50:000",
+        "page": 406,
+        "score": 10.74634
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p86:fixed500o50:007",
+        "page": 86,
+        "score": 8.42562
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p406:fixed500o50:000",
+      "pods-ch02:p86:fixed500o50:007"
+    ],
+    "context_chars": 1710,
+    "elapsed_ms": 1.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "u01",
+    "split": "dev",
+    "question": "How much money did Equifax agree to pay in its settlement over the 2017 data breach?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p393:fixed500o50:003",
+        "page": 393,
+        "score": 25.9744
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 10.12231
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p101:fixed500o50:007",
+        "page": 101,
+        "score": 9.58909
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p393:fixed500o50:005",
+      "pods-ch02:p101:fixed500o50:007"
+    ],
+    "context_chars": 1490,
+    "elapsed_ms": 1.4
+  },
+  {
+    "method": "bm25",
+    "tag": "baseline",
+    "query_id": "u02",
+    "split": "dev",
+    "question": "Which news organization carried out the 2016 investigation of the COMPAS algorithm, and which company developed COMPAS?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p399:fixed500o50:005",
+        "page": 399,
+        "score": 33.54689
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p401:fixed500o50:007",
+        "page": 401,
+        "score": 9.18177
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p68:fixed500o50:002",
+        "page": 68,
+        "score": 8.83146
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p401:fixed500o50:007",
+      "pods-ch02:p68:fixed500o50:002"
+    ],
+    "context_chars": 1772,
+    "elapsed_ms": 1.5
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What are some common methods for collecting data?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p68:fixed500o50:002",
+        "page": 68,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p70:fixed500o50:003",
+        "page": 70,
+        "score": 0.03078,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p94:fixed500o50:000",
+        "page": 94,
+        "score": 0.02983,
+        "component_ranks": {
+          "dense": 13,
+          "bm25": 2
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p68:fixed500o50:002",
+      "pods-ch02:p70:fixed500o50:003",
+      "pods-ch02:p94:fixed500o50:000"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 130.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What kind of data is gathered by watching and recording behavior without the researcher taking part?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p68:fixed500o50:006",
+        "page": 68,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p68:fixed500o50:005",
+        "page": 68,
+        "score": 0.03226,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p69:fixed500o50:001",
+        "page": 69,
+        "score": 0.0315,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 3
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p68:fixed500o50:006",
+      "pods-ch02:p68:fixed500o50:005",
+      "pods-ch02:p69:fixed500o50:001"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 157.2,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Why should a survey questionnaire be pilot tested before it is given to the full population?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p71:fixed500o50:007",
+        "page": 71,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p68:fixed500o50:004",
+        "page": 68,
+        "score": 0.0308,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p72:fixed500o50:005",
+        "page": 72,
+        "score": 0.02986,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 8
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p71:fixed500o50:007",
+      "pods-ch02:p68:fixed500o50:004",
+      "pods-ch02:p72:fixed500o50:005"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 174.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What was wrong with the way the 1936 Literary Digest poll selected the people it surveyed?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p72:fixed500o50:001",
+        "page": 72,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p72:fixed500o50:002",
+        "page": 72,
+        "score": 0.03175,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 4
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p74:fixed500o50:002",
+        "page": 74,
+        "score": 0.02858,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 9
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p72:fixed500o50:001",
+      "pods-ch02:p72:fixed500o50:002",
+      "pods-ch02:p74:fixed500o50:002"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 169.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Lấy mẫu phân tầng (stratified sampling) là gì?",
+    "type": "cross_lingual",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p73:fixed500o50:000",
+        "page": 73,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p73:fixed500o50:001",
+        "page": 73,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p76:fixed500o50:002",
+        "page": 76,
+        "score": 0.03125,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 4
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p73:fixed500o50:000",
+      "pods-ch02:p73:fixed500o50:001",
+      "pods-ch02:p76:fixed500o50:002"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 140.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Under what condition can systematic sampling produce a biased sample?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p73:fixed500o50:007",
+        "page": 73,
+        "score": 0.03154,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p74:fixed500o50:003",
+        "page": 74,
+        "score": 0.0308,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p72:fixed500o50:003",
+        "page": 72,
+        "score": 0.03058,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 8
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p73:fixed500o50:007",
+      "pods-ch02:p74:fixed500o50:003",
+      "pods-ch02:p72:fixed500o50:003"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 149.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Which web scraping technique is best for pulling out text in a fixed format such as dates, phone numbers, or email addresses?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p77:fixed500o50:001",
+        "page": 77,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p77:fixed500o50:000",
+        "page": 77,
+        "score": 0.03128,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p76:fixed500o50:004",
+        "page": 76,
+        "score": 0.03033,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 4
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p77:fixed500o50:001",
+      "pods-ch02:p77:fixed500o50:000",
+      "pods-ch02:p76:fixed500o50:004"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 177.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q08",
+    "split": "dev",
+    "question": "In a survey about driving habits, some respondents accidentally skip the income question. What type of missing data is this?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p87:fixed500o50:001",
+        "page": 87,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p87:fixed500o50:002",
+        "page": 87,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p87:fixed500o50:003",
+        "page": 87,
+        "score": 0.0315,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 4
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p87:fixed500o50:001",
+      "pods-ch02:p87:fixed500o50:002",
+      "pods-ch02:p87:fixed500o50:003"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 194.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q09",
+    "split": "dev",
+    "question": "What are the options for handling outliers, and what is the drawback of simply deleting them?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p87:fixed500o50:007",
+        "page": 87,
+        "score": 0.03089,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 9
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p93:fixed500o50:001",
+        "page": 93,
+        "score": 0.03031,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 7
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p87:fixed500o50:008",
+        "page": 87,
+        "score": 0.03021,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 2
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p87:fixed500o50:007",
+      "pods-ch02:p93:fixed500o50:001",
+      "pods-ch02:p87:fixed500o50:008"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 175.4,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Which type of compression is used for text and numerical data, and what are some examples?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p98:fixed500o50:007",
+        "page": 98,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p98:fixed500o50:006",
+        "page": 98,
+        "score": 0.03151,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p98:fixed500o50:005",
+        "page": 98,
+        "score": 0.02957,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 13
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p98:fixed500o50:007",
+      "pods-ch02:p98:fixed500o50:006",
+      "pods-ch02:p98:fixed500o50:005"
+    ],
+    "context_chars": 1768,
+    "elapsed_ms": 171.8,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Why is information like the chunk number and total number of chunks attached to each chunk?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p100:fixed500o50:002",
+        "page": 100,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p100:fixed500o50:001",
+        "page": 100,
+        "score": 0.03226,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p410:fixed500o50:003",
+        "page": 410,
+        "score": 0.03126,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 3
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p100:fixed500o50:002",
+      "pods-ch02:p100:fixed500o50:001",
+      "pods-ch08:p410:fixed500o50:003"
+    ],
+    "context_chars": 1458,
+    "elapsed_ms": 173.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Which US law regulates how federal agencies collect, use, maintain, and disseminate personal information?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p388:fixed500o50:006",
+        "page": 388,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p389:fixed500o50:001",
+        "page": 389,
+        "score": 0.03128,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p389:fixed500o50:003",
+        "page": 389,
+        "score": 0.02971,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 11
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p388:fixed500o50:006",
+      "pods-ch08:p389:fixed500o50:001",
+      "pods-ch08:p389:fixed500o50:003"
+    ],
+    "context_chars": 1525,
+    "elapsed_ms": 165.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What technique swaps sensitive values for artificial codes while keeping the data useful for analysis?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p390:fixed500o50:002",
+        "page": 390,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p401:fixed500o50:007",
+        "page": 401,
+        "score": 0.03083,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 8
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p98:fixed500o50:008",
+        "page": 98,
+        "score": 0.02942,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 9
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p390:fixed500o50:002",
+      "pods-ch08:p401:fixed500o50:007",
+      "pods-ch02:p98:fixed500o50:008"
+    ],
+    "context_chars": 1535,
+    "elapsed_ms": 150.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q14",
+    "split": "dev",
+    "question": "How many Americans had their personal information exposed in the 2017 Equifax data breach?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p393:fixed500o50:003",
+        "page": 393,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 0.03126,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 5
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p389:fixed500o50:001",
+        "page": 389,
+        "score": 0.03105,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 2
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p393:fixed500o50:005",
+      "pods-ch08:p389:fixed500o50:001"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 191.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q15",
+    "split": "dev",
+    "question": "What are the three key areas that the process of data validation can be divided into?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 8
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p403:fixed500o50:005",
+        "page": 403,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p403:fixed500o50:002",
+        "page": 403,
+        "score": 0.0315,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 4
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p403:fixed500o50:003",
+        "page": 403,
+        "score": 0.03083,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 8
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p403:fixed500o50:005",
+      "pods-ch08:p403:fixed500o50:002",
+      "pods-ch08:p403:fixed500o50:003"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 167.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "q16",
+    "split": "dev",
+    "question": "What did the 2016 investigation find about the COMPAS algorithm?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p399:fixed500o50:005",
+        "page": 399,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p403:fixed500o50:008",
+        "page": 403,
+        "score": 0.01613,
+        "component_ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p406:fixed500o50:000",
+        "page": 406,
+        "score": 0.01613,
+        "component_ranks": {
+          "bm25": 2
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p403:fixed500o50:008",
+      "pods-ch08:p406:fixed500o50:000"
+    ],
+    "context_chars": 1516,
+    "elapsed_ms": 164.1,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "u01",
+    "split": "dev",
+    "question": "How much money did Equifax agree to pay in its settlement over the 2017 data breach?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p393:fixed500o50:003",
+        "page": 393,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p396:fixed500o50:005",
+        "page": 396,
+        "score": 0.02921,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 15
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p393:fixed500o50:003",
+      "pods-ch08:p393:fixed500o50:005",
+      "pods-ch08:p396:fixed500o50:005"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 196.5
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "baseline",
+    "query_id": "u02",
+    "split": "dev",
+    "question": "Which news organization carried out the 2016 investigation of the COMPAS algorithm, and which company developed COMPAS?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p399:fixed500o50:005",
+        "page": 399,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p391:fixed500o50:001",
+        "page": 391,
+        "score": 0.02859,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 8
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p401:fixed500o50:001",
+        "page": 401,
+        "score": 0.02837,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 10
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:005",
+      "pods-ch08:p391:fixed500o50:001",
+      "pods-ch08:p401:fixed500o50:001"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 157.4
+  }
+]

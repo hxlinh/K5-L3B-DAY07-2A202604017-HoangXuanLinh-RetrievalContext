@@ -1,0 +1,24 @@
+{
+ "tag": "test-hinter-k5-v4",
+ "passed": 24,
+ "total": 30,
+ "rate": 0.8,
+ "meets_90": false,
+ "cost_usd": 0.4826,
+ "by_group": {
+  "table": "6/6",
+  "image": "3/5",
+  "chart": "3/5",
+  "multihop": "4/4",
+  "text": "4/4",
+  "unanswerable": "4/6"
+ },
+ "failed": [
+  "AT09",
+  "AT11",
+  "AT12",
+  "AT14",
+  "AT25",
+  "AT28"
+ ]
+}

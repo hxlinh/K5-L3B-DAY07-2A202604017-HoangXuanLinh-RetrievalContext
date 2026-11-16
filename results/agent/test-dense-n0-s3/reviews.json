@@ -1,0 +1,81 @@
+[
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đủ ba nguyên nhân (lỗi nhập liệu, lỗi kỹ thuật khi thu thập/truyền, biến thiên tự nhiên), đúng p93:000."
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng: xác định trước các tiêu chí dữ liệu cần đạt; ví dụ precision, completeness, consistency, timeliness (p94:000)."
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng ý thiếu đại diện của một nhóm khiến thuật toán không phục vụ đúng nhóm đó (p400:000). Câu cuối \"dẫn đến kết quả thiên lệch\" là suy luận trực tiếp, không thêm dữ kiện mới."
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Câu hỏi tiếng Việt, trả lời tiếng Việt: xác định loại và phạm vi vụ rò rỉ rồi khoanh vùng để tránh lộ thêm (p396:001)."
+  },
+  {
+    "query_id": "q21",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng: thang đo trên mọi trục nhất quán và cân xứng (p405:005). Hai ý bổ sung có nguồn: dùng scale phù hợp (p405:004, mục 4) và tránh thông tin gây hiểu nhầm (p405:001)."
+  },
+  {
+    "query_id": "q22",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng điều kiện dữ liệu không công khai thì phải xin phép nguồn (p411:003); phần \"dùng trong nghiên cứu/xuất bản mới, kèm trích dẫn\" nằm ở p411:004."
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 3 lượt, từ chối; không nêu con số phạt nào."
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 3 lượt, từ chối; chỉ nhắc vụ lộ dữ liệu 2019 có trong tài liệu, không đưa số tiền phạt."
+  }
+]

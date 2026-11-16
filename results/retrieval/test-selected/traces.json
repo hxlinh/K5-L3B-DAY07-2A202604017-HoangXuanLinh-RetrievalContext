@@ -1,0 +1,436 @@
+[
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "q17",
+    "split": "test",
+    "question": "What are the main causes of noisy data?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p93:fixed500o50:000",
+        "page": 93,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p92:fixed500o50:006",
+        "page": 92,
+        "score": 0.03227,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p93:fixed500o50:001",
+        "page": 93,
+        "score": 0.0315,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 3
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p92:fixed500o50:006",
+      "pods-ch02:p93:fixed500o50:000",
+      "pods-ch02:p93:fixed500o50:001"
+    ],
+    "context_chars": 1655,
+    "elapsed_ms": 272.2,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "q18",
+    "split": "test",
+    "question": "Before collecting data, what criteria should be decided for the data to be considered valid?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p94:fixed500o50:000",
+        "page": 94,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p68:fixed500o50:004",
+        "page": 68,
+        "score": 0.02976,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p94:fixed500o50:002",
+        "page": 94,
+        "score": 0.02971,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 11
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p93:fixed500o50:007",
+      "pods-ch02:p94:fixed500o50:000",
+      "pods-ch02:p94:fixed500o50:001"
+    ],
+    "context_chars": 1489,
+    "elapsed_ms": 162.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "q19",
+    "split": "test",
+    "question": "How can an unrepresentative training sample make an algorithm unfair?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 8
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p400:fixed500o50:000",
+        "page": 400,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p399:fixed500o50:009",
+        "page": 399,
+        "score": 0.03128,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p399:fixed500o50:003",
+        "page": 399,
+        "score": 0.03125,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 4
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p399:fixed500o50:010",
+      "pods-ch08:p400:fixed500o50:000",
+      "pods-ch08:p400:fixed500o50:001"
+    ],
+    "context_chars": 1416,
+    "elapsed_ms": 133.9,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "q20",
+    "split": "test",
+    "question": "Khi phát hiện rò rỉ dữ liệu, bước đầu tiên nhóm cần làm là gì?",
+    "type": "cross_lingual",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p396:fixed500o50:001",
+        "page": 396,
+        "score": 0.01639,
+        "component_ranks": {
+          "dense": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p396:fixed500o50:002",
+        "page": 396,
+        "score": 0.01613,
+        "component_ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p396:fixed500o50:003",
+        "page": 396,
+        "score": 0.01587,
+        "component_ranks": {
+          "dense": 3
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p396:fixed500o50:000",
+      "pods-ch08:p396:fixed500o50:001",
+      "pods-ch08:p396:fixed500o50:002"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 163.1,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "q21",
+    "split": "test",
+    "question": "For ethical reporting, how should the axis scales in a chart be set?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p405:fixed500o50:005",
+        "page": 405,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p405:fixed500o50:003",
+        "page": 405,
+        "score": 0.03175,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p405:fixed500o50:004",
+        "page": 405,
+        "score": 0.03089,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 9
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p405:fixed500o50:004",
+      "pods-ch08:p405:fixed500o50:005",
+      "pods-ch08:p405:fixed500o50:006"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 143.0,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "q22",
+    "split": "test",
+    "question": "In what situation must permission be obtained before using data in graphs or reports?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p411:fixed500o50:003",
+        "page": 411,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p394:fixed500o50:002",
+        "page": 394,
+        "score": 0.03128,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p405:fixed500o50:001",
+        "page": 405,
+        "score": 0.03037,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 9
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p411:fixed500o50:002",
+      "pods-ch08:p411:fixed500o50:003",
+      "pods-ch08:p411:fixed500o50:004"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 152.6,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "u03",
+    "split": "test",
+    "question": "What is the maximum fine a company can receive for violating the GDPR?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p389:fixed500o50:000",
+        "page": 389,
+        "score": 0.03279,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p388:fixed500o50:008",
+        "page": 388,
+        "score": 0.03031,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 5
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p391:fixed500o50:001",
+        "page": 391,
+        "score": 0.02912,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 17
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p388:fixed500o50:008",
+      "pods-ch08:p389:fixed500o50:000",
+      "pods-ch08:p389:fixed500o50:001"
+    ],
+    "context_chars": 1758,
+    "elapsed_ms": 153.8
+  },
+  {
+    "method": "hybrid_rrf",
+    "tag": "selected",
+    "query_id": "u04",
+    "split": "test",
+    "question": "Facebook đã bị phạt bao nhiêu tiền sau vụ lộ dữ liệu người dùng năm 2019?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p394:fixed500o50:004",
+        "page": 394,
+        "score": 0.03252,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p394:fixed500o50:003",
+        "page": 394,
+        "score": 0.03154,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 0.01613,
+        "component_ranks": {
+          "dense": 2
+        }
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p394:fixed500o50:003",
+      "pods-ch08:p394:fixed500o50:004",
+      "pods-ch08:p394:fixed500o50:005"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 158.7
+  }
+]

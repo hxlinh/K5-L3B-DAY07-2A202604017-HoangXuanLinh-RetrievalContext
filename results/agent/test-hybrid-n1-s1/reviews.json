@@ -1,0 +1,77 @@
+[
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đủ ba nguyên nhân, đúng p93:000."
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng và đủ (p94:000)."
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "status": "abstain",
+    "citation_support": [],
+    "answer_grade": 0,
+    "note": "Từ chối nhầm. Chunk đúng p400:000 có trong kết quả (hạng 2) nhưng bị loại khỏi context: ba chunk lân cận của hit hạng 1 (p399:008-010) đã dùng 1416/2000 ký tự, khối tiếp theo không còn vừa budget. Với max_searches=1, agent không thể search lại."
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Nội dung đúng và đủ (xác định loại, phạm vi, cô lập sự cố; p396:001). Lỗi trình bày: câu trả lời lẫn một từ tiếng Ả Rập (\"حساس/nhạy cảm\"), không ảnh hưởng nội dung."
+  },
+  {
+    "query_id": "q21",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng nguyên văn mục 6 ở p405:005."
+  },
+  {
+    "query_id": "q22",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng điều kiện (p411:003) và phần bổ sung về trích dẫn (p411:004)."
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 1 lượt, từ chối; không nêu con số phạt nào."
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 1 lượt, từ chối; không đưa số tiền phạt."
+  }
+]

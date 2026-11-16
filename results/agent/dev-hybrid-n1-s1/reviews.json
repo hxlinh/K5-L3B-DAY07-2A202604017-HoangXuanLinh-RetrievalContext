@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "q01",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Liệt kê đủ 6 phương pháp, đúng p68:002."
+  },
+  {
+    "query_id": "q02",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Observational data; định nghĩa vắt qua p68:005 và p68:006, cả hai chunk đều chứa phần được trích."
+  },
+  {
+    "query_id": "q03",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng ý pilot test, khớp p71:007."
+  },
+  {
+    "query_id": "q04",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng và đủ: mailing list chủ điện thoại/ô tô, thiên về người giàu, nghiêng về Cộng hòa (p72:001)."
+  },
+  {
+    "query_id": "q05",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đủ các ý: nhóm con theo tuổi, khu vực, thu nhập, học vấn; mẫu ngẫu nhiên theo tỷ lệ kích thước tầng (p73:000); đại diện tốt hơn (p73:001)."
+  },
+  {
+    "query_id": "q06",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng điều kiện có pattern trong sampling frame (p73:007). Cụm \"không đại diện cho tổng thể\" là diễn giải nhẹ của \"biased sample\", không thêm thông tin mới."
+  },
+  {
+    "query_id": "q07",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Regular expressions, đúng p77:001."
+  },
+  {
+    "query_id": "q08",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "MCAR, giải thích khớp p87:001."
+  },
+  {
+    "query_id": "q09",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đủ hai lựa chọn và nhược điểm mất thông tin, gọn đúng phạm vi câu hỏi (p87:006, p87:007)."
+  },
+  {
+    "query_id": "q10",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Lossless compression; ZIP, RAR, PNG (p98:007)."
+  },
+  {
+    "query_id": "q11",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng p100:002."
+  },
+  {
+    "query_id": "q12",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "US Privacy Act of 1974 (p388:006)."
+  },
+  {
+    "query_id": "q13",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Pseudonymization (p390:002)."
+  },
+  {
+    "query_id": "q14",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Hơn 145 triệu người Mỹ (p393:003)."
+  },
+  {
+    "query_id": "q15",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Ba lĩnh vực đúng (p403:005)."
+  },
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đủ cả hai ý trong một lượt search nhờ p399:006 được kéo vào như chunk lân cận của p399:005."
+  },
+  {
+    "query_id": "u01",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 1 lượt, từ chối; lý do đúng, không đưa số tiền nào."
+  },
+  {
+    "query_id": "u02",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 1 lượt, từ chối; không nhắc tên tổ chức hay công ty."
+  }
+]

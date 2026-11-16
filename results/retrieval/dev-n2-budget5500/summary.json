@@ -1,0 +1,63 @@
+{
+  "config": {
+    "run_at": "2026-11-16T05:17:18+00:00",
+    "split": "dev",
+    "tag": "n2-budget5500",
+    "top_k": 3,
+    "budget_chars": 5500,
+    "filter": true,
+    "neighbors": 1,
+    "index": "A (Day 6, fixed 500/50)",
+    "embedding": "google/embeddinggemma-2, 768d",
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "rrf": {
+      "k": 60,
+      "candidates": 20
+    },
+    "hit_definition": "whitespace-normalized substring, đúng source_id + page; evidence_mode any/all"
+  },
+  "results": {
+    "dense": {
+      "N": 16,
+      "hit1": 10,
+      "hit3": 15,
+      "context_hit": 16,
+      "avg_context_chars": 3711,
+      "median_ms": 200.6,
+      "cost_usd": 0,
+      "miss_hit3": [
+        "q16"
+      ]
+    },
+    "bm25": {
+      "N": 16,
+      "hit1": 12,
+      "hit3": 13,
+      "context_hit": 15,
+      "avg_context_chars": 4666,
+      "median_ms": 1.4,
+      "cost_usd": 0,
+      "miss_hit3": [
+        "q06",
+        "q09",
+        "q16"
+      ]
+    },
+    "hybrid_rrf": {
+      "N": 16,
+      "hit1": 13,
+      "hit3": 14,
+      "context_hit": 16,
+      "avg_context_chars": 4185,
+      "median_ms": 161.3,
+      "cost_usd": 0,
+      "miss_hit3": [
+        "q09",
+        "q16"
+      ]
+    }
+  }
+}

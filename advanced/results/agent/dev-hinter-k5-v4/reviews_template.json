@@ -1,0 +1,128 @@
+[
+ {
+  "query_id": "AD01",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD02",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD03",
+  "group": "table",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD04",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD05",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD06",
+  "group": "image",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD07",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD08",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD09",
+  "group": "chart",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD10",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD11",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD12",
+  "group": "multihop",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD13",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD14",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD15",
+  "group": "text",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD16",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD17",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": null,
+  "note": ""
+ },
+ {
+  "query_id": "AD18",
+  "group": "unanswerable",
+  "status": "abstain",
+  "pass": null,
+  "note": ""
+ }
+]

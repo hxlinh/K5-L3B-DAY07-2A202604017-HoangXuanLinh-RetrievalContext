@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "q01",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Liệt kê đủ 6 phương pháp, đúng nguyên văn p68:002. Câu thứ hai (chương tập trung vào survey và experiment) cũng có trong chunk."
+  },
+  {
+    "query_id": "q02",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Trả lời \"Observational data\", khớp định nghĩa ở p68:005."
+  },
+  {
+    "query_id": "q03",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng ý pilot test với nhóm nhỏ để phát hiện câu hỏi gây nhầm lẫn và chỉnh trước khi khảo sát toàn bộ; ý \"đảm bảo chất lượng dữ liệu\" cũng có trong p71:007."
+  },
+  {
+    "query_id": "q04",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      false
+    ],
+    "answer_grade": 2,
+    "note": "Nội dung đúng và đủ theo p72:001 (mailing list chủ điện thoại/ô tô, thiên về người giàu, nghiêng về Cộng hòa). p72:002 chỉ nói về kết quả Landon/Roosevelt, không chứa thông tin về cách chọn mẫu nên citation này không hỗ trợ câu được gắn."
+  },
+  {
+    "query_id": "q05",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 1,
+    "note": "Định nghĩa đúng (chia tổng thể thành nhóm con theo đặc điểm, chọn ngẫu nhiên từ từng nhóm; p76:002) và lợi ích đại diện tốt hơn (p73:001). Thiếu ý lấy mẫu theo tỷ lệ kích thước của tầng vì context không có p73:000 chứa câu định nghĩa đầy đủ."
+  },
+  {
+    "query_id": "q06",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng điều kiện: có pattern trong sampling frame; phần bổ sung (dễ triển khai, đại diện khi phân bố ngẫu nhiên) đều có trong p73:007."
+  },
+  {
+    "query_id": "q07",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Regular expressions, kèm lý do đúng như bảng ở p77:001."
+  },
+  {
+    "query_id": "q08",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "MCAR, giải thích khớp ví dụ khảo sát thói quen lái xe ở p87:001."
+  },
+  {
+    "query_id": "q09",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Có đủ hai lựa chọn chính (xóa, tách thành nhóm riêng) và nhược điểm mất thông tin. Ý thêm \"dùng phương pháp thống kê robust\" có trong mục 5 của p87:007, không phải bịa."
+  },
+  {
+    "query_id": "q10",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Lossless compression, ví dụ ZIP, RAR, PNG; đúng p98:007."
+  },
+  {
+    "query_id": "q11",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đúng: metadata giúp ghép lại dataset gốc sau khi truyền/lưu riêng (p100:002)."
+  },
+  {
+    "query_id": "q12",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "US Privacy Act of 1974, đúng nguyên văn p388:006."
+  },
+  {
+    "query_id": "q13",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Pseudonymization, khớp định nghĩa ở p390:002."
+  },
+  {
+    "query_id": "q14",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Hơn 145 triệu người Mỹ, đúng p393:003."
+  },
+  {
+    "query_id": "q15",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Outlier detection, cross-validation, ethical guidelines; đúng p403:005."
+  },
+  {
+    "query_id": "q16",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "note": "Đủ cả hai ý: thiên vị người da đen (p399:005) và tỷ lệ gắn nhãn sai gần gấp đôi (p399:006). Ý về người da trắng bị gắn nhầm low risk cũng có trong p399:006. Đạt được nhờ lượt search thứ hai."
+  },
+  {
+    "query_id": "u01",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 3 lượt, từ chối; lý do nêu đúng là tài liệu chỉ mô tả vụ rò rỉ, không có số tiền dàn xếp. Không đưa con số nào ngoài tài liệu."
+  },
+  {
+    "query_id": "u02",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": true,
+    "note": "Search 3 lượt, từ chối; không nhắc tên tổ chức điều tra hay công ty phát triển COMPAS."
+  }
+]

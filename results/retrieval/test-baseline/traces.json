@@ -1,0 +1,344 @@
+[
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q17",
+    "split": "test",
+    "question": "What are the main causes of noisy data?",
+    "type": "direct",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p93:fixed500o50:000",
+        "page": 93,
+        "score": 0.83818
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p87:fixed500o50:005",
+        "page": 87,
+        "score": 0.77158
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p92:fixed500o50:006",
+        "page": 92,
+        "score": 0.77115
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p93:fixed500o50:000",
+      "pods-ch02:p87:fixed500o50:005",
+      "pods-ch02:p92:fixed500o50:006"
+    ],
+    "context_chars": 1655,
+    "elapsed_ms": 407.3,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q18",
+    "split": "test",
+    "question": "Before collecting data, what criteria should be decided for the data to be considered valid?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch02:p93:fixed500o50:007",
+        "page": 93,
+        "score": 0.81418
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch02:p94:fixed500o50:000",
+        "page": 94,
+        "score": 0.81367
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch02:p67:fixed500o50:002",
+        "page": 67,
+        "score": 0.79387
+      }
+    ],
+    "context_ids": [
+      "pods-ch02:p93:fixed500o50:007",
+      "pods-ch02:p94:fixed500o50:000",
+      "pods-ch02:p67:fixed500o50:002"
+    ],
+    "context_chars": 1489,
+    "elapsed_ms": 157.1,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q19",
+    "split": "test",
+    "question": "How can an unrepresentative training sample make an algorithm unfair?",
+    "type": "filter",
+    "answerable": true,
+    "filter": {
+      "chapter": 8
+    },
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p400:fixed500o50:000",
+        "page": 400,
+        "score": 0.83519
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p399:fixed500o50:009",
+        "page": 399,
+        "score": 0.77047
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p400:fixed500o50:001",
+        "page": 400,
+        "score": 0.76368
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p400:fixed500o50:000",
+      "pods-ch08:p399:fixed500o50:009",
+      "pods-ch08:p400:fixed500o50:001"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 155.4,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q20",
+    "split": "test",
+    "question": "Khi phát hiện rò rỉ dữ liệu, bước đầu tiên nhóm cần làm là gì?",
+    "type": "cross_lingual",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p396:fixed500o50:001",
+        "page": 396,
+        "score": 0.76152
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p396:fixed500o50:002",
+        "page": 396,
+        "score": 0.7614
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p396:fixed500o50:003",
+        "page": 396,
+        "score": 0.74996
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p396:fixed500o50:001",
+      "pods-ch08:p396:fixed500o50:002",
+      "pods-ch08:p396:fixed500o50:003"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 157.5,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q21",
+    "split": "test",
+    "question": "For ethical reporting, how should the axis scales in a chart be set?",
+    "type": "paraphrase",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p405:fixed500o50:004",
+        "page": 405,
+        "score": 0.7641
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p405:fixed500o50:005",
+        "page": 405,
+        "score": 0.75519
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p405:fixed500o50:001",
+        "page": 405,
+        "score": 0.75266
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p405:fixed500o50:004",
+      "pods-ch08:p405:fixed500o50:005",
+      "pods-ch08:p405:fixed500o50:001"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 127.0,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "q22",
+    "split": "test",
+    "question": "In what situation must permission be obtained before using data in graphs or reports?",
+    "type": "conditional",
+    "answerable": true,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p411:fixed500o50:003",
+        "page": 411,
+        "score": 0.81764
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p394:fixed500o50:002",
+        "page": 394,
+        "score": 0.79803
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p405:fixed500o50:001",
+        "page": 405,
+        "score": 0.78843
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p411:fixed500o50:003",
+      "pods-ch08:p394:fixed500o50:002",
+      "pods-ch08:p405:fixed500o50:001"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 141.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "u03",
+    "split": "test",
+    "question": "What is the maximum fine a company can receive for violating the GDPR?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p389:fixed500o50:000",
+        "page": 389,
+        "score": 0.71574
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p391:fixed500o50:001",
+        "page": 391,
+        "score": 0.69533
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p391:fixed500o50:003",
+        "page": 391,
+        "score": 0.69455
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p389:fixed500o50:000",
+      "pods-ch08:p391:fixed500o50:001",
+      "pods-ch08:p391:fixed500o50:003"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 167.7
+  },
+  {
+    "method": "dense",
+    "tag": "baseline",
+    "query_id": "u04",
+    "split": "test",
+    "question": "Facebook đã bị phạt bao nhiêu tiền sau vụ lộ dữ liệu người dùng năm 2019?",
+    "type": "unanswerable",
+    "answerable": false,
+    "filter": null,
+    "top_k": 3,
+    "budget_chars": 2000,
+    "neighbors": 0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "pods-ch08:p394:fixed500o50:004",
+        "page": 394,
+        "score": 0.69605
+      },
+      {
+        "rank": 2,
+        "id": "pods-ch08:p393:fixed500o50:005",
+        "page": 393,
+        "score": 0.6811
+      },
+      {
+        "rank": 3,
+        "id": "pods-ch08:p388:fixed500o50:007",
+        "page": 388,
+        "score": 0.66165
+      }
+    ],
+    "context_ids": [
+      "pods-ch08:p394:fixed500o50:004",
+      "pods-ch08:p393:fixed500o50:005",
+      "pods-ch08:p388:fixed500o50:007"
+    ],
+    "context_chars": 1774,
+    "elapsed_ms": 198.7
+  }
+]

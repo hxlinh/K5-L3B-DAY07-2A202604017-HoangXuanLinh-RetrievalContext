@@ -1,0 +1,295 @@
+[
+  {
+    "config": "baseline",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q17",
+    "context_ids": [
+      "p93:000",
+      "p87:005",
+      "p92:006"
+    ],
+    "score": 2,
+    "reason": "p93:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "agent (context cuối)",
+    "query_id": "q17",
+    "context_ids": [
+      "p93:000",
+      "p87:005",
+      "p75:001",
+      "p92:006"
+    ],
+    "score": 2,
+    "reason": "p93:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q18",
+    "context_ids": [
+      "p93:007",
+      "p94:000",
+      "p67:002"
+    ],
+    "score": 2,
+    "reason": "p94:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "agent (context cuối)",
+    "query_id": "q18",
+    "context_ids": [
+      "p94:000",
+      "p93:007",
+      "p94:002",
+      "p67:002"
+    ],
+    "score": 2,
+    "reason": "p94:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q19",
+    "context_ids": [
+      "p400:000",
+      "p399:009",
+      "p400:001"
+    ],
+    "score": 2,
+    "reason": "p400:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "agent (context cuối)",
+    "query_id": "q19",
+    "context_ids": [
+      "p400:000",
+      "p399:009",
+      "p399:002",
+      "p400:001",
+      "p399:003"
+    ],
+    "score": 2,
+    "reason": "p400:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q20",
+    "context_ids": [
+      "p396:001",
+      "p396:002",
+      "p396:003"
+    ],
+    "score": 2,
+    "reason": "p396:001 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "agent (context cuối)",
+    "query_id": "q20",
+    "context_ids": [
+      "p396:001",
+      "p396:000",
+      "p396:002"
+    ],
+    "score": 2,
+    "reason": "p396:001 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q21",
+    "context_ids": [
+      "p405:004",
+      "p405:005",
+      "p405:001"
+    ],
+    "score": 2,
+    "reason": "p405:005 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "agent (context cuối)",
+    "query_id": "q21",
+    "context_ids": [
+      "p405:001",
+      "p405:005",
+      "p405:004"
+    ],
+    "score": 2,
+    "reason": "p405:005 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q22",
+    "context_ids": [
+      "p411:003",
+      "p394:002",
+      "p405:001"
+    ],
+    "score": 2,
+    "reason": "p411:003 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "baseline",
+    "stage": "agent (context cuối)",
+    "query_id": "q22",
+    "context_ids": [
+      "p411:003",
+      "p405:001",
+      "p394:002",
+      "p411:004"
+    ],
+    "score": 2,
+    "reason": "p411:003 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q17",
+    "context_ids": [
+      "p92:006",
+      "p93:000",
+      "p93:001"
+    ],
+    "score": 2,
+    "reason": "p93:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "agent (context cuối)",
+    "query_id": "q17",
+    "context_ids": [
+      "p92:006",
+      "p93:000",
+      "p93:001"
+    ],
+    "score": 2,
+    "reason": "p93:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q18",
+    "context_ids": [
+      "p93:007",
+      "p94:000",
+      "p94:001"
+    ],
+    "score": 2,
+    "reason": "p94:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "agent (context cuối)",
+    "query_id": "q18",
+    "context_ids": [
+      "p93:007",
+      "p94:000",
+      "p94:001"
+    ],
+    "score": 2,
+    "reason": "p94:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q19",
+    "context_ids": [
+      "p399:010",
+      "p400:000",
+      "p400:001"
+    ],
+    "score": 2,
+    "reason": "p400:000 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "agent (context cuối)",
+    "query_id": "q19",
+    "context_ids": [
+      "p399:008",
+      "p399:009",
+      "p399:010"
+    ],
+    "score": 0,
+    "reason": "p400:000 không có trong context (p399:008, p399:009, p399:010); chunk lân cận của hit hạng 1 chiếm budget."
+  },
+  {
+    "config": "selected",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q20",
+    "context_ids": [
+      "p396:000",
+      "p396:001",
+      "p396:002"
+    ],
+    "score": 2,
+    "reason": "p396:001 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "agent (context cuối)",
+    "query_id": "q20",
+    "context_ids": [
+      "p396:000",
+      "p396:001",
+      "p396:002"
+    ],
+    "score": 2,
+    "reason": "p396:001 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q21",
+    "context_ids": [
+      "p405:004",
+      "p405:005",
+      "p405:006"
+    ],
+    "score": 2,
+    "reason": "p405:005 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "agent (context cuối)",
+    "query_id": "q21",
+    "context_ids": [
+      "p405:004",
+      "p405:005",
+      "p405:006"
+    ],
+    "score": 2,
+    "reason": "p405:005 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "retrieval (query gốc)",
+    "query_id": "q22",
+    "context_ids": [
+      "p411:002",
+      "p411:003",
+      "p411:004"
+    ],
+    "score": 2,
+    "reason": "p411:003 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  },
+  {
+    "config": "selected",
+    "stage": "agent (context cuối)",
+    "query_id": "q22",
+    "context_ids": [
+      "p411:002",
+      "p411:003",
+      "p411:004"
+    ],
+    "score": 2,
+    "reason": "p411:003 có trong context, kèm header nguồn (file PDF) và trang; đủ điều kiện để trả lời."
+  }
+]

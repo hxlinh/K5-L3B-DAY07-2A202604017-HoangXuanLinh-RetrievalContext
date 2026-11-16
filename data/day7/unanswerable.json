@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u01", "split": "dev", "type": "unanswerable", "language": "en",
+    "question": "How much money did Equifax agree to pay in its settlement over the 2017 data breach?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "near_topic_page": {"source_id": "pods-ch08", "page": 393},
+    "absence_reason": "Page 393 describes the 2017 Equifax breach (145 million Americans exposed) but never mentions a settlement, fine or payment amount.",
+    "absence_check": "Whitespace-normalized, case-insensitive search over all 64 corpus pages (Day 6 pages.jsonl) and 455 index-A chunks: 'settlement', 'agreed to pay', 'compensat', 'billion', '575', '700' -> 0 hits; 'Equifax' -> page 393 only. '$' appears only on chapter 2 pages (83, 91, 92), unrelated."
+  },
+  {
+    "id": "u02", "split": "dev", "type": "unanswerable", "language": "en",
+    "question": "Which news organization carried out the 2016 investigation of the COMPAS algorithm, and which company developed COMPAS?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "near_topic_page": {"source_id": "pods-ch08", "page": 399},
+    "absence_reason": "Page 399 says 'an investigation in 2016' found COMPAS biased, but names neither the investigating organization nor the developer of the algorithm (only cites Berk et al., 2021).",
+    "absence_check": "Search over all corpus pages and chunks: 'ProPublica', 'Northpointe', 'journalis' -> 0 hits; 'developed by' -> 1 hit on page 388 about IADSS standards, unrelated."
+  },
+  {
+    "id": "u03", "split": "test", "type": "unanswerable", "language": "en",
+    "question": "What is the maximum fine a company can receive for violating the GDPR?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "near_topic_page": {"source_id": "pods-ch08", "page": 388},
+    "absence_reason": "Pages 388-389 name the GDPR and say non-compliance 'can result in penalties and legal consequences', but give no fine amount or percentage.",
+    "absence_check": "Search over all corpus pages and chunks: '€', 'turnover', 'fine of', 'billion' -> 0 hits; '4%' -> pages 404 (greenhouse emissions) and 408 (soft-drink market share), unrelated; 'penalt' -> page 388 only, generic sentence."
+  },
+  {
+    "id": "u04", "split": "test", "type": "unanswerable", "language": "vi",
+    "question": "Facebook đã bị phạt bao nhiêu tiền sau vụ lộ dữ liệu người dùng năm 2019?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "near_topic_page": {"source_id": "pods-ch08", "page": 394},
+    "absence_reason": "Page 394 says two Facebook app datasets were exposed in 2019 (over 500 million users) but mentions no fine, penalty or regulator action against Facebook.",
+    "absence_check": "Search over all corpus pages and chunks: 'Facebook' -> page 394 only (2 hits, both about the exposure itself); 'billion', 'fine of', 'penalt' (outside page 388) -> 0 hits; 'FTC' -> page 394 only, as a link to a breach-response guide for businesses, not a fine."
+  }
+]

@@ -1,0 +1,212 @@
+[
+ {
+  "query_id": "AT01",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "1036/2323 ≈ 44.6%, đúng Table 3.2 p134 (lần đầu bị loại vì citation, lượt sửa đạt)."
+ },
+ {
+  "query_id": "AT02",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Scratches on case, 1543, Table 9.2 p434."
+ },
+ {
+  "query_id": "AT03",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "max 2847.4 và 75% = 472.645, Figure 3.2 p120."
+ },
+ {
+  "query_id": "AT04",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Actual 5, cubic 45, linear 3.8; cite Table 6.2 và Table 6.3."
+ },
+ {
+  "query_id": "AT05",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Oct 11 (60°F) và Oct 12 (65°F), không thừa ngày."
+ },
+ {
+  "query_id": "AT06",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "2017, 'Attention Is All You Need', Table 7.3 p371."
+ },
+ {
+  "query_id": "AT07",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Data Analysis, rồi Data Reporting, Figure 1.3 p21."
+ },
+ {
+  "query_id": "AT08",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Reliability & Accuracy, Figure 8.4 p404."
+ },
+ {
+  "query_id": "AT09",
+  "group": "image",
+  "status": "answered",
+  "pass": false,
+  "note": "Trả lời mã 11. Đúng là 101 (gốc →1→ nút 9 →0→ nút 4 →1→ D). Model đi nhầm nhánh: coi D là con trực tiếp của nút 9."
+ },
+ {
+  "query_id": "AT10",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Red; y ≤ 13.75 đúng rồi x ≤ 14.55 sai (16 > 14.55). Ký hiệu ≤ trong câu trả lời bị hỏng thành ký tự điều khiển (\u001c=), nhưng thứ tự điều kiện và nhánh đều đúng. Sát ranh giới: chấm chặt có thể tính không đạt."
+ },
+ {
+  "query_id": "AT11",
+  "group": "image",
+  "status": "answered",
+  "pass": false,
+  "note": "Nói '4 neurons total in the hidden layers'. Đúng là 8 (4 + 4). Model dựa vào chú thích ('two hidden layers') thay vì đếm trên hình."
+ },
+ {
+  "query_id": "AT12",
+  "group": "chart",
+  "status": "answered",
+  "pass": false,
+  "note": "Trả lời x = 18, xác suất ≈ 0.27, tức chép P(18) = 0.271 trong phần lời giải. Trên biểu đồ cột cao nhất là x = 19 (≈ 0.33)."
+ },
+ {
+  "query_id": "AT13",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Agrifun 4.3, BioGoods Ltd. 4.4, Figure 9.7 p451."
+ },
+ {
+  "query_id": "AT14",
+  "group": "chart",
+  "status": "answered",
+  "pass": false,
+  "note": "Câu trả lời nói 0.40 rồi tự cộng 0.07 + 0.01 = 0.08 kèm dấu hỏi; kết luận sai và tự mâu thuẫn."
+ },
+ {
+  "query_id": "AT15",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Khoảng tháng 5/2020, 24,000–25,000 nghìn tấn: nằm trong khoảng chấp nhận (tháng 3–6/2020, 22,000–25,000)."
+ },
+ {
+  "query_id": "AT16",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Giảm mạnh khoảng 2009–2010 xuống 5,400–5,500 nghìn. Cite Figure 2.3 p89 (cùng dữ liệu nhưng bản đã bỏ outlier) thay vì Figure 2.2 p88 được hỏi; số liệu vẫn được hình đó hỗ trợ. Sát ranh giới."
+ },
+ {
+  "query_id": "AT17",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Summer, tăng $545 (3849 − 3304). Lấy số từ Table 5.4 p251 và Table 5.2 p235 thay vì đọc biểu đồ đường; cả hai bảng đều có đúng các số này. Sát ranh giới vì câu hỏi nói 'according to the revenue line chart'."
+ },
+ {
+  "query_id": "AT18",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "18.6/9.1 ≈ 2.04, Graph A (trục tới 20)."
+ },
+ {
+  "query_id": "AT19",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "12/31 ≈ 39%, 'Almost 40%', Table 6.6 + text p301."
+ },
+ {
+  "query_id": "AT20",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "2018 giảm 166.76, 2022 giảm 926.68, Table 5.1 + Figure 5.2 p225."
+ },
+ {
+  "query_id": "AT21",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Skewed right, đuôi bên phải, p430."
+ },
+ {
+  "query_id": "AT22",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Khoảng một nửa cho thu thập và làm sạch; một phần tư đến một phần ba cho phân tích và truyền đạt. Cite đúng p21 (nhãn element ghi Figure 1.3 nhưng reading trích đúng đoạn text)."
+ },
+ {
+  "query_id": "AT23",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "1–1.5% và trên 14% vào 2040, p404."
+ },
+ {
+  "query_id": "AT24",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Biến node thành lá, cắt các nhánh bên dưới, nhãn theo đa số, p323."
+ },
+ {
+  "query_id": "AT25",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": false,
+  "note": "Bịa ra 3.1 tấn cà rốt cho Organiculture. Heatmap không có hàng carrots; 3.1 là ô Asparagus/Organiculture. Đúng kiểu lỗi 'thay bằng hàng gần giống' mà dev đã nhắm sửa."
+ },
+ {
+  "query_id": "AT26",
+  "group": "unanswerable",
+  "status": "abstain",
+  "pass": true,
+  "note": "Gọi abstain: tài liệu không có Red Bull."
+ },
+ {
+  "query_id": "AT27",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ bảng bắt đầu từ 2013, không có 2012."
+ },
+ {
+  "query_id": "AT28",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": false,
+  "note": "Bịa ra 5,174,000 người năm 1935; dữ liệu bắt đầu từ 1939 và biểu đồ không cho số chính xác."
+ },
+ {
+  "query_id": "AT29",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ chỉ có số lỗi, không có chi phí sửa chữa."
+ },
+ {
+  "query_id": "AT30",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ hình không ghi trọng số nào."
+ }
+]

@@ -1,0 +1,128 @@
+[
+ {
+  "query_id": "AD01",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD02",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD03",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD04",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD05",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD06",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD07",
+  "group": "chart",
+  "status": "answered",
+  "pass": false,
+  "note": "Vẫn trả lời 'cột ở giữa', không nêu nhãn 7; còn cite Figure 9.3 ở p433 trong khi hình nằm ở p431."
+ },
+ {
+  "query_id": "AD08",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD09",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD10",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD11",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD12",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng 18,646.7 nghìn và residual 553.3 nghìn, có phép tính, cite p204 Figure 4.7."
+ },
+ {
+  "query_id": "AD13",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD14",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD15",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation đúng trang và vùng evidence."
+ },
+ {
+  "query_id": "AD16",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": false,
+  "note": "Nói đúng là bảng không có Spring 2020, nhưng câu đầu lại viết 'received a rating of Highly recommended in Spring 2020', tức là chen vào một khẳng định không có căn cứ. Chấm chặt: không đạt."
+ },
+ {
+  "query_id": "AD17",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ bảng chỉ có instructor A và B, không có C (dùng answer thay vì abstain, nội dung là từ chối đúng)."
+ },
+ {
+  "query_id": "AD18",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ bản đồ chỉ cho chênh lệch so với trung bình, không có nhiệt độ chính xác của Chicago."
+ }
+]

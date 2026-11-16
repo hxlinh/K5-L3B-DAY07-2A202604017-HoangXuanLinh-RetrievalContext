@@ -1,0 +1,128 @@
+[
+ {
+  "query_id": "AD01",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD02",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD03",
+  "group": "table",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD04",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD05",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD06",
+  "group": "image",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD07",
+  "group": "chart",
+  "status": "answered",
+  "pass": false,
+  "note": "Lại trả lời 'cột ở giữa', không nêu nhãn 7; còn kéo khoảng 65.95–67.95 inch từ ví dụ histogram khác ở p430 vào. Cùng cấu hình, v3 đạt câu này, nên đây là chỗ dao động giữa các lần chạy."
+ },
+ {
+  "query_id": "AD08",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD09",
+  "group": "chart",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng 47–56 (71 người), cite Figure 8.10 kèm reading. Lần đầu bị loại vì citation, lượt sửa thì đạt."
+ },
+ {
+  "query_id": "AD10",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD11",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD12",
+  "group": "multihop",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng 18,646.7 nghìn và residual 553.3 nghìn, có phép tính, reading chỉ rõ phương trình trên p204."
+ },
+ {
+  "query_id": "AD13",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD14",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD15",
+  "group": "text",
+  "status": "answered",
+  "pass": true,
+  "note": "Đúng và đủ, citation và reading đúng trang, đúng vùng evidence."
+ },
+ {
+  "query_id": "AD16",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ bảng không có Spring 2020 và liệt kê đủ các học kỳ có trong bảng, không khẳng định thêm gì."
+ },
+ {
+  "query_id": "AD17",
+  "group": "unanswerable",
+  "status": "answered",
+  "pass": true,
+  "note": "Nói rõ chỉ có instructor A và B."
+ },
+ {
+  "query_id": "AD18",
+  "group": "unanswerable",
+  "status": "abstain",
+  "pass": true,
+  "note": "Gọi abstain với lý do đúng."
+ }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "query_id": "q17",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      null
+    ],
+    "answer_grade": null,
+    "note": ""
+  },
+  {
+    "query_id": "q18",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      null
+    ],
+    "answer_grade": null,
+    "note": ""
+  },
+  {
+    "query_id": "q19",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      null
+    ],
+    "answer_grade": null,
+    "note": ""
+  },
+  {
+    "query_id": "q20",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      null
+    ],
+    "answer_grade": null,
+    "note": ""
+  },
+  {
+    "query_id": "q21",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "answer_grade": null,
+    "note": ""
+  },
+  {
+    "query_id": "q22",
+    "answerable": true,
+    "status": "answered",
+    "citation_support": [
+      null,
+      null
+    ],
+    "answer_grade": null,
+    "note": ""
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": null,
+    "note": ""
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "citation_support": [],
+    "abstention_correct": null,
+    "note": ""
+  }
+]
